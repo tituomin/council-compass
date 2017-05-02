@@ -6,7 +6,6 @@ import './index.css';
 import { Router, Route, browserHistory, IndexRedirect }  from 'react-router';
 
 ReactDOM.render(
-  <Router history={browserHistory}/>
   <App />,
   document.getElementById('root')
 );
