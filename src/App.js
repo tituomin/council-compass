@@ -7,13 +7,19 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <div className="App-header">
-          <h2>Valtuustokone</h2>
+        <header className="fixed w-100">
+          <div className="header-content bg-black-90 ph1 pv3 ph4 mw7 center">
+            <nav className="f7 fw6 ttu tracked">
+              <a className="link dim white dib mr3" href="#" title="Home">Valtuustokone</a>
+            </nav>
+          </div>
+        </header>
+        <div className="App-content bg-washed-green mw7 center cf ph3 pt5">
+          <Switch>
+              <Route path="/motion/:id" component={MotionDetails} />
+              <Route path="/motion" component={MotionList} />
+          </Switch>
         </div>
-        <Switch>
-            <Route path="/motion/:id" component={MotionDetails} />
-            <Route path="/motion" component={MotionList} />
-        </Switch>
       </div>
     );
   }

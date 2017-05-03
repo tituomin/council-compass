@@ -1,2 +1,5 @@
 @import 'tachyons';
 
+body {
+  background-color: #999999; /* silver*/
+}
