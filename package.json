@@ -6,6 +6,7 @@
     "react": "^15.5.4",
     "react-dom": "^15.5.4",
     "react-router": "^4.1.1",
+    "react-router-dom": "^4.1.1",
     "tachyons": "^4.7.1",
     "tachyons-cli": "^1.0.11"
   },
