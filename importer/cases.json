@@ -1,0 +1,5452 @@
+[
+    {
+        "number": "8",
+        "title": "Guggenheim Helsinki -taidemuseohankkeen toteuttamista koskevan sopimuksen hyväksyminen",
+        "proposal": "Kaupunginvaltuusto päättää osaltaan hyväksyä liitteenä 1. olevan Helsingin kaupungin ja Guggenheim Helsingin Tukisäätiö sr:n välisen sopimuksen, joka koskee Guggenheim Helsinki -taidemuseohankkeen toteuttamista.\n\nHanke toteutetaan siten, että\n\n\n[*** Tekstistä puuttuu taulukko, lista tms. muotoiltu osuus ***]\n\nSamalla kaupunginvaltuusto päättää myöntää perustettavan kiinteistöosakeyhtiön rakennushanketta varten ottamille enintään 35 miljoonan euron suuruisille rahalaitoslainoille omavelkaisen takauksen seuraavin ehdoin: \n\n\n[*** Tekstistä puuttuu taulukko, lista tms. muotoiltu osuus ***]\n\nPäätöksen täytäntöönpanon edellytyksenä on, että\n\n\n[*** Tekstistä puuttuu taulukko, lista tms. muotoiltu osuus ***]\n\nLisäksi hyväksyessään Guggenheim Helsinki taidemuseohankkeen toteuttamisen kaupunginvaltuusto päättää käynnistää myös \"Helsinki kuvataidekaupunkina\" -esityksen valmistelun. Esityksessä Helsinki selvittää keinoja edistää kaupunkimme kuvataidekentän kehittämistä kokonaisuutena muiltakin osin kuin Guggenheim-hankkeen kautta. Näitä keinoja voivat olla mm. galleriakenttää, työtiloja, taideapurahoja, taidekasvatusta ja kokoelmapolitiikkaa koskevat toimenpiteet kuten aikalaistaiteen hankintoja museoiden kokoelmiin. Mittaluokaltaan noin 2-4 miljoonan esitys keinoista tuodaan kaupunginhallituksen päätettäväksi helmikuussa 2017.\n\n",
+        "resolution": "Kaupunginvaltuusto hylkäsi ehdotuksen äänin 32-53 Rydmanin (+Arhinmäki) hylkäysehdotuksen mukaisesti.\n\nMännistön vastaehdotus hävisi äänestyksessä äänin 46-39.",
+        "under_discussion": false,
+        "start_time": "2016-11-30T18:28:57",
+        "video_position": 1571,
+        "register_id": "HEL 2016-011677",
+        "introducer": "Kaupunginhallitus",
+        "preparer": "Leena Mickwitz",
+        "category_name": "Kulttuurilaitostoiminta",
+        "category_origin_id": "12 02 01",
+        "permalink": "http://dev.hel.fi/paatokset/asia/hel-2016-011677/kvsto-2016-21/",
+        "issue_id": "583801197c6d17175722ee22",
+        "total_speeches": 168,
+        "vote_event": {
+            "number": 22,
+            "type": "HYL",
+            "type_text": "Hylkäysehdotus",
+            "for_title": "Khs",
+            "for_text": "",
+            "against_title": "Rydman Wille /1",
+            "against_text": "Kaupunginvaltuusto päättää hylätä esityksen.",
+            "votes": [
+                {
+                    "name": "Månsson Björn",
+                    "party": "SFP",
+                    "vote": "AGAINST",
+                    "seat": 1
+                },
+                {
+                    "name": "Bogomoloff Harry",
+                    "party": "Kok.",
+                    "vote": "AGAINST",
+                    "seat": 2
+                },
+                {
+                    "name": "Männistö Lasse",
+                    "party": "Kok.",
+                    "vote": "FOR",
+                    "seat": 3
+                },
+                {
+                    "name": "Rauhamäki Tatu",
+                    "party": "Kok.",
+                    "vote": "FOR",
+                    "seat": 4
+                },
+                {
+                    "name": "Raatikainen Mika",
+                    "party": "PerusS",
+                    "vote": "AGAINST",
+                    "seat": 5
+                },
+                {
+                    "name": "Kivekäs Otso",
+                    "party": "Vihr.",
+                    "vote": "AGAINST",
+                    "seat": 6
+                },
+                {
+                    "name": "Soininvaara Osmo",
+                    "party": "Vihr.",
+                    "vote": "FOR",
+                    "seat": 7
+                },
+                {
+                    "name": "Pajamäki Osku",
+                    "party": "SDP",
+                    "vote": "AGAINST",
+                    "seat": 8
+                },
+                {
+                    "name": "Taipale Ilkka",
+                    "party": "SDP",
+                    "vote": "FOR",
+                    "seat": 9
+                },
+                {
+                    "name": "Honkasalo Veronika",
+                    "party": "Vas.",
+                    "vote": "AGAINST",
+                    "seat": 10
+                },
+                {
+                    "name": "Oker-Blom Jan D",
+                    "party": "SFP",
+                    "vote": "FOR",
+                    "seat": 11
+                },
+                {
+                    "name": "Hakola Juha",
+                    "party": "Kok.",
+                    "vote": "FOR",
+                    "seat": 12
+                },
+                {
+                    "name": "Koskinen Kauko",
+                    "party": "Kok.",
+                    "vote": "FOR",
+                    "seat": 13
+                },
+                {
+                    "name": "Hyttinen Nuutti",
+                    "party": "PerusS",
+                    "vote": "AGAINST",
+                    "seat": 14
+                },
+                {
+                    "name": "Villo Pertti",
+                    "party": "PerusS",
+                    "vote": "AGAINST",
+                    "seat": 15
+                },
+                {
+                    "name": "Krohn Minerva",
+                    "party": "Vihr.",
+                    "vote": "FOR",
+                    "seat": 16
+                },
+                {
+                    "name": "Rantanen Tuomas",
+                    "party": "Vihr.",
+                    "vote": "AGAINST",
+                    "seat": 17
+                },
+                {
+                    "name": "Anttila Maija",
+                    "party": "SDP",
+                    "vote": "FOR",
+                    "seat": 18
+                },
+                {
+                    "name": "Mäki Terhi",
+                    "party": "SDP",
+                    "vote": "AGAINST",
+                    "seat": 19
+                },
+                {
+                    "name": "Saarnio Pekka",
+                    "party": "Vas.",
+                    "vote": "AGAINST",
+                    "seat": 20
+                },
+                {
+                    "name": "Rantala Marcus",
+                    "party": "SFP",
+                    "vote": "FOR",
+                    "seat": 21
+                },
+                {
+                    "name": "Rautava Risto",
+                    "party": "Kok.",
+                    "vote": "FOR",
+                    "seat": 22
+                },
+                {
+                    "name": "Urho Ulla-Marja",
+                    "party": "Kok.",
+                    "vote": "AGAINST",
+                    "seat": 23
+                },
+                {
+                    "name": "Packalén Tom",
+                    "party": "PerusS",
+                    "vote": "FOR",
+                    "seat": 24
+                },
+                {
+                    "name": "Landén Maria",
+                    "party": "PerusS",
+                    "vote": "AGAINST",
+                    "seat": 25
+                },
+                {
+                    "name": "Alanko-Kahiluoto Outi",
+                    "party": "Vihr.",
+                    "vote": "AGAINST",
+                    "seat": 26
+                },
+                {
+                    "name": "Ikävalko Suzan",
+                    "party": "Vihr.",
+                    "vote": "AGAINST",
+                    "seat": 27
+                },
+                {
+                    "name": "Rantanen Mari",
+                    "party": "PerusS",
+                    "vote": "AGAINST",
+                    "seat": 28
+                },
+                {
+                    "name": "Paavolainen Sara",
+                    "party": "SDP",
+                    "vote": "FOR",
+                    "seat": 29
+                },
+                {
+                    "name": "Abdulla Zahra",
+                    "party": "Vas.",
+                    "vote": "AGAINST",
+                    "seat": 30
+                },
+                {
+                    "name": "Brettschneider Gunvor",
+                    "party": "SFP",
+                    "vote": "AGAINST",
+                    "seat": 31
+                },
+                {
+                    "name": "Karhuvaara Arja",
+                    "party": "Kok.",
+                    "vote": "FOR",
+                    "seat": 32
+                },
+                {
+                    "name": "Laaksonen Heimo",
+                    "party": "Kok.",
+                    "vote": "AGAINST",
+                    "seat": 33
+                },
+                {
+                    "name": "Lindell Harri",
+                    "party": "PerusS",
+                    "vote": "AGAINST",
+                    "seat": 34
+                },
+                {
+                    "name": "Kari Emma",
+                    "party": "Vihr.",
+                    "vote": "AGAINST",
+                    "seat": 35
+                },
+                {
+                    "name": "Kousa Tuuli",
+                    "party": "Vihr.",
+                    "vote": "FOR",
+                    "seat": 36
+                },
+                {
+                    "name": "Nieminen Jarmo",
+                    "party": "Vihr.",
+                    "vote": "AGAINST",
+                    "seat": 37
+                },
+                {
+                    "name": "Wallgren Thomas",
+                    "party": "SDP",
+                    "vote": "AGAINST",
+                    "seat": 38
+                },
+                {
+                    "name": "Valokainen Tuomo",
+                    "party": "SDP",
+                    "vote": "AGAINST",
+                    "seat": 39
+                },
+                {
+                    "name": "Arhinmäki Paavo",
+                    "party": "Vas.",
+                    "vote": "AGAINST",
+                    "seat": 40
+                },
+                {
+                    "name": "Finne-Elonen Laura",
+                    "party": "SFP",
+                    "vote": "AGAINST",
+                    "seat": 41
+                },
+                {
+                    "name": "Pelkonen Jaana",
+                    "party": "Kok.",
+                    "vote": "FOR",
+                    "seat": 42
+                },
+                {
+                    "name": "Enroth Matti",
+                    "party": "Kok.",
+                    "vote": "AGAINST",
+                    "seat": 43
+                },
+                {
+                    "name": "Kantola Helena",
+                    "party": "PerusS",
+                    "vote": "AGAINST",
+                    "seat": 44
+                },
+                {
+                    "name": "Holopainen Mari",
+                    "party": "Vihr.",
+                    "vote": "FOR",
+                    "seat": 45
+                },
+                {
+                    "name": "Lehtipuu Otto",
+                    "party": "Vihr.",
+                    "vote": "FOR",
+                    "seat": 46
+                },
+                {
+                    "name": "Vesikansa Sanna",
+                    "party": "Vihr.",
+                    "vote": "FOR",
+                    "seat": 47
+                },
+                {
+                    "name": "Arajärvi Pentti",
+                    "party": "SDP",
+                    "vote": "AGAINST",
+                    "seat": 48
+                },
+                {
+                    "name": "Puhakka Sirpa",
+                    "party": "Vas.",
+                    "vote": "AGAINST",
+                    "seat": 49
+                },
+                {
+                    "name": "Ingervo Sirkku",
+                    "party": "Vas.",
+                    "vote": "AGAINST",
+                    "seat": 50
+                },
+                {
+                    "name": "Koulumies Terhi",
+                    "party": "Kok.",
+                    "vote": "AGAINST",
+                    "seat": 51
+                },
+                {
+                    "name": "Rissanen Laura",
+                    "party": "Kok.",
+                    "vote": "FOR",
+                    "seat": 52
+                },
+                {
+                    "name": "Luukkainen Hannele",
+                    "party": "Kok.",
+                    "vote": "AGAINST",
+                    "seat": 53
+                },
+                {
+                    "name": "Hursti René",
+                    "party": "RH",
+                    "vote": "AGAINST",
+                    "seat": 54
+                },
+                {
+                    "name": "Relander Jukka",
+                    "party": "Vihr.",
+                    "vote": "FOR",
+                    "seat": 55
+                },
+                {
+                    "name": "Hamid Jasmin",
+                    "party": "Vihr.",
+                    "vote": "FOR",
+                    "seat": 56
+                },
+                {
+                    "name": "Razmyar Nasima",
+                    "party": "SDP",
+                    "vote": "AGAINST",
+                    "seat": 57
+                },
+                {
+                    "name": "Taipale Kaarin",
+                    "party": "SDP",
+                    "vote": "AGAINST",
+                    "seat": 58
+                },
+                {
+                    "name": "Modig Silvia",
+                    "party": "Vas.",
+                    "vote": "AGAINST",
+                    "seat": 59
+                },
+                {
+                    "name": "Koivulaakso Dan",
+                    "party": "Vas.",
+                    "vote": "AGAINST",
+                    "seat": 60
+                },
+                {
+                    "name": "Hetemaj Fatbardhe",
+                    "party": "Kok.",
+                    "vote": "AGAINST",
+                    "seat": 61
+                },
+                {
+                    "name": "Rydman Wille",
+                    "party": "Kok.",
+                    "vote": "AGAINST",
+                    "seat": 62
+                },
+                {
+                    "name": "Pakarinen Pia",
+                    "party": "Kok.",
+                    "vote": "FOR",
+                    "seat": 63
+                },
+                {
+                    "name": "Peltokorpi Terhi",
+                    "party": "Kesk.",
+                    "vote": "FOR",
+                    "seat": 64
+                },
+                {
+                    "name": "Stranius Leo",
+                    "party": "Vihr.",
+                    "vote": "AGAINST",
+                    "seat": 65
+                },
+                {
+                    "name": "Oskala Hannu",
+                    "party": "Vihr.",
+                    "vote": "FOR",
+                    "seat": 66
+                },
+                {
+                    "name": "Jalovaara Ville",
+                    "party": "SDP",
+                    "vote": "AGAINST",
+                    "seat": 67
+                },
+                {
+                    "name": "Järvinen Jukka",
+                    "party": "SDP",
+                    "vote": "AGAINST",
+                    "seat": 68
+                },
+                {
+                    "name": "Loukoila Eija",
+                    "party": "Vas.",
+                    "vote": "AGAINST",
+                    "seat": 69
+                },
+                {
+                    "name": "Muttilainen Sami",
+                    "party": "Vas.",
+                    "vote": "AGAINST",
+                    "seat": 70
+                },
+                {
+                    "name": "Raittinen Timo",
+                    "party": "Kok.",
+                    "vote": "AGAINST",
+                    "seat": 71
+                },
+                {
+                    "name": "Andersson Hennariikka",
+                    "party": "Kok.",
+                    "vote": "FOR",
+                    "seat": 72
+                },
+                {
+                    "name": "Ebeling Mika",
+                    "party": "KD",
+                    "vote": "AGAINST",
+                    "seat": 73
+                },
+                {
+                    "name": "Kolbe Laura",
+                    "party": "Kesk.",
+                    "vote": "FOR",
+                    "seat": 74
+                },
+                {
+                    "name": "Ylikahri Ville",
+                    "party": "Vihr.",
+                    "vote": "FOR",
+                    "seat": 75
+                },
+                {
+                    "name": "Sydänmaa Johanna",
+                    "party": "Vihr.",
+                    "vote": "AGAINST",
+                    "seat": 76
+                },
+                {
+                    "name": "Lovén Jape",
+                    "party": "SDP",
+                    "vote": "AGAINST",
+                    "seat": 77
+                },
+                {
+                    "name": "Sevander Tomi",
+                    "party": "SDP",
+                    "vote": "AGAINST",
+                    "seat": 78
+                },
+                {
+                    "name": "Vuorjoki Anna",
+                    "party": "Vas.",
+                    "vote": "AGAINST",
+                    "seat": 79
+                },
+                {
+                    "name": "Hakanen Yrjö",
+                    "party": "SKP",
+                    "vote": "AGAINST",
+                    "seat": 80
+                },
+                {
+                    "name": "Niiranen Matti",
+                    "party": "Kok.",
+                    "vote": "FOR",
+                    "seat": 81
+                },
+                {
+                    "name": "Majuri Pekka",
+                    "party": "Kok.",
+                    "vote": "FOR",
+                    "seat": 82
+                },
+                {
+                    "name": "Mäkimattila Sari",
+                    "party": "KD",
+                    "vote": "AGAINST",
+                    "seat": 83
+                },
+                {
+                    "name": "Laaninen Timo",
+                    "party": "Kesk.",
+                    "vote": "FOR",
+                    "seat": 84
+                },
+                {
+                    "name": "Puoskari Mari",
+                    "party": "Vihr.",
+                    "vote": "FOR",
+                    "seat": 91
+                }
+            ],
+            "results": {
+                "absent": 0,
+                "against": 53,
+                "empty": 0,
+                "for": 32
+            },
+            "issue_id": "583801197c6d17175722ee22"
+        }
+    },
+    {
+        "number": "7",
+        "title": "Hämeentien, Haapaniemenkadun ja Viidennen linjan liikennesuunnitelman hyväksyminen ",
+        "proposal": "Kaupunginvaltuusto päättää hyväksyä Hämeentien, Viidennen linjan ja Haapaniemenkadun liikennesuunnitelman kaupunkisuunnitteluviraston liikennesuunnitteluosaston piirustusten 6511-1 ja 6512-7 mukaisina jatkosuunnittelun pohjaksi.\n\n",
+        "resolution": "Ehdotuksen mukaan.\n\nLandénin (+ Valokainen) palautusehdotus hävisi äänestyksessä äänin 57-17 ja Rautavan (+ Asko-Seljavaara) palautusehdotus hävisi äänestyksessä äänin 51-31\n\nPajamäen (+ Anttila) ponsiehdotus hyväksyttiin äänin 52-3. \nAsko-Seljavaaran (+ Raittinen) ponsiehdotus hyväksyttiin 77 jaa-äänellä.  \nLovénin (+ Månsson) ponsiehdotus hyväksyttiin 76 jaa-äänellä. \nMuttilaisen (+ Hursti) ponsiehdotus hyväksyttiin äänin 73-1 \nHurun (+ Raatikainen) ponsiehdotus hävisi äänestyksessä äänin 24-6.",
+        "under_discussion": false,
+        "start_time": "2016-04-27T20:40:55",
+        "video_position": 9499,
+        "register_id": "HEL 2014-002244",
+        "introducer": "Kaupunginhallitus",
+        "preparer": "Tanja Sippola-Alho",
+        "category_name": "Liikennepolitiikan suunnittelu, kehittäminen, ohjaus ja ylläpito",
+        "category_origin_id": "08 00 00",
+        "permalink": "http://dev.hel.fi/paatokset/asia/hel-2014-002244/kvsto-2016-8/",
+        "issue_id": "5719dc5de90857870339f144",
+        "total_speeches": 76,
+        "vote_event": {
+            "number": 6,
+            "type": "PAL",
+            "type_text": "Palautusehdotus",
+            "for_title": "Jatko",
+            "for_text": "",
+            "against_title": "Landén Maria /1",
+            "against_text": "Kaupunginvaltuusto päättää palauttaa Hämeentien, Haapaniemenkadun ja Viidennen linjan liikennesuunnitelman uudelleen valmisteltavaksi siten, että Hämeentien läpiajoa ei rajoiteta yksityisautoilta.",
+            "votes": [
+                {
+                    "name": "Månsson Björn",
+                    "party": "SFP",
+                    "vote": "FOR",
+                    "seat": 1
+                },
+                {
+                    "name": "Bogomoloff Harry",
+                    "party": "Kok.",
+                    "vote": "AGAINST",
+                    "seat": 2
+                },
+                {
+                    "name": "Luukkainen Hannele",
+                    "party": "Kok.",
+                    "vote": "EMPTY",
+                    "seat": 3
+                },
+                {
+                    "name": "Rauhamäki Tatu",
+                    "party": "Kok.",
+                    "vote": "EMPTY",
+                    "seat": 4
+                },
+                {
+                    "name": "Raatikainen Mika",
+                    "party": "PerusS",
+                    "vote": "AGAINST",
+                    "seat": 5
+                },
+                {
+                    "name": "Kivekäs Otso",
+                    "party": "Vihr.",
+                    "vote": "FOR",
+                    "seat": 6
+                },
+                {
+                    "name": "Soininvaara Osmo",
+                    "party": "Vihr.",
+                    "vote": "FOR",
+                    "seat": 7
+                },
+                {
+                    "name": "Pajamäki Osku",
+                    "party": "SDP",
+                    "vote": "FOR",
+                    "seat": 8
+                },
+                {
+                    "name": "Taipale Ilkka",
+                    "party": "SDP",
+                    "vote": "AGAINST",
+                    "seat": 9
+                },
+                {
+                    "name": "Honkasalo Veronika",
+                    "party": "Vas.",
+                    "vote": "FOR",
+                    "seat": 10
+                },
+                {
+                    "name": "Oker-Blom Jan D",
+                    "party": "SFP",
+                    "vote": "ABSENT",
+                    "seat": 11
+                },
+                {
+                    "name": "Hakola Juha",
+                    "party": "Kok.",
+                    "vote": "AGAINST",
+                    "seat": 12
+                },
+                {
+                    "name": "Koskinen Kauko",
+                    "party": "Kok.",
+                    "vote": "AGAINST",
+                    "seat": 13
+                },
+                {
+                    "name": "Hyttinen Nuutti",
+                    "party": "PerusS",
+                    "vote": "FOR",
+                    "seat": 14
+                },
+                {
+                    "name": "Kanerva Seppo",
+                    "party": "PerusS",
+                    "vote": "AGAINST",
+                    "seat": 15
+                },
+                {
+                    "name": "Vesikansa Sanna",
+                    "party": "Vihr.",
+                    "vote": "FOR",
+                    "seat": 16
+                },
+                {
+                    "name": "Moisio Elina",
+                    "party": "Vihr.",
+                    "vote": "FOR",
+                    "seat": 17
+                },
+                {
+                    "name": "Anttila Maija",
+                    "party": "SDP",
+                    "vote": "FOR",
+                    "seat": 18
+                },
+                {
+                    "name": "Mäki Terhi",
+                    "party": "SDP",
+                    "vote": "FOR",
+                    "seat": 19
+                },
+                {
+                    "name": "Malin Petra",
+                    "party": "Vas.",
+                    "vote": "FOR",
+                    "seat": 20
+                },
+                {
+                    "name": "Rantala Marcus",
+                    "party": "SFP",
+                    "vote": "FOR",
+                    "seat": 21
+                },
+                {
+                    "name": "Rautava Risto",
+                    "party": "Kok.",
+                    "vote": "FOR",
+                    "seat": 22
+                },
+                {
+                    "name": "Urho Ulla-Marja",
+                    "party": "Kok.",
+                    "vote": "AGAINST",
+                    "seat": 23
+                },
+                {
+                    "name": "Landén Maria",
+                    "party": "PerusS",
+                    "vote": "AGAINST",
+                    "seat": 24
+                },
+                {
+                    "name": "Huru Nina",
+                    "party": "PerusS",
+                    "vote": "AGAINST",
+                    "seat": 25
+                },
+                {
+                    "name": "Rantanen Tuomas",
+                    "party": "Vihr.",
+                    "vote": "FOR",
+                    "seat": 26
+                },
+                {
+                    "name": "Alanko-Kahiluoto Outi",
+                    "party": "Vihr.",
+                    "vote": "FOR",
+                    "seat": 27
+                },
+                {
+                    "name": "Heinäluoma Eero",
+                    "party": "SDP",
+                    "vote": "EMPTY",
+                    "seat": 28
+                },
+                {
+                    "name": "Paavolainen Sara",
+                    "party": "SDP",
+                    "vote": "FOR",
+                    "seat": 29
+                },
+                {
+                    "name": "Abdulla Zahra",
+                    "party": "Vas.",
+                    "vote": "FOR",
+                    "seat": 30
+                },
+                {
+                    "name": "Brettschneider Gunvor",
+                    "party": "SFP",
+                    "vote": "FOR",
+                    "seat": 31
+                },
+                {
+                    "name": "Karhuvaara Arja",
+                    "party": "Kok.",
+                    "vote": "AGAINST",
+                    "seat": 32
+                },
+                {
+                    "name": "Asko-Seljavaara Sirpa",
+                    "party": "Kok.",
+                    "vote": "EMPTY",
+                    "seat": 33
+                },
+                {
+                    "name": "Lindell Harri",
+                    "party": "PerusS",
+                    "vote": "AGAINST",
+                    "seat": 34
+                },
+                {
+                    "name": "Kousa Tuuli",
+                    "party": "Vihr.",
+                    "vote": "FOR",
+                    "seat": 35
+                },
+                {
+                    "name": "Kari Emma",
+                    "party": "Vihr.",
+                    "vote": "FOR",
+                    "seat": 36
+                },
+                {
+                    "name": "Ikävalko Suzan",
+                    "party": "Vihr.",
+                    "vote": "FOR",
+                    "seat": 37
+                },
+                {
+                    "name": "Wallgren Thomas",
+                    "party": "SDP",
+                    "vote": "FOR",
+                    "seat": 38
+                },
+                {
+                    "name": "Valokainen Tuomo",
+                    "party": "SDP",
+                    "vote": "AGAINST",
+                    "seat": 39
+                },
+                {
+                    "name": "Arhinmäki Paavo",
+                    "party": "Vas.",
+                    "vote": "FOR",
+                    "seat": 40
+                },
+                {
+                    "name": "Gayer Patrik",
+                    "party": "SFP",
+                    "vote": "FOR",
+                    "seat": 41
+                },
+                {
+                    "name": "Hyvärinen Maritta",
+                    "party": "Kok.",
+                    "vote": "FOR",
+                    "seat": 42
+                },
+                {
+                    "name": "Enroth Matti",
+                    "party": "Kok.",
+                    "vote": "EMPTY",
+                    "seat": 43
+                },
+                {
+                    "name": "Kantola Helena",
+                    "party": "PerusS",
+                    "vote": "AGAINST",
+                    "seat": 44
+                },
+                {
+                    "name": "Nieminen Jarmo",
+                    "party": "Vihr.",
+                    "vote": "FOR",
+                    "seat": 45
+                },
+                {
+                    "name": "Holopainen Mari",
+                    "party": "Vihr.",
+                    "vote": "FOR",
+                    "seat": 46
+                },
+                {
+                    "name": "Ylikahri Ville",
+                    "party": "Vihr.",
+                    "vote": "FOR",
+                    "seat": 47
+                },
+                {
+                    "name": "Arajärvi Pentti",
+                    "party": "SDP",
+                    "vote": "FOR",
+                    "seat": 48
+                },
+                {
+                    "name": "Puhakka Sirpa",
+                    "party": "Vas.",
+                    "vote": "FOR",
+                    "seat": 49
+                },
+                {
+                    "name": "Ingervo Sirkku",
+                    "party": "Vas.",
+                    "vote": "FOR",
+                    "seat": 50
+                },
+                {
+                    "name": "Koulumies Terhi",
+                    "party": "Kok.",
+                    "vote": "AGAINST",
+                    "seat": 51
+                },
+                {
+                    "name": "Rissanen Laura",
+                    "party": "Kok.",
+                    "vote": "FOR",
+                    "seat": 52
+                },
+                {
+                    "name": "Muurinen Seija",
+                    "party": "Kok.",
+                    "vote": "EMPTY",
+                    "seat": 53
+                },
+                {
+                    "name": "Hursti René",
+                    "party": "RH",
+                    "vote": "FOR",
+                    "seat": 54
+                },
+                {
+                    "name": "Relander Jukka",
+                    "party": "Vihr.",
+                    "vote": "FOR",
+                    "seat": 55
+                },
+                {
+                    "name": "Lehtipuu Otto",
+                    "party": "Vihr.",
+                    "vote": "FOR",
+                    "seat": 56
+                },
+                {
+                    "name": "Razmyar Nasima",
+                    "party": "SDP",
+                    "vote": "FOR",
+                    "seat": 57
+                },
+                {
+                    "name": "Taipale Kaarin",
+                    "party": "SDP",
+                    "vote": "FOR",
+                    "seat": 58
+                },
+                {
+                    "name": "Modig Silvia",
+                    "party": "Vas.",
+                    "vote": "FOR",
+                    "seat": 59
+                },
+                {
+                    "name": "Koivulaakso Dan",
+                    "party": "Vas.",
+                    "vote": "FOR",
+                    "seat": 60
+                },
+                {
+                    "name": "Hetemaj Fatbardhe",
+                    "party": "Kok.",
+                    "vote": "EMPTY",
+                    "seat": 61
+                },
+                {
+                    "name": "Rydman Wille",
+                    "party": "Kok.",
+                    "vote": "AGAINST",
+                    "seat": 62
+                },
+                {
+                    "name": "Pakarinen Pia",
+                    "party": "Kok.",
+                    "vote": "AGAINST",
+                    "seat": 63
+                },
+                {
+                    "name": "Kolbe Laura",
+                    "party": "Kesk.",
+                    "vote": "FOR",
+                    "seat": 64
+                },
+                {
+                    "name": "Stranius Leo",
+                    "party": "Vihr.",
+                    "vote": "FOR",
+                    "seat": 65
+                },
+                {
+                    "name": "Oskala Hannu",
+                    "party": "Vihr.",
+                    "vote": "FOR",
+                    "seat": 66
+                },
+                {
+                    "name": "Jalovaara Ville",
+                    "party": "SDP",
+                    "vote": "FOR",
+                    "seat": 67
+                },
+                {
+                    "name": "Malinen Jouko",
+                    "party": "SDP",
+                    "vote": "FOR",
+                    "seat": 68
+                },
+                {
+                    "name": "Loukoila Eija",
+                    "party": "Vas.",
+                    "vote": "FOR",
+                    "seat": 69
+                },
+                {
+                    "name": "Muttilainen Sami",
+                    "party": "Vas.",
+                    "vote": "FOR",
+                    "seat": 70
+                },
+                {
+                    "name": "Raittinen Timo",
+                    "party": "Kok.",
+                    "vote": "EMPTY",
+                    "seat": 71
+                },
+                {
+                    "name": "Laaksonen Heimo",
+                    "party": "Kok.",
+                    "vote": "EMPTY",
+                    "seat": 72
+                },
+                {
+                    "name": "Ebeling Mika",
+                    "party": "KD",
+                    "vote": "FOR",
+                    "seat": 73
+                },
+                {
+                    "name": "Peltokorpi Terhi",
+                    "party": "Kesk.",
+                    "vote": "FOR",
+                    "seat": 74
+                },
+                {
+                    "name": "Perälä Erkki",
+                    "party": "Vihr.",
+                    "vote": "FOR",
+                    "seat": 75
+                },
+                {
+                    "name": "Sydänmaa Johanna",
+                    "party": "Vihr.",
+                    "vote": "FOR",
+                    "seat": 76
+                },
+                {
+                    "name": "Lovén Jape",
+                    "party": "SDP",
+                    "vote": "FOR",
+                    "seat": 77
+                },
+                {
+                    "name": "Sevander Tomi",
+                    "party": "SDP",
+                    "vote": "FOR",
+                    "seat": 78
+                },
+                {
+                    "name": "Vuorjoki Anna",
+                    "party": "Vas.",
+                    "vote": "FOR",
+                    "seat": 79
+                },
+                {
+                    "name": "Hakanen Yrjö",
+                    "party": "SKP",
+                    "vote": "FOR",
+                    "seat": 80
+                },
+                {
+                    "name": "Niiranen Matti",
+                    "party": "Kok.",
+                    "vote": "AGAINST",
+                    "seat": 81
+                },
+                {
+                    "name": "Majuri Pekka",
+                    "party": "Kok.",
+                    "vote": "EMPTY",
+                    "seat": 82
+                },
+                {
+                    "name": "Vuorinen Tuulikki",
+                    "party": "KD",
+                    "vote": "FOR",
+                    "seat": 83
+                },
+                {
+                    "name": "Laaninen Timo",
+                    "party": "Kesk.",
+                    "vote": "FOR",
+                    "seat": 84
+                },
+                {
+                    "name": "Puoskari Mari",
+                    "party": "Vihr.",
+                    "vote": "FOR",
+                    "seat": 91
+                }
+            ],
+            "results": {
+                "absent": 1,
+                "against": 17,
+                "empty": 10,
+                "for": 57
+            },
+            "issue_id": "5719dc5de90857870339f144"
+        }
+    },
+    {
+        "number": "9",
+        "title": "Keskustakirjaston hankesuunnitelma",
+        "proposal": "Kaupunginvaltuusto päättää\n\nA\n\n\nhyväksyä Helsingin keskustakirjaston 5.9.2014 päivätyn hankesuunnitelman siten, että hankkeen enimmäislaajuus on 17?250 brm² ja rakentamiskustannusten enimmäishinta on arvonlisäverottomana 98?000?000 euroa heinäkuun 2014 kustannustasossa,  \n\nB\n\n\noikeuttaa kiinteistölautakunnan sitomaan määrärahoja tuleville vuosille hankkeen toteuttamisen edellyttämälle ajalle enimmäishinnan puitteissa edellyttäen, että hankkeen kokonaisrahoitus järjestyy, ja \n\nC\n\n\nkehottaa kiinteistövirastoa hankkeen jatkosuunnittelussa ja toteutuksessa tutkimaan mahdollisuudet tarvittaessa etsiä säästökohteita hankkeessa mm. jättämällä toteuttamatta ensi sijassa hankesuunnitelmassa esitettyjä kirjastotoimen alaan kuulumattomien toimintojen tiloja. \n\n",
+        "resolution": "Ehdotuksen mukaan\n\nValtuutettu Puhakan vastaehdotusta ei hyväksytty.\nLedamoten Puhakkas motförslag godkändes inte. \n\nEbelingin hylkäysehdotusta ei hyväksytty\n\nHyväksyttiin seuraavien valtuutettujen toivomusponnet:\n\nModig, Kolbe, Relander",
+        "under_discussion": false,
+        "start_time": "2015-01-28T18:59:27+02:00",
+        "video_position": 3473,
+        "register_id": "HEL 2014-011026",
+        "introducer": "Kaupunginhallitus",
+        "preparer": "Timo Härmälä",
+        "category_name": "Rakennusten ja rakennelmien suunnittelu ja totetutus",
+        "category_origin_id": "10 06 00",
+        "permalink": "http://dev.hel.fi/paatokset/asia/hel-2014-011026/kvsto-2015-2/",
+        "issue_id": "55804a403e29c95059b92497",
+        "total_speeches": 103,
+        "vote_event": {
+            "number": 2,
+            "type": "HYL",
+            "type_text": "Hylkäysehdotus",
+            "for_title": "Khs",
+            "for_text": "",
+            "against_title": "Ebeling Mika /1",
+            "against_text": "Ehdotan, että päätösesitys hylätään.",
+            "votes": [
+                {
+                    "name": "Månsson Björn",
+                    "party": "SFP",
+                    "seat": 1,
+                    "vote": "FOR"
+                },
+                {
+                    "name": "Bogomoloff Harry",
+                    "party": "Kokoomus",
+                    "seat": 2,
+                    "vote": "FOR"
+                },
+                {
+                    "name": "Männistö Lasse",
+                    "party": "Kokoomus",
+                    "seat": 3,
+                    "vote": "FOR"
+                },
+                {
+                    "name": "Rauhamäki Tatu",
+                    "party": "Kokoomus",
+                    "seat": 4,
+                    "vote": "FOR"
+                },
+                {
+                    "name": "Kanerva Seppo",
+                    "party": "PerusSuomalaiset",
+                    "seat": 5,
+                    "vote": "EMPTY"
+                },
+                {
+                    "name": "Kari Emma",
+                    "party": "Vihreät",
+                    "seat": 6,
+                    "vote": "FOR"
+                },
+                {
+                    "name": "Soininvaara Osmo",
+                    "party": "Vihreät",
+                    "seat": 7,
+                    "vote": "FOR"
+                },
+                {
+                    "name": "Pajamäki Osku",
+                    "party": "SDP",
+                    "seat": 8,
+                    "vote": "FOR"
+                },
+                {
+                    "name": "Taipale Ilkka",
+                    "party": "SDP",
+                    "seat": 9,
+                    "vote": "FOR"
+                },
+                {
+                    "name": "Honkasalo Veronika",
+                    "party": "Vasemmisto",
+                    "seat": 10,
+                    "vote": "FOR"
+                },
+                {
+                    "name": "Oker-Blom Jan D",
+                    "party": "SFP",
+                    "seat": 11,
+                    "vote": "FOR"
+                },
+                {
+                    "name": "Sydänmaa Johanna",
+                    "party": "Kokoomus",
+                    "seat": 12,
+                    "vote": "FOR"
+                },
+                {
+                    "name": "Koskinen Kauko",
+                    "party": "Kokoomus",
+                    "seat": 13,
+                    "vote": "FOR"
+                },
+                {
+                    "name": "Huru Nina",
+                    "party": "PerusSuomalaiset",
+                    "seat": 14,
+                    "vote": "AGAINST"
+                },
+                {
+                    "name": "Hyttinen Nuutti",
+                    "party": "PerusSuomalaiset",
+                    "seat": 15,
+                    "vote": "AGAINST"
+                },
+                {
+                    "name": "Abdulla Zahra",
+                    "party": "Vihreät",
+                    "seat": 16,
+                    "vote": "FOR"
+                },
+                {
+                    "name": "Krohn Minerva",
+                    "party": "Vihreät",
+                    "seat": 17,
+                    "vote": "FOR"
+                },
+                {
+                    "name": "Lipponen Päivi",
+                    "party": "SDP",
+                    "seat": 18,
+                    "vote": "FOR"
+                },
+                {
+                    "name": "Anttila Maija",
+                    "party": "SDP",
+                    "seat": 19,
+                    "vote": "FOR"
+                },
+                {
+                    "name": "Korkkula Vesa",
+                    "party": "Vasemmisto",
+                    "seat": 20,
+                    "vote": "FOR"
+                },
+                {
+                    "name": "Rantala Marcus",
+                    "party": "SFP",
+                    "seat": 21,
+                    "vote": "FOR"
+                },
+                {
+                    "name": "Urho Ulla-Marja",
+                    "party": "Kokoomus",
+                    "seat": 22,
+                    "vote": "FOR"
+                },
+                {
+                    "name": "Hakola Juha",
+                    "party": "Kokoomus",
+                    "seat": 23,
+                    "vote": "FOR"
+                },
+                {
+                    "name": "Landén Maria",
+                    "party": "PerusSuomalaiset",
+                    "seat": 24,
+                    "vote": "AGAINST"
+                },
+                {
+                    "name": "Packalén Tom",
+                    "party": "PerusSuomalaiset",
+                    "seat": 25,
+                    "vote": "FOR"
+                },
+                {
+                    "name": "Sumuvuori Johanna",
+                    "party": "Vihreät",
+                    "seat": 26,
+                    "vote": "FOR"
+                },
+                {
+                    "name": "Rantanen Tuomas",
+                    "party": "Vihreät",
+                    "seat": 27,
+                    "vote": "FOR"
+                },
+                {
+                    "name": "Mäki Terhi",
+                    "party": "SDP",
+                    "seat": 28,
+                    "vote": "FOR"
+                },
+                {
+                    "name": "Heinäluoma Eero",
+                    "party": "SDP",
+                    "seat": 29,
+                    "vote": "FOR"
+                },
+                {
+                    "name": "Arhinmäki Paavo",
+                    "party": "Vasemmisto",
+                    "seat": 30,
+                    "vote": "FOR"
+                },
+                {
+                    "name": "Storgård Päivi",
+                    "party": "SFP",
+                    "seat": 31,
+                    "vote": "FOR"
+                },
+                {
+                    "name": "Asko-Seljavaara Sirpa",
+                    "party": "Kokoomus",
+                    "seat": 32,
+                    "vote": "FOR"
+                },
+                {
+                    "name": "Rautava Risto",
+                    "party": "Kokoomus",
+                    "seat": 33,
+                    "vote": "FOR"
+                },
+                {
+                    "name": "Lindell Harri",
+                    "party": "PerusSuomalaiset",
+                    "seat": 34,
+                    "vote": "AGAINST"
+                },
+                {
+                    "name": "Hursti René",
+                    "party": "PerusSuomalaiset",
+                    "seat": 35,
+                    "vote": "AGAINST"
+                },
+                {
+                    "name": "Ingervo Sirkku",
+                    "party": "Vihreät",
+                    "seat": 36,
+                    "vote": "FOR"
+                },
+                {
+                    "name": "Alanko-Kahiluoto Outi",
+                    "party": "Vihreät",
+                    "seat": 37,
+                    "vote": "FOR"
+                },
+                {
+                    "name": "Paavolainen Sara",
+                    "party": "SDP",
+                    "seat": 38,
+                    "vote": "FOR"
+                },
+                {
+                    "name": "Wallgren Thomas",
+                    "party": "SDP",
+                    "seat": 39,
+                    "vote": "FOR"
+                },
+                {
+                    "name": "Puhakka Sirpa",
+                    "party": "Vasemmisto",
+                    "seat": 40,
+                    "vote": "FOR"
+                },
+                {
+                    "name": "Brettschneider Gunvor",
+                    "party": "SFP",
+                    "seat": 41,
+                    "vote": "FOR"
+                },
+                {
+                    "name": "Enroth Matti",
+                    "party": "Kokoomus",
+                    "seat": 42,
+                    "vote": "FOR"
+                },
+                {
+                    "name": "Karhuvaara Arja",
+                    "party": "Kokoomus",
+                    "seat": 43,
+                    "vote": "FOR"
+                },
+                {
+                    "name": "Peltokorpi Terhi",
+                    "party": "Keskusta",
+                    "seat": 44,
+                    "vote": "FOR"
+                },
+                {
+                    "name": "Kantola Helena",
+                    "party": "PerusSuomalaiset",
+                    "seat": 45,
+                    "vote": "FOR"
+                },
+                {
+                    "name": "Ikävalko Suzan",
+                    "party": "Vihreät",
+                    "seat": 46,
+                    "vote": "FOR"
+                },
+                {
+                    "name": "Kousa Tuuli",
+                    "party": "Vihreät",
+                    "seat": 47,
+                    "vote": "FOR"
+                },
+                {
+                    "name": "Sevander Tomi",
+                    "party": "SDP",
+                    "seat": 48,
+                    "vote": "FOR"
+                },
+                {
+                    "name": "Taipale Kaarin",
+                    "party": "SDP",
+                    "seat": 49,
+                    "vote": "FOR"
+                },
+                {
+                    "name": "Modig Silvia",
+                    "party": "Vasemmisto",
+                    "seat": 50,
+                    "vote": "FOR"
+                },
+                {
+                    "name": "Muurinen Seija",
+                    "party": "Kokoomus",
+                    "seat": 51,
+                    "vote": "ABSENT"
+                },
+                {
+                    "name": "Luukkainen Hannele",
+                    "party": "Kokoomus",
+                    "seat": 52,
+                    "vote": "AGAINST"
+                },
+                {
+                    "name": "Pelkonen Jaana",
+                    "party": "Kokoomus",
+                    "seat": 53,
+                    "vote": "FOR"
+                },
+                {
+                    "name": "Kolbe Laura",
+                    "party": "Keskusta",
+                    "seat": 54,
+                    "vote": "FOR"
+                },
+                {
+                    "name": "Holopainen Mari",
+                    "party": "Vihreät",
+                    "seat": 55,
+                    "vote": "FOR"
+                },
+                {
+                    "name": "Vesikansa Sanna",
+                    "party": "Vihreät",
+                    "seat": 56,
+                    "vote": "FOR"
+                },
+                {
+                    "name": "Kivekäs Otso",
+                    "party": "Vihreät",
+                    "seat": 57,
+                    "vote": "FOR"
+                },
+                {
+                    "name": "Razmyar Nasima",
+                    "party": "SDP",
+                    "seat": 58,
+                    "vote": "FOR"
+                },
+                {
+                    "name": "Torsti Pilvi",
+                    "party": "SDP",
+                    "seat": 59,
+                    "vote": "FOR"
+                },
+                {
+                    "name": "Koivulaakso Dan",
+                    "party": "Vasemmisto",
+                    "seat": 60,
+                    "vote": "FOR"
+                },
+                {
+                    "name": "Pakarinen Pia",
+                    "party": "Kokoomus",
+                    "seat": 61,
+                    "vote": "FOR"
+                },
+                {
+                    "name": "Nieminen Jarmo",
+                    "party": "Kokoomus",
+                    "seat": 62,
+                    "vote": "FOR"
+                },
+                {
+                    "name": "Rissanen Laura",
+                    "party": "Kokoomus",
+                    "seat": 63,
+                    "vote": "FOR"
+                },
+                {
+                    "name": "Laaninen Timo",
+                    "party": "Keskusta",
+                    "seat": 64,
+                    "vote": "FOR"
+                },
+                {
+                    "name": "Relander Jukka",
+                    "party": "Vihreät",
+                    "seat": 65,
+                    "vote": "FOR"
+                },
+                {
+                    "name": "Hamid Jasmin",
+                    "party": "Vihreät",
+                    "seat": 66,
+                    "vote": "FOR"
+                },
+                {
+                    "name": "Stranius Leo",
+                    "party": "Vihreät",
+                    "seat": 67,
+                    "vote": "FOR"
+                },
+                {
+                    "name": "Jalovaara Ville",
+                    "party": "SDP",
+                    "seat": 68,
+                    "vote": "FOR"
+                },
+                {
+                    "name": "Loukoila Eija",
+                    "party": "Vasemmisto",
+                    "seat": 69,
+                    "vote": "FOR"
+                },
+                {
+                    "name": "Muttilainen Sami",
+                    "party": "Vasemmisto",
+                    "seat": 70,
+                    "vote": "FOR"
+                },
+                {
+                    "name": "Andersson Hennariikka",
+                    "party": "Kokoomus",
+                    "seat": 71,
+                    "vote": "FOR"
+                },
+                {
+                    "name": "Hetemaj Fatbardhe",
+                    "party": "Kokoomus",
+                    "seat": 72,
+                    "vote": "FOR"
+                },
+                {
+                    "name": "Rydman Wille",
+                    "party": "Kokoomus",
+                    "seat": 73,
+                    "vote": "FOR"
+                },
+                {
+                    "name": "Ebeling Mika",
+                    "party": "Kristillisdemokraatit",
+                    "seat": 74,
+                    "vote": "AGAINST"
+                },
+                {
+                    "name": "Oskala Hannu",
+                    "party": "Vihreät",
+                    "seat": 75,
+                    "vote": "FOR"
+                },
+                {
+                    "name": "Perälä Erkki",
+                    "party": "Vihreät",
+                    "seat": 76,
+                    "vote": "FOR"
+                },
+                {
+                    "name": "Järvinen Jukka",
+                    "party": "SDP",
+                    "seat": 77,
+                    "vote": "FOR"
+                },
+                {
+                    "name": "Lovén Jape",
+                    "party": "SDP",
+                    "seat": 78,
+                    "vote": "FOR"
+                },
+                {
+                    "name": "Vuorjoki Anna",
+                    "party": "Vasemmisto",
+                    "seat": 79,
+                    "vote": "FOR"
+                },
+                {
+                    "name": "Hakanen Yrjö",
+                    "party": "SKP",
+                    "seat": 80,
+                    "vote": "FOR"
+                },
+                {
+                    "name": "Niiranen Matti",
+                    "party": "Kokoomus",
+                    "seat": 81,
+                    "vote": "FOR"
+                },
+                {
+                    "name": "Majuri Pekka",
+                    "party": "Kokoomus",
+                    "seat": 82,
+                    "vote": "FOR"
+                },
+                {
+                    "name": "Laaksonen Heimo",
+                    "party": "Kokoomus",
+                    "seat": 83,
+                    "vote": "FOR"
+                },
+                {
+                    "name": "Mäkimattila Sari",
+                    "party": "Kristillisdemokraatit",
+                    "seat": 84,
+                    "vote": "AGAINST"
+                },
+                {
+                    "name": "Lehtipuu Otto",
+                    "party": "Vihreät",
+                    "seat": 85,
+                    "vote": "FOR"
+                }
+            ],
+            "results": {
+                "absent": 1,
+                "empty": 1,
+                "against": 8,
+                "for": 75
+            },
+            "issue_id": "55804a403e29c95059b92497"
+        }
+    },
+    {
+        "number": "11",
+        "title": "Länsimetron hankesuunnitelman rakentamiskustannusten enimmäishinnan ja kaupungin Länsimetro Oy:n lainoille myöntämän takauksen korottaminen Helsingin osalta",
+        "proposal": "Kaupunginvaltuusto päättää hyväksyä länsimetron tarkistetun hankesuunnitelman enimmäishinnan korottamisen siten, että Helsingin osuus kustannuksista on enintään 277,5 milj. euroa (ilman valtionosuutta).\n\nKaupunginvaltuusto päättää korottaa kaupungin omavelkaisen takauksen määrää Länsimetro Oy:n metron rakentamiseen välille Ruoholahti - Matinkylä saamille lainoille Helsingin maksuosuuden osalta seuraavin ehdoin:\n\n- Taattavien lainojen uusi yhteismäärä on enintään 291,0 milj. euroa siten, että summa voi koostua yhdestä tai useammasta lainasta tai rahoitusjärjestelystä.\n\n- Lainojen laina-aika on enintään 35 vuotta lainan ensimmäisen erän nostosta.\n\n- Lainat voivat olla joko kiinteä- tai vaihtuvakorkoisia.\n\n- Lainojen tulee olla lyhennysohjelmaisia ja niissä voi olla enintään viisi vapaavuotta kunkin lainan tai lainaerän ensimmäisen erän nostosta laskettuna.\n\n- Takauksille ei edellytetä vastavakuutta.\n\nLisäksi kaupunginvaltuusto päättää oikeuttaa kaupunginhallituksen myöntämään kaupungin omavelkaisen takauksen edellä mainittujen kaupungin takaamien lainojen suojaamisessa käytettäville johdannaisille seuraavasti:\n\n- Takaus kattaa vähintään hyvän luottokelpoisuuden omaavien vastapuolien kanssa tehtävät johdannaisten yleissopimukset sekä niiden perusteella tehtävät yksittäiset johdannaissopimukset.\n\n- Takaus kattaa koko taattavan lainamäärän suojaukset.\n\n",
+        "resolution": "Ehdotus hyväksyttiin valtuutettu Hakasen tekemän vastaehdotuksn mukaisesti. \nVastaehdotus hyväksyttiin 57 jaa-äänellä: : Valtuusto hyväksyy esityksen enimmäishinnan ja takausvastuun korottamisen. Samalla Helsinki edellyttää Länsimetro Oy:n hallituksen päätösasiakirjojen olevan tästä alkaen julkisia (siltä osin kuin lainsäädäntö ei sitä nimenomaisesti kiellä) ja että valtuustolle tuodaan tammikuun loppuun mennessä selvitys toimista, joihin hankkeen kustannusten ja aikataulujen varmistamiseksi on ryhdytty. \n\n\nLisäksi valtuusto hyväksyi valtuutettu Valokaisen esittämän toivomusponnen:\n\nYksistään Helsingin kaupunki on sijoittanut useita satoja miljoonia euroja länsimetron toteuttamiseen. Arvioitu hinta nousee jälleen, joten länsimetro oy tarvitsee lainaa. Hyväksyessään uuden lainan Länsimerto oy:lle, Helsingin kaupunki pyrkii valvomaan rahankäyttöä ja rakennustoimia kaikin mahdollisin tavoin, niin että rakennustyöt ja rahankäyttö pysyy sovituissa raameissa.\n Toivomus on että myös kansalaiset saavat tietoa kaupunkimme ( veroeurojen) rahankäytöstä, koskien länsimetroa ja sen toteutusta.\n",
+        "under_discussion": false,
+        "start_time": "2016-12-14T17:27:44",
+        "video_position": 5132,
+        "register_id": "HEL 2013-016143",
+        "introducer": "Kaupunginhallitus",
+        "preparer": "Kristiina Matikainen",
+        "category_name": "Määräraha-asiat",
+        "category_origin_id": "02 02 02",
+        "permalink": "http://dev.hel.fi/paatokset/asia/hel-2013-016143/kvsto-2016-22/",
+        "issue_id": "584a76192510f9a23d584023",
+        "total_speeches": 72,
+        "vote_event": {
+            "number": 1,
+            "type": "VAS",
+            "type_text": "Vastaehdotus",
+            "for_title": "Khs",
+            "for_text": "",
+            "against_title": "Hakanen Yrjö /1",
+            "against_text": "Valtuusto hyväksyy esityksen enimmäishinnan ja takausvastuun korottamisen. Samalla Helsinki edellyttää Länsimetro Oy:n hallituksen päätösasiakirjojen olevan tästä alkaen julkisia (siltä osin kuin lainsäädäntö ei sitä nimenomaisesti kiellä) ja että valtuustolle tuodaan tammikuun loppuun mennessä selvitys toimista, joihin hankkeen kustannusten ja aikataulujen varmistamiseksi on ryhdytty. ",
+            "votes": [
+                {
+                    "name": "Månsson Björn",
+                    "party": "SFP",
+                    "vote": "AGAINST",
+                    "seat": 1
+                },
+                {
+                    "name": "Bogomoloff Harry",
+                    "party": "Kok.",
+                    "vote": "FOR",
+                    "seat": 2
+                },
+                {
+                    "name": "Laaksonen Heimo",
+                    "party": "Kok.",
+                    "vote": "EMPTY",
+                    "seat": 3
+                },
+                {
+                    "name": "Rauhamäki Tatu",
+                    "party": "Kok.",
+                    "vote": "EMPTY",
+                    "seat": 4
+                },
+                {
+                    "name": "Raatikainen Mika",
+                    "party": "PerusS",
+                    "vote": "EMPTY",
+                    "seat": 5
+                },
+                {
+                    "name": "Moisio Elina",
+                    "party": "Vihr.",
+                    "vote": "AGAINST",
+                    "seat": 6
+                },
+                {
+                    "name": "Soininvaara Osmo",
+                    "party": "Vihr.",
+                    "vote": "AGAINST",
+                    "seat": 7
+                },
+                {
+                    "name": "Pajamäki Osku",
+                    "party": "SDP",
+                    "vote": "AGAINST",
+                    "seat": 8
+                },
+                {
+                    "name": "Taipale Ilkka",
+                    "party": "SDP",
+                    "vote": "EMPTY",
+                    "seat": 9
+                },
+                {
+                    "name": "Honkasalo Veronika",
+                    "party": "Vas.",
+                    "vote": "AGAINST",
+                    "seat": 10
+                },
+                {
+                    "name": "Oker-Blom Jan D",
+                    "party": "SFP",
+                    "vote": "AGAINST",
+                    "seat": 11
+                },
+                {
+                    "name": "Hakola Juha",
+                    "party": "Kok.",
+                    "vote": "FOR",
+                    "seat": 12
+                },
+                {
+                    "name": "Koskinen Kauko",
+                    "party": "Kok.",
+                    "vote": "EMPTY",
+                    "seat": 13
+                },
+                {
+                    "name": "Hyttinen Nuutti",
+                    "party": "PerusS",
+                    "vote": "AGAINST",
+                    "seat": 14
+                },
+                {
+                    "name": "Kanerva Seppo",
+                    "party": "PerusS",
+                    "vote": "FOR",
+                    "seat": 15
+                },
+                {
+                    "name": "Krohn Minerva",
+                    "party": "Vihr.",
+                    "vote": "AGAINST",
+                    "seat": 16
+                },
+                {
+                    "name": "Rantanen Tuomas",
+                    "party": "Vihr.",
+                    "vote": "AGAINST",
+                    "seat": 17
+                },
+                {
+                    "name": "Anttila Maija",
+                    "party": "SDP",
+                    "vote": "AGAINST",
+                    "seat": 18
+                },
+                {
+                    "name": "Mäki Terhi",
+                    "party": "SDP",
+                    "vote": "AGAINST",
+                    "seat": 19
+                },
+                {
+                    "name": "Mithiku Hanna",
+                    "party": "Vas.",
+                    "vote": "AGAINST",
+                    "seat": 20
+                },
+                {
+                    "name": "Rantala Marcus",
+                    "party": "SFP",
+                    "vote": "AGAINST",
+                    "seat": 21
+                },
+                {
+                    "name": "Rautava Risto",
+                    "party": "Kok.",
+                    "vote": "ABSENT",
+                    "seat": 22
+                },
+                {
+                    "name": "Urho Ulla-Marja",
+                    "party": "Kok.",
+                    "vote": "AGAINST",
+                    "seat": 23
+                },
+                {
+                    "name": "Villo Pertti",
+                    "party": "PerusS",
+                    "vote": "AGAINST",
+                    "seat": 24
+                },
+                {
+                    "name": "Landén Maria",
+                    "party": "PerusS",
+                    "vote": "AGAINST",
+                    "seat": 25
+                },
+                {
+                    "name": "Alanko-Kahiluoto Outi",
+                    "party": "Vihr.",
+                    "vote": "AGAINST",
+                    "seat": 26
+                },
+                {
+                    "name": "Ikävalko Suzan",
+                    "party": "Vihr.",
+                    "vote": "AGAINST",
+                    "seat": 27
+                },
+                {
+                    "name": "Heinäluoma Eero",
+                    "party": "SDP",
+                    "vote": "ABSENT",
+                    "seat": 28
+                },
+                {
+                    "name": "Paavolainen Sara",
+                    "party": "SDP",
+                    "vote": "AGAINST",
+                    "seat": 29
+                },
+                {
+                    "name": "Abdulla Zahra",
+                    "party": "Vas.",
+                    "vote": "AGAINST",
+                    "seat": 30
+                },
+                {
+                    "name": "Brettschneider Gunvor",
+                    "party": "SFP",
+                    "vote": "AGAINST",
+                    "seat": 31
+                },
+                {
+                    "name": "Karhuvaara Arja",
+                    "party": "Kok.",
+                    "vote": "EMPTY",
+                    "seat": 32
+                },
+                {
+                    "name": "Asko-Seljavaara Sirpa",
+                    "party": "Kok.",
+                    "vote": "EMPTY",
+                    "seat": 33
+                },
+                {
+                    "name": "Lindell Harri",
+                    "party": "PerusS",
+                    "vote": "AGAINST",
+                    "seat": 34
+                },
+                {
+                    "name": "Kari Emma",
+                    "party": "Vihr.",
+                    "vote": "AGAINST",
+                    "seat": 35
+                },
+                {
+                    "name": "Kousa Tuuli",
+                    "party": "Vihr.",
+                    "vote": "AGAINST",
+                    "seat": 36
+                },
+                {
+                    "name": "Nieminen Jarmo",
+                    "party": "Vihr.",
+                    "vote": "AGAINST",
+                    "seat": 37
+                },
+                {
+                    "name": "Wallgren Thomas",
+                    "party": "SDP",
+                    "vote": "AGAINST",
+                    "seat": 38
+                },
+                {
+                    "name": "Valokainen Tuomo",
+                    "party": "SDP",
+                    "vote": "AGAINST",
+                    "seat": 39
+                },
+                {
+                    "name": "Arhinmäki Paavo",
+                    "party": "Vas.",
+                    "vote": "AGAINST",
+                    "seat": 40
+                },
+                {
+                    "name": "Finne-Elonen Laura",
+                    "party": "SFP",
+                    "vote": "AGAINST",
+                    "seat": 41
+                },
+                {
+                    "name": "Pelkonen Jaana",
+                    "party": "Kok.",
+                    "vote": "EMPTY",
+                    "seat": 42
+                },
+                {
+                    "name": "Enroth Matti",
+                    "party": "Kok.",
+                    "vote": "EMPTY",
+                    "seat": 43
+                },
+                {
+                    "name": "Kantola Helena",
+                    "party": "PerusS",
+                    "vote": "AGAINST",
+                    "seat": 44
+                },
+                {
+                    "name": "Holopainen Mari",
+                    "party": "Vihr.",
+                    "vote": "AGAINST",
+                    "seat": 45
+                },
+                {
+                    "name": "Karhu Jessica",
+                    "party": "Vihr.",
+                    "vote": "AGAINST",
+                    "seat": 46
+                },
+                {
+                    "name": "Ohisalo Maria",
+                    "party": "Vihr.",
+                    "vote": "AGAINST",
+                    "seat": 47
+                },
+                {
+                    "name": "Arajärvi Pentti",
+                    "party": "SDP",
+                    "vote": "AGAINST",
+                    "seat": 48
+                },
+                {
+                    "name": "Puhakka Sirpa",
+                    "party": "Vas.",
+                    "vote": "AGAINST",
+                    "seat": 49
+                },
+                {
+                    "name": "Ingervo Sirkku",
+                    "party": "Vas.",
+                    "vote": "AGAINST",
+                    "seat": 50
+                },
+                {
+                    "name": "Koulumies Terhi",
+                    "party": "Kok.",
+                    "vote": "EMPTY",
+                    "seat": 51
+                },
+                {
+                    "name": "Rissanen Laura",
+                    "party": "Kok.",
+                    "vote": "EMPTY",
+                    "seat": 52
+                },
+                {
+                    "name": "Muurinen Seija",
+                    "party": "Kok.",
+                    "vote": "EMPTY",
+                    "seat": 53
+                },
+                {
+                    "name": "Hursti René",
+                    "party": "RH",
+                    "vote": "AGAINST",
+                    "seat": 54
+                },
+                {
+                    "name": "Ylikahri Ville",
+                    "party": "Vihr.",
+                    "vote": "AGAINST",
+                    "seat": 55
+                },
+                {
+                    "name": "Hamid Jasmin",
+                    "party": "Vihr.",
+                    "vote": "AGAINST",
+                    "seat": 56
+                },
+                {
+                    "name": "Razmyar Nasima",
+                    "party": "SDP",
+                    "vote": "AGAINST",
+                    "seat": 57
+                },
+                {
+                    "name": "Torsti Pilvi",
+                    "party": "SDP",
+                    "vote": "AGAINST",
+                    "seat": 58
+                },
+                {
+                    "name": "Nyholm Henrik",
+                    "party": "Vas.",
+                    "vote": "AGAINST",
+                    "seat": 59
+                },
+                {
+                    "name": "Koivulaakso Dan",
+                    "party": "Vas.",
+                    "vote": "AGAINST",
+                    "seat": 60
+                },
+                {
+                    "name": "Hetemaj Fatbardhe",
+                    "party": "Kok.",
+                    "vote": "EMPTY",
+                    "seat": 61
+                },
+                {
+                    "name": "Rydman Wille",
+                    "party": "Kok.",
+                    "vote": "EMPTY",
+                    "seat": 62
+                },
+                {
+                    "name": "Pakarinen Pia",
+                    "party": "Kok.",
+                    "vote": "EMPTY",
+                    "seat": 63
+                },
+                {
+                    "name": "Peltokorpi Terhi",
+                    "party": "Kesk.",
+                    "vote": "FOR",
+                    "seat": 64
+                },
+                {
+                    "name": "Stranius Leo",
+                    "party": "Vihr.",
+                    "vote": "AGAINST",
+                    "seat": 65
+                },
+                {
+                    "name": "Oskala Hannu",
+                    "party": "Vihr.",
+                    "vote": "AGAINST",
+                    "seat": 66
+                },
+                {
+                    "name": "Jalovaara Ville",
+                    "party": "SDP",
+                    "vote": "AGAINST",
+                    "seat": 67
+                },
+                {
+                    "name": "Järvinen Jukka",
+                    "party": "SDP",
+                    "vote": "EMPTY",
+                    "seat": 68
+                },
+                {
+                    "name": "Loukoila Eija",
+                    "party": "Vas.",
+                    "vote": "AGAINST",
+                    "seat": 69
+                },
+                {
+                    "name": "Muttilainen Sami",
+                    "party": "Vas.",
+                    "vote": "AGAINST",
+                    "seat": 70
+                },
+                {
+                    "name": "Raittinen Timo",
+                    "party": "Kok.",
+                    "vote": "FOR",
+                    "seat": 71
+                },
+                {
+                    "name": "Andersson Hennariikka",
+                    "party": "Kok.",
+                    "vote": "FOR",
+                    "seat": 72
+                },
+                {
+                    "name": "Ebeling Mika",
+                    "party": "KD",
+                    "vote": "AGAINST",
+                    "seat": 73
+                },
+                {
+                    "name": "Kolbe Laura",
+                    "party": "Kesk.",
+                    "vote": "FOR",
+                    "seat": 74
+                },
+                {
+                    "name": "Perälä Erkki",
+                    "party": "Vihr.",
+                    "vote": "AGAINST",
+                    "seat": 75
+                },
+                {
+                    "name": "Sydänmaa Johanna",
+                    "party": "Vihr.",
+                    "vote": "AGAINST",
+                    "seat": 76
+                },
+                {
+                    "name": "Lovén Jape",
+                    "party": "SDP",
+                    "vote": "AGAINST",
+                    "seat": 77
+                },
+                {
+                    "name": "Sevander Tomi",
+                    "party": "SDP",
+                    "vote": "AGAINST",
+                    "seat": 78
+                },
+                {
+                    "name": "Vuorjoki Anna",
+                    "party": "Vas.",
+                    "vote": "AGAINST",
+                    "seat": 79
+                },
+                {
+                    "name": "Hakanen Yrjö",
+                    "party": "SKP",
+                    "vote": "AGAINST",
+                    "seat": 80
+                },
+                {
+                    "name": "Niiranen Matti",
+                    "party": "Kok.",
+                    "vote": "EMPTY",
+                    "seat": 81
+                },
+                {
+                    "name": "Majuri Pekka",
+                    "party": "Kok.",
+                    "vote": "EMPTY",
+                    "seat": 82
+                },
+                {
+                    "name": "Mäkimattila Sari",
+                    "party": "KD",
+                    "vote": "AGAINST",
+                    "seat": 83
+                },
+                {
+                    "name": "Laaninen Timo",
+                    "party": "Kesk.",
+                    "vote": "FOR",
+                    "seat": 84
+                },
+                {
+                    "name": "Puoskari Mari",
+                    "party": "Vihr.",
+                    "vote": "AGAINST",
+                    "seat": 91
+                }
+            ],
+            "results": {
+                "absent": 2,
+                "against": 57,
+                "empty": 18,
+                "for": 8
+            },
+            "issue_id": "584a76192510f9a23d584023"
+        }
+    },
+    {
+        "number": "11",
+        "title": "Valtuutettu Leo Straniuksen aloite vegaaniruuan saamiseksi kaupungin päiväkodeissa",
+        "proposal": "Kaupunginvaltuusto päättää katsoa valtuutettu Straniuksen aloitteen loppuun käsitellyksi.\n\n",
+        "resolution": "Ehdotuksen mukaan äänestyksin. Valtuutettu Rissasen (+ Ebeling) ehdotus asian palauttamisesta uudelleen valmisteluun hävisi äänestyksessä. Valtuutettu Rissasen toivomusponsi hyväksyttiin 57 jaa-äänellä.",
+        "under_discussion": false,
+        "start_time": "2016-05-25T21:08:58",
+        "video_position": 11229,
+        "register_id": "HEL 2014-010501",
+        "introducer": "Kaupunginhallitus",
+        "preparer": "Annikki Thoden",
+        "category_name": "Valtuuston aloitetoiminta",
+        "category_origin_id": "00 00 03",
+        "permalink": "http://dev.hel.fi/paatokset/asia/hel-2014-010501/kvsto-2016-10/",
+        "issue_id": "57440c5d9805a5a173b100d9",
+        "total_speeches": 60,
+        "vote_event": {
+            "number": 8,
+            "type": "PAL",
+            "type_text": "Palautusehdotus",
+            "for_title": "Jatko",
+            "for_text": "",
+            "against_title": "Rissanen Laura /1",
+            "against_text": "Palautetaan uudelleen valmisteltavaksi siten, että kokeilua vegaaniruoan tarjoamisesta 20 päiväkodissa ei järjestetä. Nykyisessä taloudellisessa tilanteessa ja hyväksyttyjen määrärahojen puitteissa ei ole mahdollista toteuttaa vegaaniruokavaliota päiväkodeissa.",
+            "votes": [
+                {
+                    "name": "Månsson Björn",
+                    "party": "SFP",
+                    "vote": "FOR",
+                    "seat": 1
+                },
+                {
+                    "name": "Bogomoloff Harry",
+                    "party": "Kok.",
+                    "vote": "AGAINST",
+                    "seat": 2
+                },
+                {
+                    "name": "Männistö Lasse",
+                    "party": "Kok.",
+                    "vote": "AGAINST",
+                    "seat": 3
+                },
+                {
+                    "name": "Rauhamäki Tatu",
+                    "party": "Kok.",
+                    "vote": "AGAINST",
+                    "seat": 4
+                },
+                {
+                    "name": "Raatikainen Mika",
+                    "party": "PerusS",
+                    "vote": "AGAINST",
+                    "seat": 5
+                },
+                {
+                    "name": "Kivekäs Otso",
+                    "party": "Vihr.",
+                    "vote": "FOR",
+                    "seat": 6
+                },
+                {
+                    "name": "Soininvaara Osmo",
+                    "party": "Vihr.",
+                    "vote": "FOR",
+                    "seat": 7
+                },
+                {
+                    "name": "Pajamäki Osku",
+                    "party": "SDP",
+                    "vote": "FOR",
+                    "seat": 8
+                },
+                {
+                    "name": "Taipale Ilkka",
+                    "party": "SDP",
+                    "vote": "ABSENT",
+                    "seat": 9
+                },
+                {
+                    "name": "Honkasalo Veronika",
+                    "party": "Vas.",
+                    "vote": "FOR",
+                    "seat": 10
+                },
+                {
+                    "name": "Hertzberg Veronica",
+                    "party": "SFP",
+                    "vote": "FOR",
+                    "seat": 11
+                },
+                {
+                    "name": "Laaksonen Heimo",
+                    "party": "Kok.",
+                    "vote": "AGAINST",
+                    "seat": 12
+                },
+                {
+                    "name": "Koskinen Kauko",
+                    "party": "Kok.",
+                    "vote": "AGAINST",
+                    "seat": 13
+                },
+                {
+                    "name": "Hyttinen Nuutti",
+                    "party": "PerusS",
+                    "vote": "AGAINST",
+                    "seat": 14
+                },
+                {
+                    "name": "Kanerva Seppo",
+                    "party": "PerusS",
+                    "vote": "AGAINST",
+                    "seat": 15
+                },
+                {
+                    "name": "Karhu Jessica",
+                    "party": "Vihr.",
+                    "vote": "FOR",
+                    "seat": 16
+                },
+                {
+                    "name": "Vesikansa Sanna",
+                    "party": "Vihr.",
+                    "vote": "FOR",
+                    "seat": 17
+                },
+                {
+                    "name": "Anttila Maija",
+                    "party": "SDP",
+                    "vote": "FOR",
+                    "seat": 18
+                },
+                {
+                    "name": "Mäki Terhi",
+                    "party": "SDP",
+                    "vote": "FOR",
+                    "seat": 19
+                },
+                {
+                    "name": "Korkkula Vesa",
+                    "party": "Vas.",
+                    "vote": "FOR",
+                    "seat": 20
+                },
+                {
+                    "name": "Rantala Marcus",
+                    "party": "SFP",
+                    "vote": "AGAINST",
+                    "seat": 21
+                },
+                {
+                    "name": "Rautava Risto",
+                    "party": "Kok.",
+                    "vote": "AGAINST",
+                    "seat": 22
+                },
+                {
+                    "name": "Urho Ulla-Marja",
+                    "party": "Kok.",
+                    "vote": "AGAINST",
+                    "seat": 23
+                },
+                {
+                    "name": "Villo Pertti",
+                    "party": "PerusS",
+                    "vote": "AGAINST",
+                    "seat": 24
+                },
+                {
+                    "name": "Huru Nina",
+                    "party": "PerusS",
+                    "vote": "AGAINST",
+                    "seat": 25
+                },
+                {
+                    "name": "Rantanen Tuomas",
+                    "party": "Vihr.",
+                    "vote": "FOR",
+                    "seat": 26
+                },
+                {
+                    "name": "Alanko-Kahiluoto Outi",
+                    "party": "Vihr.",
+                    "vote": "FOR",
+                    "seat": 27
+                },
+                {
+                    "name": "Heinäluoma Eero",
+                    "party": "SDP",
+                    "vote": "ABSENT",
+                    "seat": 28
+                },
+                {
+                    "name": "Paavolainen Sara",
+                    "party": "SDP",
+                    "vote": "FOR",
+                    "seat": 29
+                },
+                {
+                    "name": "Abdulla Zahra",
+                    "party": "Vas.",
+                    "vote": "FOR",
+                    "seat": 30
+                },
+                {
+                    "name": "Brettschneider Gunvor",
+                    "party": "SFP",
+                    "vote": "AGAINST",
+                    "seat": 31
+                },
+                {
+                    "name": "Karhuvaara Arja",
+                    "party": "Kok.",
+                    "vote": "AGAINST",
+                    "seat": 32
+                },
+                {
+                    "name": "Asko-Seljavaara Sirpa",
+                    "party": "Kok.",
+                    "vote": "AGAINST",
+                    "seat": 33
+                },
+                {
+                    "name": "Lindell Harri",
+                    "party": "PerusS",
+                    "vote": "FOR",
+                    "seat": 34
+                },
+                {
+                    "name": "Kousa Tuuli",
+                    "party": "Vihr.",
+                    "vote": "FOR",
+                    "seat": 35
+                },
+                {
+                    "name": "Kari Emma",
+                    "party": "Vihr.",
+                    "vote": "FOR",
+                    "seat": 36
+                },
+                {
+                    "name": "Ikävalko Suzan",
+                    "party": "Vihr.",
+                    "vote": "FOR",
+                    "seat": 37
+                },
+                {
+                    "name": "Wallgren Thomas",
+                    "party": "SDP",
+                    "vote": "FOR",
+                    "seat": 38
+                },
+                {
+                    "name": "Valokainen Tuomo",
+                    "party": "SDP",
+                    "vote": "FOR",
+                    "seat": 39
+                },
+                {
+                    "name": "Arhinmäki Paavo",
+                    "party": "Vas.",
+                    "vote": "FOR",
+                    "seat": 40
+                },
+                {
+                    "name": "Finne-Elonen Laura",
+                    "party": "SFP",
+                    "vote": "AGAINST",
+                    "seat": 41
+                },
+                {
+                    "name": "Pelkonen Jaana",
+                    "party": "Kok.",
+                    "vote": "AGAINST",
+                    "seat": 42
+                },
+                {
+                    "name": "Enroth Matti",
+                    "party": "Kok.",
+                    "vote": "AGAINST",
+                    "seat": 43
+                },
+                {
+                    "name": "Kantola Helena",
+                    "party": "PerusS",
+                    "vote": "AGAINST",
+                    "seat": 44
+                },
+                {
+                    "name": "Nieminen Jarmo",
+                    "party": "Vihr.",
+                    "vote": "ABSENT",
+                    "seat": 45
+                },
+                {
+                    "name": "Holopainen Mari",
+                    "party": "Vihr.",
+                    "vote": "FOR",
+                    "seat": 46
+                },
+                {
+                    "name": "Möller Antti",
+                    "party": "Vihr.",
+                    "vote": "FOR",
+                    "seat": 47
+                },
+                {
+                    "name": "Arajärvi Pentti",
+                    "party": "SDP",
+                    "vote": "EMPTY",
+                    "seat": 48
+                },
+                {
+                    "name": "Puhakka Sirpa",
+                    "party": "Vas.",
+                    "vote": "FOR",
+                    "seat": 49
+                },
+                {
+                    "name": "Ingervo Sirkku",
+                    "party": "Vas.",
+                    "vote": "FOR",
+                    "seat": 50
+                },
+                {
+                    "name": "Koulumies Terhi",
+                    "party": "Kok.",
+                    "vote": "AGAINST",
+                    "seat": 51
+                },
+                {
+                    "name": "Rissanen Laura",
+                    "party": "Kok.",
+                    "vote": "AGAINST",
+                    "seat": 52
+                },
+                {
+                    "name": "Muurinen Seija",
+                    "party": "Kok.",
+                    "vote": "AGAINST",
+                    "seat": 53
+                },
+                {
+                    "name": "Hursti René",
+                    "party": "RH",
+                    "vote": "FOR",
+                    "seat": 54
+                },
+                {
+                    "name": "Juva Katriina",
+                    "party": "Vihr.",
+                    "vote": "FOR",
+                    "seat": 55
+                },
+                {
+                    "name": "Hamid Jasmin",
+                    "party": "Vihr.",
+                    "vote": "FOR",
+                    "seat": 56
+                },
+                {
+                    "name": "Razmyar Nasima",
+                    "party": "SDP",
+                    "vote": "FOR",
+                    "seat": 57
+                },
+                {
+                    "name": "Torsti Pilvi",
+                    "party": "SDP",
+                    "vote": "FOR",
+                    "seat": 58
+                },
+                {
+                    "name": "Modig Silvia",
+                    "party": "Vas.",
+                    "vote": "FOR",
+                    "seat": 59
+                },
+                {
+                    "name": "Koivulaakso Dan",
+                    "party": "Vas.",
+                    "vote": "FOR",
+                    "seat": 60
+                },
+                {
+                    "name": "Hetemaj Fatbardhe",
+                    "party": "Kok.",
+                    "vote": "AGAINST",
+                    "seat": 61
+                },
+                {
+                    "name": "Rydman Wille",
+                    "party": "Kok.",
+                    "vote": "AGAINST",
+                    "seat": 62
+                },
+                {
+                    "name": "Pakarinen Pia",
+                    "party": "Kok.",
+                    "vote": "AGAINST",
+                    "seat": 63
+                },
+                {
+                    "name": "Kolbe Laura",
+                    "party": "Kesk.",
+                    "vote": "FOR",
+                    "seat": 64
+                },
+                {
+                    "name": "Stranius Leo",
+                    "party": "Vihr.",
+                    "vote": "FOR",
+                    "seat": 65
+                },
+                {
+                    "name": "Oskala Hannu",
+                    "party": "Vihr.",
+                    "vote": "FOR",
+                    "seat": 66
+                },
+                {
+                    "name": "Jalovaara Ville",
+                    "party": "SDP",
+                    "vote": "EMPTY",
+                    "seat": 67
+                },
+                {
+                    "name": "Taipale Kaarin",
+                    "party": "SDP",
+                    "vote": "FOR",
+                    "seat": 68
+                },
+                {
+                    "name": "Loukoila Eija",
+                    "party": "Vas.",
+                    "vote": "FOR",
+                    "seat": 69
+                },
+                {
+                    "name": "Muttilainen Sami",
+                    "party": "Vas.",
+                    "vote": "FOR",
+                    "seat": 70
+                },
+                {
+                    "name": "Raittinen Timo",
+                    "party": "Kok.",
+                    "vote": "AGAINST",
+                    "seat": 71
+                },
+                {
+                    "name": "Andersson Hennariikka",
+                    "party": "Kok.",
+                    "vote": "AGAINST",
+                    "seat": 72
+                },
+                {
+                    "name": "Ebeling Mika",
+                    "party": "KD",
+                    "vote": "AGAINST",
+                    "seat": 73
+                },
+                {
+                    "name": "Peltokorpi Terhi",
+                    "party": "Kesk.",
+                    "vote": "FOR",
+                    "seat": 74
+                },
+                {
+                    "name": "Perälä Erkki",
+                    "party": "Vihr.",
+                    "vote": "FOR",
+                    "seat": 75
+                },
+                {
+                    "name": "Sydänmaa Johanna",
+                    "party": "Vihr.",
+                    "vote": "FOR",
+                    "seat": 76
+                },
+                {
+                    "name": "Lovén Jape",
+                    "party": "SDP",
+                    "vote": "FOR",
+                    "seat": 77
+                },
+                {
+                    "name": "Sevander Tomi",
+                    "party": "SDP",
+                    "vote": "AGAINST",
+                    "seat": 78
+                },
+                {
+                    "name": "Nyholm Henrik",
+                    "party": "Vas.",
+                    "vote": "FOR",
+                    "seat": 79
+                },
+                {
+                    "name": "Hakanen Yrjö",
+                    "party": "SKP",
+                    "vote": "FOR",
+                    "seat": 80
+                },
+                {
+                    "name": "Niiranen Matti",
+                    "party": "Kok.",
+                    "vote": "AGAINST",
+                    "seat": 81
+                },
+                {
+                    "name": "Majuri Pekka",
+                    "party": "Kok.",
+                    "vote": "ABSENT",
+                    "seat": 82
+                },
+                {
+                    "name": "Vuorinen Tuulikki",
+                    "party": "KD",
+                    "vote": "AGAINST",
+                    "seat": 83
+                },
+                {
+                    "name": "Laaninen Timo",
+                    "party": "Kesk.",
+                    "vote": "FOR",
+                    "seat": 84
+                },
+                {
+                    "name": "Puoskari Mari",
+                    "party": "Vihr.",
+                    "vote": "FOR",
+                    "seat": 91
+                }
+            ],
+            "results": {
+                "absent": 4,
+                "against": 32,
+                "empty": 2,
+                "for": 47
+            },
+            "issue_id": "57440c5d9805a5a173b100d9"
+        }
+    },
+    {
+        "number": "31",
+        "title": "Kaj / Valtuutettu Sami Muttilaisen aloite Talin golfkentän kaavoittamisesta asumiskäyttöön",
+        "proposal": "Kaupunginvaltuusto päättää katsoa valtuutettu Sami Muttilaisen aloitteen loppuun käsitellyksi.\n\n",
+        "resolution": "Ehdotuksen mukaan\n\nLisäksi hyväksyttiin valtuutettu Kivekkään  valtuutettu Oskalan kannattamana tekemä toivomusponsi\n\nDessutom godkändes ledamoten Kivekäs hemställningskläm understödd av ledamoten Oskala  \n\n\nValtuutettu Muttilaisen  valtuutettu Koivulaakson  kannattamana  tekemä palautusehdotus hävisi äänestyksessä\n\nLedamoten Muttilainens återremitteringsförslag understött av ledamoten  Koivulaakso   förlorade omröstningen",
+        "under_discussion": false,
+        "start_time": "2014-05-07T20:24:24+03:00",
+        "video_position": 8631,
+        "register_id": "HEL 2013-015161",
+        "introducer": "Kaupunginhallitus",
+        "preparer": "Suvi Rämö",
+        "category_name": "Valtuuston aloitetoiminta",
+        "category_origin_id": "00 00 03",
+        "permalink": "http://dev.hel.fi/paatokset/asia/hel-2013-015161/kvsto-2014-8/",
+        "issue_id": "55804a3e3e29c95059b921c1",
+        "total_speeches": 47,
+        "vote_event": {
+            "number": 1,
+            "type": "PAL",
+            "type_text": "Palautusehdotus",
+            "for_title": "Jatko",
+            "for_text": "",
+            "against_title": "Muttilainen Sami /1",
+            "against_text": "Valtuusto palauttaa asian käsittelyyn niin, että neuvotellaan vuokrasopimuksen lyhentämisestä ja purkamisesta sekä alueen ottamisesta asuntorakentamiseen. Huomioon ottaen kuitenkin alueen historialliset –ja luontoarvot,  sekä merkitys ulkoilu -ja virkistysalueena. Selvitetään myös golfkentän osittainen säilyttäminen",
+            "votes": [
+                {
+                    "name": "Månsson Björn",
+                    "party": "SFP",
+                    "seat": 1,
+                    "vote": "FOR"
+                },
+                {
+                    "name": "Bogomoloff Harry",
+                    "party": "Kokoomus",
+                    "seat": 2,
+                    "vote": "FOR"
+                },
+                {
+                    "name": "Männistö Lasse",
+                    "party": "Kokoomus",
+                    "seat": 3,
+                    "vote": "FOR"
+                },
+                {
+                    "name": "Rauhamäki Tatu",
+                    "party": "Kokoomus",
+                    "seat": 4,
+                    "vote": "FOR"
+                },
+                {
+                    "name": "Lindell Harri",
+                    "party": "PerusSuomalaiset",
+                    "seat": 5,
+                    "vote": "AGAINST"
+                },
+                {
+                    "name": "Kari Emma",
+                    "party": "Vihreät",
+                    "seat": 6,
+                    "vote": "AGAINST"
+                },
+                {
+                    "name": "Rantanen Tuomas",
+                    "party": "Vihreät",
+                    "seat": 7,
+                    "vote": "AGAINST"
+                },
+                {
+                    "name": "Taipale Ilkka",
+                    "party": "SDP",
+                    "seat": 9,
+                    "vote": "ABSENT"
+                },
+                {
+                    "name": "Honkasalo Veronika",
+                    "party": "Vasemmisto",
+                    "seat": 10,
+                    "vote": "AGAINST"
+                },
+                {
+                    "name": "Oker-Blom Jan D",
+                    "party": "SFP",
+                    "seat": 11,
+                    "vote": "FOR"
+                },
+                {
+                    "name": "Sydänmaa Johanna",
+                    "party": "Kokoomus",
+                    "seat": 12,
+                    "vote": "FOR"
+                },
+                {
+                    "name": "Koskinen Kauko",
+                    "party": "Kokoomus",
+                    "seat": 13,
+                    "vote": "FOR"
+                },
+                {
+                    "name": "Halla-aho Jussi",
+                    "party": "PerusSuomalaiset",
+                    "seat": 14,
+                    "vote": "EMPTY"
+                },
+                {
+                    "name": "Kanerva Seppo",
+                    "party": "PerusSuomalaiset",
+                    "seat": 15,
+                    "vote": "ABSENT"
+                },
+                {
+                    "name": "Abdulla Zahra",
+                    "party": "Vihreät",
+                    "seat": 16,
+                    "vote": "AGAINST"
+                },
+                {
+                    "name": "Krohn Minerva",
+                    "party": "Vihreät",
+                    "seat": 17,
+                    "vote": "AGAINST"
+                },
+                {
+                    "name": "Lovén Jape",
+                    "party": "SDP",
+                    "seat": 18,
+                    "vote": "EMPTY"
+                },
+                {
+                    "name": "Lipponen Päivi",
+                    "party": "SDP",
+                    "seat": 19,
+                    "vote": "ABSENT"
+                },
+                {
+                    "name": "Saarnio Pekka",
+                    "party": "Vasemmisto",
+                    "seat": 20,
+                    "vote": "AGAINST"
+                },
+                {
+                    "name": "Rantala Marcus",
+                    "party": "SFP",
+                    "seat": 21,
+                    "vote": "FOR"
+                },
+                {
+                    "name": "Urho Ulla-Marja",
+                    "party": "Kokoomus",
+                    "seat": 22,
+                    "vote": "FOR"
+                },
+                {
+                    "name": "Hakola Juha",
+                    "party": "Kokoomus",
+                    "seat": 23,
+                    "vote": "FOR"
+                },
+                {
+                    "name": "Packalén Tom",
+                    "party": "PerusSuomalaiset",
+                    "seat": 24,
+                    "vote": "FOR"
+                },
+                {
+                    "name": "Hyttinen Nuutti",
+                    "party": "PerusSuomalaiset",
+                    "seat": 24,
+                    "vote": "AGAINST"
+                },
+                {
+                    "name": "Huru Nina",
+                    "party": "PerusSuomalaiset",
+                    "seat": 25,
+                    "vote": "EMPTY"
+                },
+                {
+                    "name": "Sumuvuori Johanna",
+                    "party": "Vihreät",
+                    "seat": 26,
+                    "vote": "AGAINST"
+                },
+                {
+                    "name": "Hautala Heidi",
+                    "party": "Vihreät",
+                    "seat": 27,
+                    "vote": "AGAINST"
+                },
+                {
+                    "name": "Anttila Maija",
+                    "party": "SDP",
+                    "seat": 28,
+                    "vote": "FOR"
+                },
+                {
+                    "name": "Mäki Terhi",
+                    "party": "SDP",
+                    "seat": 29,
+                    "vote": "EMPTY"
+                },
+                {
+                    "name": "Arhinmäki Paavo",
+                    "party": "Vasemmisto",
+                    "seat": 30,
+                    "vote": "AGAINST"
+                },
+                {
+                    "name": "Storgård Päivi",
+                    "party": "SFP",
+                    "seat": 31,
+                    "vote": "FOR"
+                },
+                {
+                    "name": "Asko-Seljavaara Sirpa",
+                    "party": "Kokoomus",
+                    "seat": 32,
+                    "vote": "FOR"
+                },
+                {
+                    "name": "Rautava Risto",
+                    "party": "Kokoomus",
+                    "seat": 33,
+                    "vote": "FOR"
+                },
+                {
+                    "name": "Raatikainen Mika",
+                    "party": "PerusSuomalaiset",
+                    "seat": 35,
+                    "vote": "EMPTY"
+                },
+                {
+                    "name": "Vesikansa Sanna",
+                    "party": "Vihreät",
+                    "seat": 36,
+                    "vote": "AGAINST"
+                },
+                {
+                    "name": "Alanko-Kahiluoto Outi",
+                    "party": "Vihreät",
+                    "seat": 37,
+                    "vote": "AGAINST"
+                },
+                {
+                    "name": "Heinäluoma Eero",
+                    "party": "SDP",
+                    "seat": 38,
+                    "vote": "AGAINST"
+                },
+                {
+                    "name": "Paavolainen Sara",
+                    "party": "SDP",
+                    "seat": 39,
+                    "vote": "EMPTY"
+                },
+                {
+                    "name": "Puhakka Sirpa",
+                    "party": "Vasemmisto",
+                    "seat": 40,
+                    "vote": "AGAINST"
+                },
+                {
+                    "name": "Brettschneider Gunvor",
+                    "party": "SFP",
+                    "seat": 41,
+                    "vote": "FOR"
+                },
+                {
+                    "name": "Enroth Matti",
+                    "party": "Kokoomus",
+                    "seat": 42,
+                    "vote": "FOR"
+                },
+                {
+                    "name": "Karhuvaara Arja",
+                    "party": "Kokoomus",
+                    "seat": 43,
+                    "vote": "FOR"
+                },
+                {
+                    "name": "Peltokorpi Terhi",
+                    "party": "Keskusta",
+                    "seat": 44,
+                    "vote": "FOR"
+                },
+                {
+                    "name": "Kantola Helena",
+                    "party": "PerusSuomalaiset",
+                    "seat": 45,
+                    "vote": "FOR"
+                },
+                {
+                    "name": "Ikävalko Suzan",
+                    "party": "Vihreät",
+                    "seat": 46,
+                    "vote": "EMPTY"
+                },
+                {
+                    "name": "Kousa Tuuli",
+                    "party": "Vihreät",
+                    "seat": 47,
+                    "vote": "AGAINST"
+                },
+                {
+                    "name": "Wallgren Thomas",
+                    "party": "SDP",
+                    "seat": 48,
+                    "vote": "EMPTY"
+                },
+                {
+                    "name": "Valokainen Tuomo",
+                    "party": "SDP",
+                    "seat": 49,
+                    "vote": "EMPTY"
+                },
+                {
+                    "name": "Muurinen Seija",
+                    "party": "Kokoomus",
+                    "seat": 51,
+                    "vote": "FOR"
+                },
+                {
+                    "name": "Koulumies Terhi",
+                    "party": "Kokoomus",
+                    "seat": 52,
+                    "vote": "FOR"
+                },
+                {
+                    "name": "Pelkonen Jaana",
+                    "party": "Kokoomus",
+                    "seat": 53,
+                    "vote": "FOR"
+                },
+                {
+                    "name": "Kolbe Laura",
+                    "party": "Keskusta",
+                    "seat": 54,
+                    "vote": "FOR"
+                },
+                {
+                    "name": "Holopainen Mari",
+                    "party": "Vihreät",
+                    "seat": 55,
+                    "vote": "AGAINST"
+                },
+                {
+                    "name": "Moisio Elina",
+                    "party": "Vihreät",
+                    "seat": 56,
+                    "vote": "AGAINST"
+                },
+                {
+                    "name": "Kivekäs Otso",
+                    "party": "Vihreät",
+                    "seat": 57,
+                    "vote": "AGAINST"
+                },
+                {
+                    "name": "Arajärvi Pentti",
+                    "party": "SDP",
+                    "seat": 58,
+                    "vote": "ABSENT"
+                },
+                {
+                    "name": "Sevander Tomi",
+                    "party": "SDP",
+                    "seat": 59,
+                    "vote": "FOR"
+                },
+                {
+                    "name": "Razmyar Nasima",
+                    "party": "SDP",
+                    "seat": 59,
+                    "vote": "EMPTY"
+                },
+                {
+                    "name": "Koivulaakso Dan",
+                    "party": "Vasemmisto",
+                    "seat": 60,
+                    "vote": "AGAINST"
+                },
+                {
+                    "name": "Pakarinen Pia",
+                    "party": "Kokoomus",
+                    "seat": 61,
+                    "vote": "ABSENT"
+                },
+                {
+                    "name": "Salla Aura",
+                    "party": "Kokoomus",
+                    "seat": 62,
+                    "vote": "FOR"
+                },
+                {
+                    "name": "Rissanen Laura",
+                    "party": "Kokoomus",
+                    "seat": 63,
+                    "vote": "FOR"
+                },
+                {
+                    "name": "Laaninen Timo",
+                    "party": "Keskusta",
+                    "seat": 64,
+                    "vote": "FOR"
+                },
+                {
+                    "name": "Relander Jukka",
+                    "party": "Vihreät",
+                    "seat": 65,
+                    "vote": "AGAINST"
+                },
+                {
+                    "name": "Hamid Jasmin",
+                    "party": "Vihreät",
+                    "seat": 66,
+                    "vote": "AGAINST"
+                },
+                {
+                    "name": "Stranius Leo",
+                    "party": "Vihreät",
+                    "seat": 67,
+                    "vote": "AGAINST"
+                },
+                {
+                    "name": "Vainikka Mirka",
+                    "party": "SDP",
+                    "seat": 68,
+                    "vote": "AGAINST"
+                },
+                {
+                    "name": "Loukoila Eija",
+                    "party": "Vasemmisto",
+                    "seat": 69,
+                    "vote": "AGAINST"
+                },
+                {
+                    "name": "Muttilainen Sami",
+                    "party": "Vasemmisto",
+                    "seat": 70,
+                    "vote": "AGAINST"
+                },
+                {
+                    "name": "Andersson Hennariikka",
+                    "party": "Kokoomus",
+                    "seat": 71,
+                    "vote": "FOR"
+                },
+                {
+                    "name": "Hetemaj Fatbardhe",
+                    "party": "Kokoomus",
+                    "seat": 72,
+                    "vote": "FOR"
+                },
+                {
+                    "name": "Rydman Wille",
+                    "party": "Kokoomus",
+                    "seat": 73,
+                    "vote": "FOR"
+                },
+                {
+                    "name": "Ebeling Mika",
+                    "party": "Kristillisdemokraatit",
+                    "seat": 74,
+                    "vote": "FOR"
+                },
+                {
+                    "name": "Oskala Hannu",
+                    "party": "Vihreät",
+                    "seat": 75,
+                    "vote": "AGAINST"
+                },
+                {
+                    "name": "Perälä Erkki",
+                    "party": "Vihreät",
+                    "seat": 76,
+                    "vote": "AGAINST"
+                },
+                {
+                    "name": "Jalovaara Ville",
+                    "party": "SDP",
+                    "seat": 77,
+                    "vote": "EMPTY"
+                },
+                {
+                    "name": "Järvinen Jukka",
+                    "party": "SDP",
+                    "seat": 78,
+                    "vote": "EMPTY"
+                },
+                {
+                    "name": "Malin Petra",
+                    "party": "Vasemmisto",
+                    "seat": 79,
+                    "vote": "AGAINST"
+                },
+                {
+                    "name": "Vuorjoki Anna",
+                    "party": "Vasemmisto",
+                    "seat": 79,
+                    "vote": "AGAINST"
+                },
+                {
+                    "name": "Hakanen Yrjö",
+                    "party": "SKP",
+                    "seat": 80,
+                    "vote": "AGAINST"
+                },
+                {
+                    "name": "Niiranen Matti",
+                    "party": "Kokoomus",
+                    "seat": 81,
+                    "vote": "FOR"
+                },
+                {
+                    "name": "Majuri Pekka",
+                    "party": "Kokoomus",
+                    "seat": 82,
+                    "vote": "FOR"
+                },
+                {
+                    "name": "Raittinen Timo",
+                    "party": "Kokoomus",
+                    "seat": 83,
+                    "vote": "FOR"
+                },
+                {
+                    "name": "Mäkimattila Sari",
+                    "party": "Kristillisdemokraatit",
+                    "seat": 84,
+                    "vote": "FOR"
+                },
+                {
+                    "name": "Puoskari Mari",
+                    "party": "Vihreät",
+                    "seat": 91,
+                    "vote": "AGAINST"
+                }
+            ],
+            "results": {
+                "absent": 5,
+                "empty": 12,
+                "against": 32,
+                "for": 36
+            },
+            "issue_id": "55804a3e3e29c95059b921c1"
+        }
+    },
+    {
+        "number": "17",
+        "title": "Kj / Valtuutettu Belle Selene Xian aloite kerjäläisten asiattoman oleskelun kieltämiseksi",
+        "proposal": "Kaupunginvaltuusto päätti katsoa valtuutettu Belle Selene Xian aloitteen loppuun käsitellyksi.\n\n",
+        "resolution": "Ehdotuksen mukaan\n\nKeskustelun aikana valtuutettu Halla-ahon valtuutettu Männistön tukemana  tekemä palautusehdotus hylättiin\n\nKeskustelun aikana valtuutettu Wallgrenin valtuutettu Koivulaakson tukemana  tekemä ponsi  hyväksyttiin\n",
+        "under_discussion": false,
+        "start_time": "2013-05-29T20:40:38+03:00",
+        "video_position": 9745,
+        "register_id": "HEL 2013-003025",
+        "introducer": "Kaupunginhallitus",
+        "preparer": "Matti Koskinen",
+        "category_name": "Valtuuston aloitetoiminta",
+        "category_origin_id": "00 00 03",
+        "permalink": "http://dev.hel.fi/paatokset/asia/hel-2013-003025/kvsto-2013-10/",
+        "issue_id": "55804a3b3e29c95059b91b7b",
+        "total_speeches": 46,
+        "vote_event": {
+            "number": 1,
+            "type": "PAL",
+            "type_text": "Palautusehdotus",
+            "for_title": "Jatko",
+            "for_text": "",
+            "against_title": "Halla-aho Jussi /1",
+            "against_text": "Kaupunginvaltuusto palauttaa asian valmisteltavaksi siten, että kaupunki ryhtyy aktiiviseen vuoropuheluun valtion kanssa ja pyrkii edistämään lainsäädännöllisiä hankkeita kerjäämiskiellon sisällyttämiseksi järjestyslakiin.",
+            "votes": [
+                {
+                    "name": "Thors Astrid",
+                    "party": "SFP",
+                    "seat": 1,
+                    "vote": "FOR"
+                },
+                {
+                    "name": "Bogomoloff Harry",
+                    "party": "Kokoomus",
+                    "seat": 2,
+                    "vote": "AGAINST"
+                },
+                {
+                    "name": "Männistö Lasse",
+                    "party": "Kokoomus",
+                    "seat": 3,
+                    "vote": "AGAINST"
+                },
+                {
+                    "name": "Rauhamäki Tatu",
+                    "party": "Kokoomus",
+                    "seat": 4,
+                    "vote": "AGAINST"
+                },
+                {
+                    "name": "Lindell Harri",
+                    "party": "PerusSuomalaiset",
+                    "seat": 5,
+                    "vote": "AGAINST"
+                },
+                {
+                    "name": "Rantanen Tuomas",
+                    "party": "Vihreät",
+                    "seat": 6,
+                    "vote": "FOR"
+                },
+                {
+                    "name": "Ingervo Sirkku",
+                    "party": "Vihreät",
+                    "seat": 7,
+                    "vote": "FOR"
+                },
+                {
+                    "name": "Pajamäki Osku",
+                    "party": "SDP",
+                    "seat": 8,
+                    "vote": "FOR"
+                },
+                {
+                    "name": "Taipale Ilkka",
+                    "party": "SDP",
+                    "seat": 9,
+                    "vote": "AGAINST"
+                },
+                {
+                    "name": "Modig Silvia",
+                    "party": "Vasemmisto",
+                    "seat": 10,
+                    "vote": "FOR"
+                },
+                {
+                    "name": "Rantala Marcus",
+                    "party": "SFP",
+                    "seat": 11,
+                    "vote": "FOR"
+                },
+                {
+                    "name": "Sydänmaa Johanna",
+                    "party": "Kokoomus",
+                    "seat": 12,
+                    "vote": "EMPTY"
+                },
+                {
+                    "name": "Koskinen Kauko",
+                    "party": "Kokoomus",
+                    "seat": 13,
+                    "vote": "EMPTY"
+                },
+                {
+                    "name": "Halla-aho Jussi",
+                    "party": "PerusSuomalaiset",
+                    "seat": 14,
+                    "vote": "AGAINST"
+                },
+                {
+                    "name": "Kanerva Seppo",
+                    "party": "PerusSuomalaiset",
+                    "seat": 15,
+                    "vote": "AGAINST"
+                },
+                {
+                    "name": "Karhu Jessica",
+                    "party": "Vihreät",
+                    "seat": 16,
+                    "vote": "FOR"
+                },
+                {
+                    "name": "Möller Antti",
+                    "party": "Vihreät",
+                    "seat": 17,
+                    "vote": "FOR"
+                },
+                {
+                    "name": "Sevander Tomi",
+                    "party": "SDP",
+                    "seat": 18,
+                    "vote": "EMPTY"
+                },
+                {
+                    "name": "Lipponen Päivi",
+                    "party": "SDP",
+                    "seat": 19,
+                    "vote": "FOR"
+                },
+                {
+                    "name": "Saarnio Pekka",
+                    "party": "Vasemmisto",
+                    "seat": 20,
+                    "vote": "FOR"
+                },
+                {
+                    "name": "Månsson Björn",
+                    "party": "SFP",
+                    "seat": 21,
+                    "vote": "FOR"
+                },
+                {
+                    "name": "Urho Ulla-Marja",
+                    "party": "Kokoomus",
+                    "seat": 22,
+                    "vote": "AGAINST"
+                },
+                {
+                    "name": "Hakola Juha",
+                    "party": "Kokoomus",
+                    "seat": 23,
+                    "vote": "AGAINST"
+                },
+                {
+                    "name": "Packalén Tom",
+                    "party": "PerusSuomalaiset",
+                    "seat": 24,
+                    "vote": "ABSENT"
+                },
+                {
+                    "name": "Huru Nina",
+                    "party": "PerusSuomalaiset",
+                    "seat": 25,
+                    "vote": "AGAINST"
+                },
+                {
+                    "name": "Sumuvuori Johanna",
+                    "party": "Vihreät",
+                    "seat": 26,
+                    "vote": "FOR"
+                },
+                {
+                    "name": "Nordström Laura",
+                    "party": "Vihreät",
+                    "seat": 27,
+                    "vote": "FOR"
+                },
+                {
+                    "name": "Anttila Maija",
+                    "party": "SDP",
+                    "seat": 28,
+                    "vote": "FOR"
+                },
+                {
+                    "name": "Mäki Terhi",
+                    "party": "SDP",
+                    "seat": 29,
+                    "vote": "FOR"
+                },
+                {
+                    "name": "Korkkula Vesa",
+                    "party": "Vasemmisto",
+                    "seat": 30,
+                    "vote": "FOR"
+                },
+                {
+                    "name": "Storgård Päivi",
+                    "party": "SFP",
+                    "seat": 31,
+                    "vote": "FOR"
+                },
+                {
+                    "name": "Asko-Seljavaara Sirpa",
+                    "party": "Kokoomus",
+                    "seat": 32,
+                    "vote": "FOR"
+                },
+                {
+                    "name": "Rautava Risto",
+                    "party": "Kokoomus",
+                    "seat": 33,
+                    "vote": "AGAINST"
+                },
+                {
+                    "name": "Hursti René",
+                    "party": "PerusSuomalaiset",
+                    "seat": 34,
+                    "vote": "AGAINST"
+                },
+                {
+                    "name": "Raatikainen Mika",
+                    "party": "PerusSuomalaiset",
+                    "seat": 35,
+                    "vote": "AGAINST"
+                },
+                {
+                    "name": "Sinnemäki Anni",
+                    "party": "Vihreät",
+                    "seat": 36,
+                    "vote": "FOR"
+                },
+                {
+                    "name": "Ylikahri Ville",
+                    "party": "Vihreät",
+                    "seat": 37,
+                    "vote": "FOR"
+                },
+                {
+                    "name": "Heinäluoma Eero",
+                    "party": "SDP",
+                    "seat": 38,
+                    "vote": "FOR"
+                },
+                {
+                    "name": "Paavolainen Sara",
+                    "party": "SDP",
+                    "seat": 39,
+                    "vote": "FOR"
+                },
+                {
+                    "name": "Puhakka Sirpa",
+                    "party": "Vasemmisto",
+                    "seat": 40,
+                    "vote": "FOR"
+                },
+                {
+                    "name": "Brettschneider Gunvor",
+                    "party": "SFP",
+                    "seat": 41,
+                    "vote": "FOR"
+                },
+                {
+                    "name": "Enroth Matti",
+                    "party": "Kokoomus",
+                    "seat": 42,
+                    "vote": "AGAINST"
+                },
+                {
+                    "name": "Karhuvaara Arja",
+                    "party": "Kokoomus",
+                    "seat": 43,
+                    "vote": "AGAINST"
+                },
+                {
+                    "name": "Peltokorpi Terhi",
+                    "party": "Keskusta",
+                    "seat": 44,
+                    "vote": "FOR"
+                },
+                {
+                    "name": "Kantola Helena",
+                    "party": "PerusSuomalaiset",
+                    "seat": 45,
+                    "vote": "AGAINST"
+                },
+                {
+                    "name": "Kuikka Essi",
+                    "party": "Vihreät",
+                    "seat": 46,
+                    "vote": "FOR"
+                },
+                {
+                    "name": "Kousa Tuuli",
+                    "party": "Vihreät",
+                    "seat": 47,
+                    "vote": "FOR"
+                },
+                {
+                    "name": "Vainikka Mirka",
+                    "party": "SDP",
+                    "seat": 48,
+                    "vote": "FOR"
+                },
+                {
+                    "name": "Wallgren Thomas",
+                    "party": "SDP",
+                    "seat": 48,
+                    "vote": "FOR"
+                },
+                {
+                    "name": "Taipale Kaarin",
+                    "party": "SDP",
+                    "seat": 49,
+                    "vote": "FOR"
+                },
+                {
+                    "name": "Koivulaakso Dan",
+                    "party": "Vasemmisto",
+                    "seat": 50,
+                    "vote": "FOR"
+                },
+                {
+                    "name": "Muurinen Seija",
+                    "party": "Kokoomus",
+                    "seat": 51,
+                    "vote": "AGAINST"
+                },
+                {
+                    "name": "Koulumies Terhi",
+                    "party": "Kokoomus",
+                    "seat": 52,
+                    "vote": "AGAINST"
+                },
+                {
+                    "name": "Pelkonen Jaana",
+                    "party": "Kokoomus",
+                    "seat": 53,
+                    "vote": "AGAINST"
+                },
+                {
+                    "name": "Vuorinen Markku",
+                    "party": "Keskusta",
+                    "seat": 54,
+                    "vote": "FOR"
+                },
+                {
+                    "name": "Holopainen Mari",
+                    "party": "Vihreät",
+                    "seat": 55,
+                    "vote": "FOR"
+                },
+                {
+                    "name": "Tuure Tuomas",
+                    "party": "Vihreät",
+                    "seat": 56,
+                    "vote": "ABSENT"
+                },
+                {
+                    "name": "Moisio Elina",
+                    "party": "Vihreät",
+                    "seat": 57,
+                    "vote": "FOR"
+                },
+                {
+                    "name": "Arajärvi Pentti",
+                    "party": "SDP",
+                    "seat": 58,
+                    "vote": "FOR"
+                },
+                {
+                    "name": "Razmyar Nasima",
+                    "party": "SDP",
+                    "seat": 59,
+                    "vote": "FOR"
+                },
+                {
+                    "name": "Honkasalo Veronika",
+                    "party": "Vasemmisto",
+                    "seat": 60,
+                    "vote": "FOR"
+                },
+                {
+                    "name": "Pakarinen Pia",
+                    "party": "Kokoomus",
+                    "seat": 61,
+                    "vote": "AGAINST"
+                },
+                {
+                    "name": "Palm Anniina",
+                    "party": "Kokoomus",
+                    "seat": 62,
+                    "vote": "AGAINST"
+                },
+                {
+                    "name": "Salla Aura",
+                    "party": "Kokoomus",
+                    "seat": 63,
+                    "vote": "FOR"
+                },
+                {
+                    "name": "Laaninen Timo",
+                    "party": "Keskusta",
+                    "seat": 64,
+                    "vote": "FOR"
+                },
+                {
+                    "name": "Relander Jukka",
+                    "party": "Vihreät",
+                    "seat": 65,
+                    "vote": "FOR"
+                },
+                {
+                    "name": "Hamid Jasmin",
+                    "party": "Vihreät",
+                    "seat": 66,
+                    "vote": "FOR"
+                },
+                {
+                    "name": "Stranius Leo",
+                    "party": "Vihreät",
+                    "seat": 67,
+                    "vote": "FOR"
+                },
+                {
+                    "name": "Loukoila Eija",
+                    "party": "Vasemmisto",
+                    "seat": 69,
+                    "vote": "FOR"
+                },
+                {
+                    "name": "Malin Petra",
+                    "party": "Vasemmisto",
+                    "seat": 70,
+                    "vote": "FOR"
+                },
+                {
+                    "name": "Saukkonen Lea",
+                    "party": "Kokoomus",
+                    "seat": 71,
+                    "vote": "AGAINST"
+                },
+                {
+                    "name": "Hetemaj Fatbardhe",
+                    "party": "Kokoomus",
+                    "seat": 72,
+                    "vote": "AGAINST"
+                },
+                {
+                    "name": "Luukkainen Hannele",
+                    "party": "Kokoomus",
+                    "seat": 73,
+                    "vote": "AGAINST"
+                },
+                {
+                    "name": "Ebeling Mika",
+                    "party": "Kristillisdemokraatit",
+                    "seat": 74,
+                    "vote": "AGAINST"
+                },
+                {
+                    "name": "Oskala Hannu",
+                    "party": "Vihreät",
+                    "seat": 75,
+                    "vote": "FOR"
+                },
+                {
+                    "name": "Perälä Erkki",
+                    "party": "Vihreät",
+                    "seat": 76,
+                    "vote": "FOR"
+                },
+                {
+                    "name": "Jalovaara Ville",
+                    "party": "SDP",
+                    "seat": 77,
+                    "vote": "FOR"
+                },
+                {
+                    "name": "Toijonen Karita",
+                    "party": "SDP",
+                    "seat": 78,
+                    "vote": "FOR"
+                },
+                {
+                    "name": "Vuorjoki Anna",
+                    "party": "Vasemmisto",
+                    "seat": 79,
+                    "vote": "FOR"
+                },
+                {
+                    "name": "Hakanen Yrjö",
+                    "party": "SKP",
+                    "seat": 80,
+                    "vote": "FOR"
+                },
+                {
+                    "name": "Niiranen Matti",
+                    "party": "Kokoomus",
+                    "seat": 81,
+                    "vote": "AGAINST"
+                },
+                {
+                    "name": "Majuri Pekka",
+                    "party": "Kokoomus",
+                    "seat": 82,
+                    "vote": "AGAINST"
+                },
+                {
+                    "name": "Raittinen Timo",
+                    "party": "Kokoomus",
+                    "seat": 83,
+                    "vote": "AGAINST"
+                },
+                {
+                    "name": "Mäkimattila Sari",
+                    "party": "Kristillisdemokraatit",
+                    "seat": 84,
+                    "vote": "FOR"
+                },
+                {
+                    "name": "Puoskari Mari",
+                    "party": "Vihreät",
+                    "seat": 91,
+                    "vote": "FOR"
+                }
+            ],
+            "results": {
+                "absent": 2,
+                "empty": 3,
+                "against": 28,
+                "for": 52
+            },
+            "issue_id": "55804a3b3e29c95059b91b7b"
+        }
+    },
+    {
+        "number": "10",
+        "title": "Kruunusillat -hankkeen hankesuunnitelman hyväksyminen",
+        "proposal": "Kaupunginvaltuusto päättää hyväksyä Kruunusillat-hankkeen toteuttamisen Helsingin keskustan ja Laajasalon väliseksi raitiotieyhteydeksi kaupunkisuunnittelulautakunnan 3.5.2016, liikennelaitos –liikelaitoksen johtokunnan 12.5.2016 ja yleisten töiden lautakunnan 17.5.2016 esitysten mukaisesti siten, että hankkeen kokonaiskustannukset ovat enintään 259,2 milj. euroa (alv 0 %, MAKU 110,6 (2010=100), huhtikuu 2015).\n\nHanke sisältää Helsingin keskustan ja Laajasalon välisen raitiotieyhteyden siten, että perustetaan kaksi uutta raitiolinjaa: Kolmikulma – Haakoninlahti ja Rautatieasema-Yliskylä. Linjaus kulkee Helsingin keskustasta alkaen joko Kolmikulmasta tai Rautatieasemalta Kaisaniemenkadun ja Pitkänsillan kautta Hakaniemenrantaan ja sieltä edelleen Nihdin ja Korkeasaaren kautta Kruunuvuorensiltaa pitkin Kruunuvuorenrantaan. Kruunuvuorenrannasta raitiotie jatkaa Haakoninlahdenkatua pitkin Kruunuvuorenrannan eteläosiin ja Yliskylään nykyisen Yliskylän keskuksen pohjoispuolitse Reposalmentien päätepysäkille.\n\nRaitiotien yhteysvälillä Hakaniemestä Kruunuvuorenrantaan toteutetaan pyöräliikenteen baanayhteys sekä jalkakäytävät kaikille siltaosuuksille ja Korkeasaaren alueelle radan varrelle.\n\n",
+        "resolution": "Ehdotuksen mukaan äänestyksin. \nKaupunginvaltuusto hyväksyi Muurisen, Karhuvaaran ja Niemisen esittämät toivomusponnet.",
+        "under_discussion": false,
+        "start_time": "2016-08-31T18:09:39",
+        "video_position": 405,
+        "register_id": "HEL 2016-004299",
+        "introducer": "Kaupunginhallitus",
+        "preparer": "Kristiina Matikainen",
+        "category_name": "Rakennusten ja rakennelmien suunnittelu ja totetutus",
+        "category_origin_id": "10 06 00",
+        "permalink": "http://dev.hel.fi/paatokset/asia/hel-2016-004299/kvsto-2016-14/",
+        "issue_id": "57bffa890c184cfb5701f15a",
+        "total_speeches": 101,
+        "vote_event": {
+            "number": 1,
+            "type": "PAL",
+            "type_text": "Palautusehdotus",
+            "for_title": "Jatko",
+            "for_text": "",
+            "against_title": "Månsson Björn /1",
+            "against_text": "Stadsfullmäktige beslutar att återremittera ärendet för ny beredning så, att förmånligare alternativ ytterligare utreds, såsom vattenledstrafik från Kronbergsstranden till Centrum och en spårförbindelse till metrostationen i Hertonäs, som senare kan förlängas till Vik och där förbindas med Spårjokern.",
+            "votes": [
+                {
+                    "name": "Månsson Björn",
+                    "party": "SFP",
+                    "vote": "AGAINST",
+                    "seat": 1
+                },
+                {
+                    "name": "Bogomoloff Harry",
+                    "party": "Kok.",
+                    "vote": "EMPTY",
+                    "seat": 2
+                },
+                {
+                    "name": "Männistö Lasse",
+                    "party": "Kok.",
+                    "vote": "FOR",
+                    "seat": 3
+                },
+                {
+                    "name": "Rauhamäki Tatu",
+                    "party": "Kok.",
+                    "vote": "FOR",
+                    "seat": 4
+                },
+                {
+                    "name": "Raatikainen Mika",
+                    "party": "PerusS",
+                    "vote": "AGAINST",
+                    "seat": 5
+                },
+                {
+                    "name": "Kivekäs Otso",
+                    "party": "Vihr.",
+                    "vote": "FOR",
+                    "seat": 6
+                },
+                {
+                    "name": "Soininvaara Osmo",
+                    "party": "Vihr.",
+                    "vote": "FOR",
+                    "seat": 7
+                },
+                {
+                    "name": "Pajamäki Osku",
+                    "party": "SDP",
+                    "vote": "FOR",
+                    "seat": 8
+                },
+                {
+                    "name": "Taipale Ilkka",
+                    "party": "SDP",
+                    "vote": "FOR",
+                    "seat": 9
+                },
+                {
+                    "name": "Honkasalo Veronika",
+                    "party": "Vas.",
+                    "vote": "FOR",
+                    "seat": 10
+                },
+                {
+                    "name": "Oker-Blom Jan D",
+                    "party": "SFP",
+                    "vote": "AGAINST",
+                    "seat": 11
+                },
+                {
+                    "name": "Laaksonen Heimo",
+                    "party": "Kok.",
+                    "vote": "EMPTY",
+                    "seat": 12
+                },
+                {
+                    "name": "Koskinen Kauko",
+                    "party": "Kok.",
+                    "vote": "AGAINST",
+                    "seat": 13
+                },
+                {
+                    "name": "Hyttinen Nuutti",
+                    "party": "PerusS",
+                    "vote": "AGAINST",
+                    "seat": 14
+                },
+                {
+                    "name": "Landén Maria",
+                    "party": "PerusS",
+                    "vote": "AGAINST",
+                    "seat": 15
+                },
+                {
+                    "name": "Krohn Minerva",
+                    "party": "Vihr.",
+                    "vote": "FOR",
+                    "seat": 16
+                },
+                {
+                    "name": "Rantanen Tuomas",
+                    "party": "Vihr.",
+                    "vote": "FOR",
+                    "seat": 17
+                },
+                {
+                    "name": "Anttila Maija",
+                    "party": "SDP",
+                    "vote": "FOR",
+                    "seat": 18
+                },
+                {
+                    "name": "Mäki Terhi",
+                    "party": "SDP",
+                    "vote": "FOR",
+                    "seat": 19
+                },
+                {
+                    "name": "Malin Petra",
+                    "party": "Vas.",
+                    "vote": "FOR",
+                    "seat": 20
+                },
+                {
+                    "name": "Rantala Marcus",
+                    "party": "SFP",
+                    "vote": "AGAINST",
+                    "seat": 21
+                },
+                {
+                    "name": "Rautava Risto",
+                    "party": "Kok.",
+                    "vote": "FOR",
+                    "seat": 22
+                },
+                {
+                    "name": "Urho Ulla-Marja",
+                    "party": "Kok.",
+                    "vote": "EMPTY",
+                    "seat": 23
+                },
+                {
+                    "name": "Villo Pertti",
+                    "party": "PerusS",
+                    "vote": "AGAINST",
+                    "seat": 24
+                },
+                {
+                    "name": "Huru Nina",
+                    "party": "PerusS",
+                    "vote": "AGAINST",
+                    "seat": 25
+                },
+                {
+                    "name": "Alanko-Kahiluoto Outi",
+                    "party": "Vihr.",
+                    "vote": "FOR",
+                    "seat": 26
+                },
+                {
+                    "name": "Ikävalko Suzan",
+                    "party": "Vihr.",
+                    "vote": "FOR",
+                    "seat": 27
+                },
+                {
+                    "name": "Heinäluoma Eero",
+                    "party": "SDP",
+                    "vote": "ABSENT",
+                    "seat": 28
+                },
+                {
+                    "name": "Paavolainen Sara",
+                    "party": "SDP",
+                    "vote": "FOR",
+                    "seat": 29
+                },
+                {
+                    "name": "Abdulla Zahra",
+                    "party": "Vas.",
+                    "vote": "FOR",
+                    "seat": 30
+                },
+                {
+                    "name": "Brettschneider Gunvor",
+                    "party": "SFP",
+                    "vote": "AGAINST",
+                    "seat": 31
+                },
+                {
+                    "name": "Karhuvaara Arja",
+                    "party": "Kok.",
+                    "vote": "FOR",
+                    "seat": 32
+                },
+                {
+                    "name": "Asko-Seljavaara Sirpa",
+                    "party": "Kok.",
+                    "vote": "FOR",
+                    "seat": 33
+                },
+                {
+                    "name": "Lindell Harri",
+                    "party": "PerusS",
+                    "vote": "AGAINST",
+                    "seat": 34
+                },
+                {
+                    "name": "Moisio Elina",
+                    "party": "Vihr.",
+                    "vote": "FOR",
+                    "seat": 35
+                },
+                {
+                    "name": "Kousa Tuuli",
+                    "party": "Vihr.",
+                    "vote": "FOR",
+                    "seat": 36
+                },
+                {
+                    "name": "Nieminen Jarmo",
+                    "party": "Vihr.",
+                    "vote": "FOR",
+                    "seat": 37
+                },
+                {
+                    "name": "Wallgren Thomas",
+                    "party": "SDP",
+                    "vote": "FOR",
+                    "seat": 38
+                },
+                {
+                    "name": "Valokainen Tuomo",
+                    "party": "SDP",
+                    "vote": "FOR",
+                    "seat": 39
+                },
+                {
+                    "name": "Arhinmäki Paavo",
+                    "party": "Vas.",
+                    "vote": "FOR",
+                    "seat": 40
+                },
+                {
+                    "name": "Finne-Elonen Laura",
+                    "party": "SFP",
+                    "vote": "AGAINST",
+                    "seat": 41
+                },
+                {
+                    "name": "Pelkonen Jaana",
+                    "party": "Kok.",
+                    "vote": "FOR",
+                    "seat": 42
+                },
+                {
+                    "name": "Enroth Matti",
+                    "party": "Kok.",
+                    "vote": "FOR",
+                    "seat": 43
+                },
+                {
+                    "name": "Kantola Helena",
+                    "party": "PerusS",
+                    "vote": "AGAINST",
+                    "seat": 44
+                },
+                {
+                    "name": "Holopainen Mari",
+                    "party": "Vihr.",
+                    "vote": "FOR",
+                    "seat": 45
+                },
+                {
+                    "name": "Chydenius Jussi",
+                    "party": "Vihr.",
+                    "vote": "FOR",
+                    "seat": 46
+                },
+                {
+                    "name": "Vesikansa Sanna",
+                    "party": "Vihr.",
+                    "vote": "FOR",
+                    "seat": 47
+                },
+                {
+                    "name": "Arajärvi Pentti",
+                    "party": "SDP",
+                    "vote": "FOR",
+                    "seat": 48
+                },
+                {
+                    "name": "Korkkula Vesa",
+                    "party": "Vas.",
+                    "vote": "FOR",
+                    "seat": 49
+                },
+                {
+                    "name": "Ingervo Sirkku",
+                    "party": "Vas.",
+                    "vote": "FOR",
+                    "seat": 50
+                },
+                {
+                    "name": "Koulumies Terhi",
+                    "party": "Kok.",
+                    "vote": "EMPTY",
+                    "seat": 51
+                },
+                {
+                    "name": "Rissanen Laura",
+                    "party": "Kok.",
+                    "vote": "FOR",
+                    "seat": 52
+                },
+                {
+                    "name": "Muurinen Seija",
+                    "party": "Kok.",
+                    "vote": "FOR",
+                    "seat": 53
+                },
+                {
+                    "name": "Hursti René",
+                    "party": "RH",
+                    "vote": "AGAINST",
+                    "seat": 54
+                },
+                {
+                    "name": "Ylikahri Ville",
+                    "party": "Vihr.",
+                    "vote": "FOR",
+                    "seat": 55
+                },
+                {
+                    "name": "Hamid Jasmin",
+                    "party": "Vihr.",
+                    "vote": "ABSENT",
+                    "seat": 56
+                },
+                {
+                    "name": "Taipale Kaarin",
+                    "party": "SDP",
+                    "vote": "FOR",
+                    "seat": 57
+                },
+                {
+                    "name": "Torsti Pilvi",
+                    "party": "SDP",
+                    "vote": "FOR",
+                    "seat": 58
+                },
+                {
+                    "name": "Modig Silvia",
+                    "party": "Vas.",
+                    "vote": "FOR",
+                    "seat": 59
+                },
+                {
+                    "name": "Nyholm Henrik",
+                    "party": "Vas.",
+                    "vote": "FOR",
+                    "seat": 60
+                },
+                {
+                    "name": "Hetemaj Fatbardhe",
+                    "party": "Kok.",
+                    "vote": "FOR",
+                    "seat": 61
+                },
+                {
+                    "name": "Rydman Wille",
+                    "party": "Kok.",
+                    "vote": "EMPTY",
+                    "seat": 62
+                },
+                {
+                    "name": "Pakarinen Pia",
+                    "party": "Kok.",
+                    "vote": "FOR",
+                    "seat": 63
+                },
+                {
+                    "name": "Kolbe Laura",
+                    "party": "Kesk.",
+                    "vote": "FOR",
+                    "seat": 64
+                },
+                {
+                    "name": "Stranius Leo",
+                    "party": "Vihr.",
+                    "vote": "FOR",
+                    "seat": 65
+                },
+                {
+                    "name": "Karhu Jessica",
+                    "party": "Vihr.",
+                    "vote": "FOR",
+                    "seat": 66
+                },
+                {
+                    "name": "Jalovaara Ville",
+                    "party": "SDP",
+                    "vote": "FOR",
+                    "seat": 67
+                },
+                {
+                    "name": "Järvinen Jukka",
+                    "party": "SDP",
+                    "vote": "ABSENT",
+                    "seat": 68
+                },
+                {
+                    "name": "Loukoila Eija",
+                    "party": "Vas.",
+                    "vote": "FOR",
+                    "seat": 69
+                },
+                {
+                    "name": "Muttilainen Sami",
+                    "party": "Vas.",
+                    "vote": "FOR",
+                    "seat": 70
+                },
+                {
+                    "name": "Raittinen Timo",
+                    "party": "Kok.",
+                    "vote": "EMPTY",
+                    "seat": 71
+                },
+                {
+                    "name": "Andersson Hennariikka",
+                    "party": "Kok.",
+                    "vote": "FOR",
+                    "seat": 72
+                },
+                {
+                    "name": "Ebeling Mika",
+                    "party": "KD",
+                    "vote": "AGAINST",
+                    "seat": 73
+                },
+                {
+                    "name": "Peltokorpi Terhi",
+                    "party": "Kesk.",
+                    "vote": "FOR",
+                    "seat": 74
+                },
+                {
+                    "name": "Perälä Erkki",
+                    "party": "Vihr.",
+                    "vote": "FOR",
+                    "seat": 75
+                },
+                {
+                    "name": "Sydänmaa Johanna",
+                    "party": "Vihr.",
+                    "vote": "FOR",
+                    "seat": 76
+                },
+                {
+                    "name": "Lovén Jape",
+                    "party": "SDP",
+                    "vote": "FOR",
+                    "seat": 77
+                },
+                {
+                    "name": "Sevander Tomi",
+                    "party": "SDP",
+                    "vote": "FOR",
+                    "seat": 78
+                },
+                {
+                    "name": "Vuorjoki Anna",
+                    "party": "Vas.",
+                    "vote": "FOR",
+                    "seat": 79
+                },
+                {
+                    "name": "Hakanen Yrjö",
+                    "party": "SKP",
+                    "vote": "AGAINST",
+                    "seat": 80
+                },
+                {
+                    "name": "Niiranen Matti",
+                    "party": "Kok.",
+                    "vote": "FOR",
+                    "seat": 81
+                },
+                {
+                    "name": "Majuri Pekka",
+                    "party": "Kok.",
+                    "vote": "EMPTY",
+                    "seat": 82
+                },
+                {
+                    "name": "Mäkimattila Sari",
+                    "party": "KD",
+                    "vote": "AGAINST",
+                    "seat": 83
+                },
+                {
+                    "name": "Laaninen Timo",
+                    "party": "Kesk.",
+                    "vote": "FOR",
+                    "seat": 84
+                },
+                {
+                    "name": "Puoskari Mari",
+                    "party": "Vihr.",
+                    "vote": "FOR",
+                    "seat": 91
+                }
+            ],
+            "results": {
+                "absent": 3,
+                "against": 17,
+                "empty": 7,
+                "for": 58
+            },
+            "issue_id": "57bffa890c184cfb5701f15a"
+        }
+    },
+    {
+        "number": "7",
+        "title": "Finavia Oyj:n ja Senaatti-kiinteistöjen Malmin lentoasemalla omistamien kiinteistöjen ja rakennusten osto sekä käyttöoikeussopimusten päättäminen ",
+        "proposal": "Kaupunginvaltuusto päättää\n\nA\n\n\noikeuttaa kiinteistölautakunnan tekemään Finavia Oyj:n kanssa liitteen 3 mukaisen kauppakirjan koskien yhtiön omistamia kiinteistöjä, rakennuksia, rakennelmia, laitteita ja niihin liittyviä liittymiä Helsinki-Malmin lentoasemalla ja sen lähialueella 9,81 miljoonan euron kauppahinnasta.\n\nKauppakirjan ehtojen mukaisesti Finavia Oyj (Suomen valtio/Ilmailulaitos) luopuu sopimusten 10.5.1935 (nro 4210), 17.7.1939 (nro 4210a), 15.11.1948 (nro 4210b), 19.11.1951 (nro 6297) ja 21.12.1995 (nro 3057) mukaisesta Malmin lentokenttäaluetta koskevasta käyttöoikeusalueesta viimeistään 1.1.2017\nilman erillistä korvausta.\n\nB\n\n\noikeuttaa kiinteistölautakunnan tekemään Senaatti-kiinteistöjen kanssa liitteen 4 mukainen kauppakirja koskien yhtiön omistamia rakennuksia Helsinki-Malmin lentoasemalla 2 miljoonan euron kauppahinnasta. \n\nC\n\n\nsiirtää määrärahan käyttötarkoitusta muuttaen vuoden 2014 talousarvion kohdasta  8 01 02 Esirakentaminen, täyttötyöt ja alueiden käyttöönoton edellyttämät toimenpiteet, Khn käytettäväksi 11,81 milj. euroa talousarvion kohtaan  8 01 01 Kiinteistöjen ostot ja lunastukset, Khn käytettäväksi. \n\n",
+        "resolution": "Ehdotuksen mukaan\n\nSeuraavat palautusehdotukset käsiteltiin ja ne hävisivät äänetyksen\n\nPeltokorpi + Hyttinen\nNieminen + Majuri\nHyttinen + Huru\nKantola + Hyttinen\n\nValtuutettu Peltokorven valtuutetun Laanisen kannattamana tekemä hylkäysehdotus hävisi äänestyksen\nDet av ledamoten Peltokorpi understödd av Laaninen gjorda förslaget till förkastning förlorade omröstningen\n\nSeuraavat ponnet käsiteltiin ja ne hävisivät äänestyksen:\n\nMajuri + Niminen\nHyttinen +Packalén\n",
+        "under_discussion": false,
+        "start_time": "2014-11-26T18:18:42+02:00",
+        "video_position": 4670,
+        "register_id": "HEL 2014-012754",
+        "introducer": "Kaupunginhallitus",
+        "preparer": "Timo Härmälä",
+        "category_name": "Maan ja kiinteistöjen hankinta",
+        "category_origin_id": "10 01 00",
+        "permalink": "http://dev.hel.fi/paatokset/asia/hel-2014-012754/kvsto-2014-19/",
+        "issue_id": "55804a403e29c95059b92574",
+        "total_speeches": 81,
+        "vote_event": {
+            "number": 5,
+            "type": "HYL",
+            "type_text": "Hylkäysehdotus",
+            "for_title": "Khs",
+            "for_text": "",
+            "against_title": "Peltokorpi Terhi /1",
+            "against_text": "Kaupunginvaltuusto päättää hylätä esityksen.",
+            "votes": [
+                {
+                    "name": "Månsson Björn",
+                    "party": "SFP",
+                    "seat": 1,
+                    "vote": "EMPTY"
+                },
+                {
+                    "name": "Bogomoloff Harry",
+                    "party": "Kokoomus",
+                    "seat": 2,
+                    "vote": "FOR"
+                },
+                {
+                    "name": "Männistö Lasse",
+                    "party": "Kokoomus",
+                    "seat": 3,
+                    "vote": "FOR"
+                },
+                {
+                    "name": "Sydänmaa Johanna",
+                    "party": "Kokoomus",
+                    "seat": 4,
+                    "vote": "FOR"
+                },
+                {
+                    "name": "Kanerva Seppo",
+                    "party": "PerusSuomalaiset",
+                    "seat": 5,
+                    "vote": "AGAINST"
+                },
+                {
+                    "name": "Karhu Jessica",
+                    "party": "Vihreät",
+                    "seat": 6,
+                    "vote": "FOR"
+                },
+                {
+                    "name": "Soininvaara Osmo",
+                    "party": "Vihreät",
+                    "seat": 7,
+                    "vote": "FOR"
+                },
+                {
+                    "name": "Pajamäki Osku",
+                    "party": "SDP",
+                    "seat": 8,
+                    "vote": "FOR"
+                },
+                {
+                    "name": "Sevander Tomi",
+                    "party": "SDP",
+                    "seat": 9,
+                    "vote": "FOR"
+                },
+                {
+                    "name": "Honkasalo Veronika",
+                    "party": "Vasemmisto",
+                    "seat": 10,
+                    "vote": "FOR"
+                },
+                {
+                    "name": "Oker-Blom Jan D",
+                    "party": "SFP",
+                    "seat": 11,
+                    "vote": "EMPTY"
+                },
+                {
+                    "name": "Vapaavuori Jan",
+                    "party": "Kokoomus",
+                    "seat": 12,
+                    "vote": "ABSENT"
+                },
+                {
+                    "name": "Koskinen Kauko",
+                    "party": "Kokoomus",
+                    "seat": 13,
+                    "vote": "AGAINST"
+                },
+                {
+                    "name": "Huru Nina",
+                    "party": "PerusSuomalaiset",
+                    "seat": 14,
+                    "vote": "AGAINST"
+                },
+                {
+                    "name": "Hyttinen Nuutti",
+                    "party": "PerusSuomalaiset",
+                    "seat": 15,
+                    "vote": "AGAINST"
+                },
+                {
+                    "name": "Abdulla Zahra",
+                    "party": "Vihreät",
+                    "seat": 16,
+                    "vote": "FOR"
+                },
+                {
+                    "name": "Krohn Minerva",
+                    "party": "Vihreät",
+                    "seat": 17,
+                    "vote": "FOR"
+                },
+                {
+                    "name": "Anttila Maija",
+                    "party": "SDP",
+                    "seat": 19,
+                    "vote": "FOR"
+                },
+                {
+                    "name": "Saarnio Pekka",
+                    "party": "Vasemmisto",
+                    "seat": 20,
+                    "vote": "FOR"
+                },
+                {
+                    "name": "Rantala Marcus",
+                    "party": "SFP",
+                    "seat": 21,
+                    "vote": "EMPTY"
+                },
+                {
+                    "name": "Urho Ulla-Marja",
+                    "party": "Kokoomus",
+                    "seat": 22,
+                    "vote": "FOR"
+                },
+                {
+                    "name": "Hakola Juha",
+                    "party": "Kokoomus",
+                    "seat": 23,
+                    "vote": "AGAINST"
+                },
+                {
+                    "name": "Raatikainen Mika",
+                    "party": "PerusSuomalaiset",
+                    "seat": 24,
+                    "vote": "AGAINST"
+                },
+                {
+                    "name": "Packalén Tom",
+                    "party": "PerusSuomalaiset",
+                    "seat": 25,
+                    "vote": "AGAINST"
+                },
+                {
+                    "name": "Sumuvuori Johanna",
+                    "party": "Vihreät",
+                    "seat": 26,
+                    "vote": "FOR"
+                },
+                {
+                    "name": "Rantanen Tuomas",
+                    "party": "Vihreät",
+                    "seat": 27,
+                    "vote": "FOR"
+                },
+                {
+                    "name": "Mäki Terhi",
+                    "party": "SDP",
+                    "seat": 28,
+                    "vote": "FOR"
+                },
+                {
+                    "name": "Rantanen Mari",
+                    "party": "PerusSuomalaiset",
+                    "seat": 29,
+                    "vote": "AGAINST"
+                },
+                {
+                    "name": "Heinäluoma Eero",
+                    "party": "SDP",
+                    "seat": 29,
+                    "vote": "FOR"
+                },
+                {
+                    "name": "Arhinmäki Paavo",
+                    "party": "Vasemmisto",
+                    "seat": 30,
+                    "vote": "FOR"
+                },
+                {
+                    "name": "Storgård Päivi",
+                    "party": "SFP",
+                    "seat": 31,
+                    "vote": "EMPTY"
+                },
+                {
+                    "name": "Asko-Seljavaara Sirpa",
+                    "party": "Kokoomus",
+                    "seat": 32,
+                    "vote": "EMPTY"
+                },
+                {
+                    "name": "Rautava Risto",
+                    "party": "Kokoomus",
+                    "seat": 33,
+                    "vote": "FOR"
+                },
+                {
+                    "name": "Lindell Harri",
+                    "party": "PerusSuomalaiset",
+                    "seat": 34,
+                    "vote": "FOR"
+                },
+                {
+                    "name": "Hursti René",
+                    "party": "PerusSuomalaiset",
+                    "seat": 35,
+                    "vote": "FOR"
+                },
+                {
+                    "name": "Ohisalo Maria",
+                    "party": "Vihreät",
+                    "seat": 36,
+                    "vote": "FOR"
+                },
+                {
+                    "name": "Alanko-Kahiluoto Outi",
+                    "party": "Vihreät",
+                    "seat": 37,
+                    "vote": "ABSENT"
+                },
+                {
+                    "name": "Paavolainen Sara",
+                    "party": "SDP",
+                    "seat": 38,
+                    "vote": "FOR"
+                },
+                {
+                    "name": "Taipale Kaarin",
+                    "party": "SDP",
+                    "seat": 39,
+                    "vote": "FOR"
+                },
+                {
+                    "name": "Puhakka Sirpa",
+                    "party": "Vasemmisto",
+                    "seat": 40,
+                    "vote": "FOR"
+                },
+                {
+                    "name": "Brettschneider Gunvor",
+                    "party": "SFP",
+                    "seat": 41,
+                    "vote": "EMPTY"
+                },
+                {
+                    "name": "Enroth Matti",
+                    "party": "Kokoomus",
+                    "seat": 42,
+                    "vote": "AGAINST"
+                },
+                {
+                    "name": "Karhuvaara Arja",
+                    "party": "Kokoomus",
+                    "seat": 43,
+                    "vote": "FOR"
+                },
+                {
+                    "name": "Peltokorpi Terhi",
+                    "party": "Keskusta",
+                    "seat": 44,
+                    "vote": "AGAINST"
+                },
+                {
+                    "name": "Kantola Helena",
+                    "party": "PerusSuomalaiset",
+                    "seat": 45,
+                    "vote": "AGAINST"
+                },
+                {
+                    "name": "Ingervo Sirkku",
+                    "party": "Vihreät",
+                    "seat": 46,
+                    "vote": "FOR"
+                },
+                {
+                    "name": "Kousa Tuuli",
+                    "party": "Vihreät",
+                    "seat": 47,
+                    "vote": "FOR"
+                },
+                {
+                    "name": "Valokainen Tuomo",
+                    "party": "SDP",
+                    "seat": 48,
+                    "vote": "FOR"
+                },
+                {
+                    "name": "Arajärvi Pentti",
+                    "party": "SDP",
+                    "seat": 49,
+                    "vote": "FOR"
+                },
+                {
+                    "name": "Modig Silvia",
+                    "party": "Vasemmisto",
+                    "seat": 50,
+                    "vote": "FOR"
+                },
+                {
+                    "name": "Muurinen Seija",
+                    "party": "Kokoomus",
+                    "seat": 51,
+                    "vote": "FOR"
+                },
+                {
+                    "name": "Koulumies Terhi",
+                    "party": "Kokoomus",
+                    "seat": 52,
+                    "vote": "AGAINST"
+                },
+                {
+                    "name": "Pelkonen Jaana",
+                    "party": "Kokoomus",
+                    "seat": 53,
+                    "vote": "AGAINST"
+                },
+                {
+                    "name": "Kolbe Laura",
+                    "party": "Keskusta",
+                    "seat": 54,
+                    "vote": "ABSENT"
+                },
+                {
+                    "name": "Holopainen Mari",
+                    "party": "Vihreät",
+                    "seat": 55,
+                    "vote": "FOR"
+                },
+                {
+                    "name": "Chydenius Jussi",
+                    "party": "Vihreät",
+                    "seat": 56,
+                    "vote": "FOR"
+                },
+                {
+                    "name": "Kivekäs Otso",
+                    "party": "Vihreät",
+                    "seat": 57,
+                    "vote": "FOR"
+                },
+                {
+                    "name": "Razmyar Nasima",
+                    "party": "SDP",
+                    "seat": 58,
+                    "vote": "FOR"
+                },
+                {
+                    "name": "Torsti Pilvi",
+                    "party": "SDP",
+                    "seat": 59,
+                    "vote": "FOR"
+                },
+                {
+                    "name": "Koivulaakso Dan",
+                    "party": "Vasemmisto",
+                    "seat": 60,
+                    "vote": "FOR"
+                },
+                {
+                    "name": "Pakarinen Pia",
+                    "party": "Kokoomus",
+                    "seat": 61,
+                    "vote": "FOR"
+                },
+                {
+                    "name": "Nieminen Jarmo",
+                    "party": "Kokoomus",
+                    "seat": 62,
+                    "vote": "AGAINST"
+                },
+                {
+                    "name": "Rissanen Laura",
+                    "party": "Kokoomus",
+                    "seat": 63,
+                    "vote": "EMPTY"
+                },
+                {
+                    "name": "Laaninen Timo",
+                    "party": "Keskusta",
+                    "seat": 64,
+                    "vote": "AGAINST"
+                },
+                {
+                    "name": "Relander Jukka",
+                    "party": "Vihreät",
+                    "seat": 65,
+                    "vote": "FOR"
+                },
+                {
+                    "name": "Hamid Jasmin",
+                    "party": "Vihreät",
+                    "seat": 66,
+                    "vote": "FOR"
+                },
+                {
+                    "name": "Stranius Leo",
+                    "party": "Vihreät",
+                    "seat": 67,
+                    "vote": "FOR"
+                },
+                {
+                    "name": "Jalovaara Ville",
+                    "party": "SDP",
+                    "seat": 68,
+                    "vote": "FOR"
+                },
+                {
+                    "name": "Loukoila Eija",
+                    "party": "Vasemmisto",
+                    "seat": 69,
+                    "vote": "FOR"
+                },
+                {
+                    "name": "Muttilainen Sami",
+                    "party": "Vasemmisto",
+                    "seat": 70,
+                    "vote": "FOR"
+                },
+                {
+                    "name": "Andersson Hennariikka",
+                    "party": "Kokoomus",
+                    "seat": 71,
+                    "vote": "FOR"
+                },
+                {
+                    "name": "Hetemaj Fatbardhe",
+                    "party": "Kokoomus",
+                    "seat": 72,
+                    "vote": "AGAINST"
+                },
+                {
+                    "name": "Rydman Wille",
+                    "party": "Kokoomus",
+                    "seat": 73,
+                    "vote": "FOR"
+                },
+                {
+                    "name": "Ebeling Mika",
+                    "party": "Kristillisdemokraatit",
+                    "seat": 74,
+                    "vote": "EMPTY"
+                },
+                {
+                    "name": "Vesikansa Sanna",
+                    "party": "Vihreät",
+                    "seat": 75,
+                    "vote": "FOR"
+                },
+                {
+                    "name": "Perälä Erkki",
+                    "party": "Vihreät",
+                    "seat": 76,
+                    "vote": "FOR"
+                },
+                {
+                    "name": "Järvinen Jukka",
+                    "party": "SDP",
+                    "seat": 77,
+                    "vote": "FOR"
+                },
+                {
+                    "name": "Lovén Jape",
+                    "party": "SDP",
+                    "seat": 78,
+                    "vote": "FOR"
+                },
+                {
+                    "name": "Vuorjoki Anna",
+                    "party": "Vasemmisto",
+                    "seat": 79,
+                    "vote": "FOR"
+                },
+                {
+                    "name": "Hakanen Yrjö",
+                    "party": "SKP",
+                    "seat": 80,
+                    "vote": "FOR"
+                },
+                {
+                    "name": "Niiranen Matti",
+                    "party": "Kokoomus",
+                    "seat": 81,
+                    "vote": "FOR"
+                },
+                {
+                    "name": "Majuri Pekka",
+                    "party": "Kokoomus",
+                    "seat": 82,
+                    "vote": "AGAINST"
+                },
+                {
+                    "name": "Palm Anniina",
+                    "party": "Kokoomus",
+                    "seat": 83,
+                    "vote": "FOR"
+                },
+                {
+                    "name": "Mäkimattila Sari",
+                    "party": "Kristillisdemokraatit",
+                    "seat": 84,
+                    "vote": "EMPTY"
+                },
+                {
+                    "name": "Puoskari Mari",
+                    "party": "Vihreät",
+                    "seat": 91,
+                    "vote": "FOR"
+                }
+            ],
+            "results": {
+                "absent": 3,
+                "empty": 9,
+                "against": 17,
+                "for": 56
+            },
+            "issue_id": "55804a403e29c95059b92574"
+        }
+    },
+    {
+        "number": "6",
+        "title": "Länsisataman tontin 20803/1 asemakaavan muuttaminen (nro12101; Jätkäsaaren tornihotelli)",
+        "proposal": "Kaupunginvaltuusto päätti hyväksyä 20. kaupunginosan (Länsisatama) korttelin nro 20803 tontin nro 1 ja katualueen asemakaavan muutoksen 6.3.2012 päivätyn ja 27.11.2012 muutetun piirustuksen nro 12101 mukaisena ja asemakaavaselostuksesta ilmenevin perustein.\n\n",
+        "resolution": "Ehdotus päätettiin hylätä äänin 42-43. \nValtuutettu Rantanen esitti valtuutettu Taipaleen kannattamana ehdotuksen hylkäämistä. Rantasen hylkäysehdotus sai 43 ääntä, joten se hyväksyttiin.",
+        "under_discussion": false,
+        "start_time": "2013-05-15T19:00:55+03:00",
+        "video_position": 3739,
+        "register_id": "HEL 2011-005696",
+        "introducer": "Kaupunginhallitus",
+        "preparer": "Tanja Sippola-Alho",
+        "category_name": "Asemakaavoitus",
+        "category_origin_id": "10 03 03",
+        "permalink": "http://dev.hel.fi/paatokset/asia/hel-2011-005696/kvsto-2013-9/",
+        "issue_id": "55804a3c3e29c95059b91c60",
+        "total_speeches": 76,
+        "vote_event": {
+            "number": 2,
+            "type": "HYL",
+            "type_text": "Hylkäysehdotus",
+            "for_title": "Khs",
+            "for_text": "",
+            "against_title": "Rantanen Tuomas /1",
+            "against_text": "Esitän että esitys hylätään.",
+            "votes": [
+                {
+                    "name": "Finne-Elonen Laura",
+                    "party": "SFP",
+                    "seat": 1,
+                    "vote": "AGAINST"
+                },
+                {
+                    "name": "Bogomoloff Harry",
+                    "party": "Kokoomus",
+                    "seat": 2,
+                    "vote": "FOR"
+                },
+                {
+                    "name": "Männistö Lasse",
+                    "party": "Kokoomus",
+                    "seat": 3,
+                    "vote": "FOR"
+                },
+                {
+                    "name": "Rauhamäki Tatu",
+                    "party": "Kokoomus",
+                    "seat": 4,
+                    "vote": "FOR"
+                },
+                {
+                    "name": "Lindell Harri",
+                    "party": "PerusSuomalaiset",
+                    "seat": 5,
+                    "vote": "FOR"
+                },
+                {
+                    "name": "Kari Emma",
+                    "party": "Vihreät",
+                    "seat": 6,
+                    "vote": "FOR"
+                },
+                {
+                    "name": "Soininvaara Osmo",
+                    "party": "Vihreät",
+                    "seat": 7,
+                    "vote": "FOR"
+                },
+                {
+                    "name": "Pajamäki Osku",
+                    "party": "SDP",
+                    "seat": 8,
+                    "vote": "AGAINST"
+                },
+                {
+                    "name": "Lovén Jape",
+                    "party": "SDP",
+                    "seat": 9,
+                    "vote": "FOR"
+                },
+                {
+                    "name": "Modig Silvia",
+                    "party": "Vasemmisto",
+                    "seat": 10,
+                    "vote": "AGAINST"
+                },
+                {
+                    "name": "Rantala Marcus",
+                    "party": "SFP",
+                    "seat": 11,
+                    "vote": "FOR"
+                },
+                {
+                    "name": "Sydänmaa Johanna",
+                    "party": "Kokoomus",
+                    "seat": 12,
+                    "vote": "FOR"
+                },
+                {
+                    "name": "Koskinen Kauko",
+                    "party": "Kokoomus",
+                    "seat": 13,
+                    "vote": "FOR"
+                },
+                {
+                    "name": "Halla-aho Jussi",
+                    "party": "PerusSuomalaiset",
+                    "seat": 14,
+                    "vote": "FOR"
+                },
+                {
+                    "name": "Kanerva Seppo",
+                    "party": "PerusSuomalaiset",
+                    "seat": 15,
+                    "vote": "AGAINST"
+                },
+                {
+                    "name": "Abdulla Zahra",
+                    "party": "Vihreät",
+                    "seat": 16,
+                    "vote": "AGAINST"
+                },
+                {
+                    "name": "Krohn Minerva",
+                    "party": "Vihreät",
+                    "seat": 17,
+                    "vote": "FOR"
+                },
+                {
+                    "name": "Tenkula Tarja",
+                    "party": "SDP",
+                    "seat": 18,
+                    "vote": "FOR"
+                },
+                {
+                    "name": "Sevander Tomi",
+                    "party": "SDP",
+                    "seat": 19,
+                    "vote": "AGAINST"
+                },
+                {
+                    "name": "Saarnio Pekka",
+                    "party": "Vasemmisto",
+                    "seat": 20,
+                    "vote": "AGAINST"
+                },
+                {
+                    "name": "Månsson Björn",
+                    "party": "SFP",
+                    "seat": 21,
+                    "vote": "AGAINST"
+                },
+                {
+                    "name": "Urho Ulla-Marja",
+                    "party": "Kokoomus",
+                    "seat": 22,
+                    "vote": "FOR"
+                },
+                {
+                    "name": "Hakola Juha",
+                    "party": "Kokoomus",
+                    "seat": 23,
+                    "vote": "FOR"
+                },
+                {
+                    "name": "Packalén Tom",
+                    "party": "PerusSuomalaiset",
+                    "seat": 24,
+                    "vote": "AGAINST"
+                },
+                {
+                    "name": "Huru Nina",
+                    "party": "PerusSuomalaiset",
+                    "seat": 25,
+                    "vote": "AGAINST"
+                },
+                {
+                    "name": "Sumuvuori Johanna",
+                    "party": "Vihreät",
+                    "seat": 26,
+                    "vote": "AGAINST"
+                },
+                {
+                    "name": "Hautala Heidi",
+                    "party": "Vihreät",
+                    "seat": 27,
+                    "vote": "AGAINST"
+                },
+                {
+                    "name": "Anttila Maija",
+                    "party": "SDP",
+                    "seat": 28,
+                    "vote": "FOR"
+                },
+                {
+                    "name": "Mäki Terhi",
+                    "party": "SDP",
+                    "seat": 29,
+                    "vote": "AGAINST"
+                },
+                {
+                    "name": "Nyholm Henrik",
+                    "party": "Vasemmisto",
+                    "seat": 30,
+                    "vote": "AGAINST"
+                },
+                {
+                    "name": "Oker-Blom Jan D",
+                    "party": "SFP",
+                    "seat": 31,
+                    "vote": "FOR"
+                },
+                {
+                    "name": "Asko-Seljavaara Sirpa",
+                    "party": "Kokoomus",
+                    "seat": 32,
+                    "vote": "FOR"
+                },
+                {
+                    "name": "Rautava Risto",
+                    "party": "Kokoomus",
+                    "seat": 33,
+                    "vote": "FOR"
+                },
+                {
+                    "name": "Hursti René",
+                    "party": "PerusSuomalaiset",
+                    "seat": 34,
+                    "vote": "FOR"
+                },
+                {
+                    "name": "Hyttinen Nuutti",
+                    "party": "PerusSuomalaiset",
+                    "seat": 35,
+                    "vote": "FOR"
+                },
+                {
+                    "name": "Sinnemäki Anni",
+                    "party": "Vihreät",
+                    "seat": 36,
+                    "vote": "AGAINST"
+                },
+                {
+                    "name": "Alanko-Kahiluoto Outi",
+                    "party": "Vihreät",
+                    "seat": 37,
+                    "vote": "AGAINST"
+                },
+                {
+                    "name": "Heinäluoma Eero",
+                    "party": "SDP",
+                    "seat": 38,
+                    "vote": "AGAINST"
+                },
+                {
+                    "name": "Paavolainen Sara",
+                    "party": "SDP",
+                    "seat": 39,
+                    "vote": "AGAINST"
+                },
+                {
+                    "name": "Mithiku Hanna",
+                    "party": "Vasemmisto",
+                    "seat": 40,
+                    "vote": "AGAINST"
+                },
+                {
+                    "name": "Brettschneider Gunvor",
+                    "party": "SFP",
+                    "seat": 41,
+                    "vote": "AGAINST"
+                },
+                {
+                    "name": "Enroth Matti",
+                    "party": "Kokoomus",
+                    "seat": 42,
+                    "vote": "FOR"
+                },
+                {
+                    "name": "Karhuvaara Arja",
+                    "party": "Kokoomus",
+                    "seat": 43,
+                    "vote": "FOR"
+                },
+                {
+                    "name": "Peltokorpi Terhi",
+                    "party": "Keskusta",
+                    "seat": 44,
+                    "vote": "AGAINST"
+                },
+                {
+                    "name": "Kantola Helena",
+                    "party": "PerusSuomalaiset",
+                    "seat": 45,
+                    "vote": "AGAINST"
+                },
+                {
+                    "name": "Ikävalko Suzan",
+                    "party": "Vihreät",
+                    "seat": 46,
+                    "vote": "AGAINST"
+                },
+                {
+                    "name": "Kousa Tuuli",
+                    "party": "Vihreät",
+                    "seat": 47,
+                    "vote": "FOR"
+                },
+                {
+                    "name": "Wallgren Thomas",
+                    "party": "SDP",
+                    "seat": 48,
+                    "vote": "AGAINST"
+                },
+                {
+                    "name": "Valokainen Tuomo",
+                    "party": "SDP",
+                    "seat": 49,
+                    "vote": "AGAINST"
+                },
+                {
+                    "name": "Koivulaakso Dan",
+                    "party": "Vasemmisto",
+                    "seat": 50,
+                    "vote": "AGAINST"
+                },
+                {
+                    "name": "Muurinen Seija",
+                    "party": "Kokoomus",
+                    "seat": 51,
+                    "vote": "FOR"
+                },
+                {
+                    "name": "Koulumies Terhi",
+                    "party": "Kokoomus",
+                    "seat": 52,
+                    "vote": "FOR"
+                },
+                {
+                    "name": "Pelkonen Jaana",
+                    "party": "Kokoomus",
+                    "seat": 53,
+                    "vote": "FOR"
+                },
+                {
+                    "name": "Kolbe Laura",
+                    "party": "Keskusta",
+                    "seat": 54,
+                    "vote": "AGAINST"
+                },
+                {
+                    "name": "Holopainen Mari",
+                    "party": "Vihreät",
+                    "seat": 55,
+                    "vote": "FOR"
+                },
+                {
+                    "name": "Rantanen Tuomas",
+                    "party": "Vihreät",
+                    "seat": 56,
+                    "vote": "AGAINST"
+                },
+                {
+                    "name": "Kivekäs Otso",
+                    "party": "Vihreät",
+                    "seat": 57,
+                    "vote": "FOR"
+                },
+                {
+                    "name": "Arajärvi Pentti",
+                    "party": "SDP",
+                    "seat": 58,
+                    "vote": "AGAINST"
+                },
+                {
+                    "name": "Razmyar Nasima",
+                    "party": "SDP",
+                    "seat": 59,
+                    "vote": "AGAINST"
+                },
+                {
+                    "name": "Kajos Miina",
+                    "party": "Vasemmisto",
+                    "seat": 60,
+                    "vote": "AGAINST"
+                },
+                {
+                    "name": "Pakarinen Pia",
+                    "party": "Kokoomus",
+                    "seat": 61,
+                    "vote": "FOR"
+                },
+                {
+                    "name": "Nieminen Jarmo",
+                    "party": "Kokoomus",
+                    "seat": 62,
+                    "vote": "FOR"
+                },
+                {
+                    "name": "Rissanen Laura",
+                    "party": "Kokoomus",
+                    "seat": 63,
+                    "vote": "FOR"
+                },
+                {
+                    "name": "Laaninen Timo",
+                    "party": "Keskusta",
+                    "seat": 64,
+                    "vote": "AGAINST"
+                },
+                {
+                    "name": "Ingervo Sirkku",
+                    "party": "Vihreät",
+                    "seat": 65,
+                    "vote": "AGAINST"
+                },
+                {
+                    "name": "Hamid Jasmin",
+                    "party": "Vihreät",
+                    "seat": 66,
+                    "vote": "FOR"
+                },
+                {
+                    "name": "Stranius Leo",
+                    "party": "Vihreät",
+                    "seat": 67,
+                    "vote": "AGAINST"
+                },
+                {
+                    "name": "Taipale Kaarin",
+                    "party": "SDP",
+                    "seat": 68,
+                    "vote": "AGAINST"
+                },
+                {
+                    "name": "Loukoila Eija",
+                    "party": "Vasemmisto",
+                    "seat": 69,
+                    "vote": "AGAINST"
+                },
+                {
+                    "name": "Muttilainen Sami",
+                    "party": "Vasemmisto",
+                    "seat": 70,
+                    "vote": "AGAINST"
+                },
+                {
+                    "name": "Andersson Hennariikka",
+                    "party": "Kokoomus",
+                    "seat": 71,
+                    "vote": "FOR"
+                },
+                {
+                    "name": "Hetemaj Fatbardhe",
+                    "party": "Kokoomus",
+                    "seat": 72,
+                    "vote": "FOR"
+                },
+                {
+                    "name": "Rydman Wille",
+                    "party": "Kokoomus",
+                    "seat": 73,
+                    "vote": "FOR"
+                },
+                {
+                    "name": "Ebeling Mika",
+                    "party": "Kristillisdemokraatit",
+                    "seat": 74,
+                    "vote": "AGAINST"
+                },
+                {
+                    "name": "Oskala Hannu",
+                    "party": "Vihreät",
+                    "seat": 75,
+                    "vote": "FOR"
+                },
+                {
+                    "name": "Perälä Erkki",
+                    "party": "Vihreät",
+                    "seat": 76,
+                    "vote": "FOR"
+                },
+                {
+                    "name": "Jalovaara Ville",
+                    "party": "SDP",
+                    "seat": 77,
+                    "vote": "AGAINST"
+                },
+                {
+                    "name": "Järvinen Jukka",
+                    "party": "SDP",
+                    "seat": 78,
+                    "vote": "FOR"
+                },
+                {
+                    "name": "Vuorjoki Anna",
+                    "party": "Vasemmisto",
+                    "seat": 79,
+                    "vote": "AGAINST"
+                },
+                {
+                    "name": "Hakanen Yrjö",
+                    "party": "SKP",
+                    "seat": 80,
+                    "vote": "AGAINST"
+                },
+                {
+                    "name": "Niiranen Matti",
+                    "party": "Kokoomus",
+                    "seat": 81,
+                    "vote": "AGAINST"
+                },
+                {
+                    "name": "Majuri Pekka",
+                    "party": "Kokoomus",
+                    "seat": 82,
+                    "vote": "FOR"
+                },
+                {
+                    "name": "Raittinen Timo",
+                    "party": "Kokoomus",
+                    "seat": 83,
+                    "vote": "FOR"
+                },
+                {
+                    "name": "Mäkimattila Sari",
+                    "party": "Kristillisdemokraatit",
+                    "seat": 84,
+                    "vote": "AGAINST"
+                },
+                {
+                    "name": "Puoskari Mari",
+                    "party": "Vihreät",
+                    "seat": 91,
+                    "vote": "FOR"
+                }
+            ],
+            "results": {
+                "absent": 0,
+                "empty": 0,
+                "against": 43,
+                "for": 42
+            },
+            "issue_id": "55804a3c3e29c95059b91c60"
+        }
+    }
+]
