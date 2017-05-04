@@ -3,6 +3,15 @@ import { Switch, Route } from 'react-router-dom';
 import MotionDetails from './components/mock/MotionDetails';
 import MotionList from './components/mock/MotionList';
 import PartyList from './components/mock/PartyList';
+import PartyMap from './parties';
+
+
+let partyMap = new PartyMap()
+
+partyMap.fetch().then(function(response) {
+    let party = partyMap.getParty('ps');
+    console.log(party.logoThumbnailURL);
+});
 
 class App extends Component {
   render() {
