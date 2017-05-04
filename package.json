@@ -2,7 +2,7 @@
   "name": "council-compass",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://tituomin.github.io/council-compass",
+  "homepage": "http://demo.hackberry.io",
   "dependencies": {
     "classnames": "^2.2.5",
     "ramda": "^0.23.0",
