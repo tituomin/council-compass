@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { Switch, Route } from 'react-router-dom';
 import MotionDetails from './components/mock/MotionDetails';
 import MotionList from './components/mock/MotionList';
+import PartyList from './components/mock/PartyList';
 
 class App extends Component {
   render() {
@@ -18,6 +19,7 @@ class App extends Component {
           <Switch>
               <Route path="/motion/:id" component={MotionDetails} />
               <Route path="/motion" component={MotionList} />
+              <Route path="/party" component={PartyList} />
           </Switch>
         </div>
       </div>
