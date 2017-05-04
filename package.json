@@ -24,7 +24,7 @@
     "css": "tachyons src/css/app.css > src/index.css --minify",
     "prestart": "npm run css",
     "prebuild": "npm run css",
-    "predeploy": "npm run build",
+    "predeploy": "npm run build && mkdir build/static/data; cp importer/cases.json build/static/data",
     "deploy": "gh-pages -d build"
   }
 }
