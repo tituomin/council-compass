@@ -1,5 +1,6 @@
 R = require 'ramda'
 
+###
 data =
 	motions:
 		guggis_kamu:
@@ -45,18 +46,77 @@ data =
 			vote_event_source_id: 'guggis_valtuusto',
 			vote_event_target_id: 'guggis_kamu'
 			estimate: (src_vote) -> src_vote
+###
+#
+data =
+	motions:
+		guggis_kamu:
+			text: "Kannatan Guggenheimin rakentamista"
+			organization_id: "kansanmuisti"
+	
+	persons:
+		CURRENT_USER:
+			name: "Current User"
+
+
+	votes: {}
+
+	organizations:
+		hel_council:
+			name: "Helsingin kaupunginvaltuusto"
+		kansanmuisti:
+			name: "Kansan muisti"
+	
+	vote_events:
+		guggis_kamu: organization_id: 'kansanmuisti', motion_id: 'guggis_kamu'
+	
+	
+	vote_congruences:
+		guggenheim:
+			vote_event_source_id: '583801197c6d17175722ee22',
+			vote_event_target_id: 'guggis_kamu'
+			estimate: (src_vote) -> src_vote
+
+
+
+popoloize_hel_council_votes = (data, votes) ->
+	# TODO: Impute absents and empties
+	for vote in votes
+		motion_id = vote.register_id
+		data.motions[motion_id] = vote
+		vote_event_id = vote.vote_event.issue_id
+		data.vote_events[vote_event_id] =
+			organization_id: "hel_council"
+			motion_id: motion_id
+		for vote in vote.vote_event.votes
+			voter_id = vote.name
+			unless voter_id of data.persons
+				data.persons[voter_id] =
+					name: vote.name
+					party: vote.party
+			vote_id = "#{vote_event_id}/#{voter_id}"
+			data.votes[vote_id] =
+				vote_event_id: vote_event_id
+				voter_id: voter_id
+				vote: vote.vote
+				vote_value: ("FOR": 1, "AGAINST": -1)[vote.vote] ? 0
+
+	return data
 
 getWhere = (obj, filter) ->
 	R.filter R.whereEq(filter), obj
 
-estimate_vote = (voter_id, vote_event_id) ->
+getOneWhere = (obj, filter) ->
+	R.values(getWhere obj, filter)[0]
+
+
+estimate_vote = (data, voter_id, vote_event_id) ->
 	congruents = getWhere data.vote_congruences, vote_event_target_id: vote_event_id
 	ests = []
 	for _, congruent of congruents
-		src_vote = getWhere data.votes,
+		src_vote = getOneWhere data.votes,
 			vote_event_id: congruent.vote_event_source_id
 			voter_id: voter_id
-		src_vote = R.values(src_vote)[0]
 		continue unless src_vote?
 		ests.push congruent.estimate src_vote.vote_value
 	est = R.mean ests
@@ -66,23 +126,22 @@ estimate_vote = (voter_id, vote_event_id) ->
 		vote_value: est
 	return ret
 
-estimated_votes = ->
+estimated_votes = (data) ->
 	est = []
 	for vote_event_id, _ of data.vote_events
 		for voter_id, _ of data.persons
-			est.push estimate_vote voter_id, vote_event_id
+			est.push estimate_vote data, voter_id, vote_event_id
 	return est
 
-my_agreements = (me) ->
-	ests = estimated_votes()
-	my_votes = getWhere data.votes, voter_id: me
+voter_agreements = (data, voter_id) ->
+	ests = estimated_votes(data)
+	my_votes = getWhere data.votes, voter_id: voter_id
 	for person_id, person of data.persons
 		paggs = []
 		for _, my_vote of my_votes
-			other_vote = R.values getWhere ests,
+			other_vote = getOneWhere ests,
 				voter_id: person_id
 				vote_event_id: my_vote.vote_event_id
-			other_vote = other_vote[0]
 			continue unless other_vote?
 			my_value = my_vote.vote_value
 			other_value = other_vote.vote_value
@@ -92,6 +151,40 @@ my_agreements = (me) ->
 			voter_id: person_id
 			agreement: R.mean paggs
 		yield res
-	#console.log my_votes
+
+export get_hack_data = ->
+	popoloize_hel_council_votes data, require '../importer/cases.json'
+
+export set_user_vote = (data, vote_event_id, vote_value) ->
+	# Horrible! Shouldn't depend on the key format!
+	vote_id = "#{vote_event_id}/CURRENT_USER"
+	data.votes[vote_id] =
+		voter_id: "CURRENT_USER"
+		vote_event_id: vote_event_id
+		vote_value: vote_value
+	return data
+
+export get_user_agreements = (data) ->
+	Array.from voter_agreements data, "CURRENT_USER"
+
+export get_user_party_agreements = (data) ->
+	agreements = Array.from get_user_agreements data
+	voter_party = (v) -> data.persons[v.voter_id].party
+	party_agreements = R.groupBy voter_party, (R.sortBy voter_party, agreements)
+	
+	party_agreements = for party, agrs of party_agreements
+		v = R.map (R.prop 'agreement'), agrs
+		v = R.filter ((v) -> v == v), v
+		
+		party: party
+		agreement: R.mean v
+	
+	[good, bad] = R.partition ((v) -> v.agreement == v.agreement), party_agreements
+	R.concat (R.sortBy ((v) -> -v.agreement), good), bad
+
+
 if require.main == module
-	console.log Array.from my_agreements('user1')
+	#console.log Array.from my_agreements('user1')
+	data = popoloize_hel_council_votes(data, require './cases.json')
+	data = set_user_vote(data, 'guggis_kamu', -1.0)
+	console.log get_user_party_agreements data
