@@ -1,5 +1,3 @@
-falcor = require 'falcor'
-jp = require 'jsonpath'
 R = require 'ramda'
 
 data =
