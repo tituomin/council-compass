@@ -5,16 +5,32 @@ import MotionList from './components/mock/MotionList';
 import PartyList from './components/mock/PartyList';
 import PartyMap from './parties';
 
-
-let partyMap = new PartyMap()
-
-partyMap.fetch().then(function(response) {
-    let party = partyMap.getParty('ps');
-    console.log(party.logoThumbnailURL);
-});
+const cases = require('../importer/cases.json');
 
 class App extends Component {
+  componentWillMount() {
+    let partyMap = new PartyMap();
+    partyMap.fetch().then((response) => {
+      this.partyMap = partyMap;
+      this.setState((prevState, props) => {
+        return Object.assign({}, prevState, {initialised: true});
+      });
+    });
+  }
+
+  constructor() {
+    super();
+    this.partyMap = null;
+    this.cases = cases;
+    this.state = {
+      initialised: false
+    };
+  }
+
   render() {
+    if (!this.state.initialised) {
+      return <div>LOADING...</div>;
+    }
     return (
       <div className="App">
         <header className="fixed w-100">
@@ -27,7 +43,7 @@ class App extends Component {
         <div className="App-content bg-washed-green mw7 center cf ph3 pt5">
           <Switch>
               <Route path="/motion/:id" component={MotionDetails} />
-              <Route path="/motion" component={MotionList} />
+              <Route path="/motion" component={() => {return <MotionList cases={this.cases} />;}} />
               <Route path="/party" component={PartyList} />
           </Switch>
         </div>
