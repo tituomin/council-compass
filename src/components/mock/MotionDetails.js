@@ -23,7 +23,7 @@ export default function MotionDetails({_case, castVote, nextCase, partyAgreement
   };
 
   let userVoteView = null;
-  if (userVote !== undefined) {
+  if (nextCase !== undefined && userVote !== undefined) {
     userVoteView = <div className="absolute z-999 w-100 h-100 top-0 left-0 tc v-mid"><div className="dib f1 w5 white absolute top-2 left-2 pa3 bg-black ttu rotate-45">{ voteValueDescription(userVote)}</div></div>;
   }
   else {
@@ -41,7 +41,7 @@ export default function MotionDetails({_case, castVote, nextCase, partyAgreement
       </div>
       );
   }
-  if (nextCase !== _case.issue_id) {
+  if (nextCase !== undefined && nextCase !== _case.issue_id) {
     nextLink = (
       <div className="flex items-center justify-center pa1">
           <Link to={`/motion/${nextCase}`} className="f4 no-underline bg-animate hover-bg-light-green inline-flex items-center justify-center pa3 ba br-pill bw2 w-75 mr1 dark-green">
