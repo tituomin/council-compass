@@ -11,3 +11,15 @@ export function voteValueDescription(value) {
   return 'whatever';
 }
 
+export function populatePartyLogos(partyAgreements, partyMap) {
+  partyAgreements = partyAgreements.filter((pa) => {
+    let party = partyMap.getParty(pa.party);
+    if (party) {
+      pa.partyLogo = party.logoThumbnailURL;
+      return true;
+    } else {
+      return false;
+    }
+  });
+}
+

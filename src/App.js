@@ -9,6 +9,7 @@ import FrontPage from './components/mock/FrontPage';
 import PartyMap from './parties';
 import analyzer from './lib/analysis';
 import _ from 'lodash';
+import { populatePartyLogos } from './utils';
 
 const cases = require('../importer/cases.json');
 
@@ -46,23 +47,11 @@ class App extends Component {
     };
   }
 
-  populatePartyLogos(partyAgreements) {
-    partyAgreements = partyAgreements.filter((pa) => {
-      let party = this.partyMap.getParty(pa.party);
-      if (party) {
-        pa.partyLogo = party.logoThumbnailURL;
-        return true;
-      } else {
-        return false;
-      }
-    });
-  }
-
   castVote(issueId, value) {
     let analyzerVoteId = issueId + '/kamu';
     analyzer.set_user_vote(this.voteData, analyzerVoteId, value);
     let partyAgreements = analyzer.get_user_party_vote_agreements(this.voteData, analyzerVoteId);
-    this.populatePartyLogos(partyAgreements);
+    populatePartyLogos(partyAgreements, this.partyMap);
     partyAgreements = _.filter(
       partyAgreements,
       (a) => { return a.party !== "undefined" && a.partyLogo; });
@@ -103,7 +92,7 @@ class App extends Component {
         <div className="App-content bg-washed-green mw7 center cf ph3 pt5">
           <Switch>
               <Route path="/party" component={() => {
-                  return <PartyList voteData={this.voteData}/>;}
+                  return <PartyList partyMap={this.partyMap} voteData={this.voteData}/>;}
                   } />
               <Route path="/motion/:id" component={({match}) => {
                     const issueId = match.params.id;

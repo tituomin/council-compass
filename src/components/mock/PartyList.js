@@ -2,12 +2,13 @@ import React from 'react';
 import classNames from 'classnames'
 import analyzer from '../../lib/analysis';
 import _ from 'lodash';
+import { populatePartyLogos } from '../../utils';
 
-function PartySummary({fullName, abbreviation, percentage}) {
+function PartySummary({fullName, abbreviation, percentage, logo}) {
   return (
     <article className="dt w-100 bb b--black-05 pb2 mt2" href="#0">
         <div className="dtc w2 w3-ns v-mid">
-            <img src="http://img.clipartall.com/lady-bug-on-ladybugs-san-cute-ladybug-clipart-736_937.jpg" className="ba b--black-10 db br2 w2 w3-ns h2 h3-ns"/>
+            <img src={logo} className="ba b--black-10 db br2 w2 w3-ns h2 h3-ns"/>
         </div>
         <div className="dtc v-mid pl3">
             <h1 className="f6 f5-ns fw6 lh-title black mv0">{abbreviation}</h1>
@@ -32,10 +33,11 @@ export default class PartyList extends React.Component {
   getUserPartyAgreements() {
     this.setState(
       (prevState) => {
-        const agreements = _.filter(
+        let agreements = _.filter(
           analyzer.get_user_party_agreements(this.props.voteData),
           (a) => { return a.party !== 'undefined';}
         );
+        populatePartyLogos(agreements, this.props.partyMap);
         return Object.assign({}, {agreements});
       });
   }
@@ -47,7 +49,7 @@ export default class PartyList extends React.Component {
   }
   render() {
     const parties = _.map(this.state.agreements, (a) => {
-      return <PartySummary key={a.party} fullName={a.party} abbreviation={a.party} percentage={a.agreement}/>;
+      return <PartySummary key={a.party} fullName={a.party} abbreviation={a.party} percentage={a.agreement} logo={a.partyLogo}/>;
     });
     return (
       <div>
