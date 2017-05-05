@@ -97,7 +97,7 @@ class App extends Component {
       return <Redirect to="/party"/>;
     }
     return (
-      <div className="App">
+      <div className="App sans-serif">
         <AppNavigation />
         <div className="App-content bg-washed-green mw7 center cf ph3 pt5">
           <Switch>

@@ -1,6 +1,10 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
+const motionImage = {
+  backgroundImage: 'url(https://upload.wikimedia.org/wikipedia/commons/4/4b/ProposedGuggenheimHelsinkiSite.jpg)',
+};
+
 function voteValueDescription(value) {
   switch (value) {
     case 1:
@@ -19,7 +23,9 @@ export default function MotionCard({_case, totalCount, userVote}) {
           <Link to={`/motion/${_case.issue_id}`} className="db pv3 ph3 no-underline black dim" href="#0">
                 <div className="flex flex-column flex-row-ns">
                   <div className="pr3 w-40">
-                    <img src="http://lorempixel.com/800/600/city" className="db" alt="Motion image thumbnail." />
+                    <div className="aspect-ratio aspect-ratio--6x4 mb">
+                      <div className="aspect-ratio--object cover bg-center z-1" style={motionImage}></div>
+                    </div>
                   </div>
                   <div className="w-60 pl3">
                     <h3 className="f5 gray mv0">{_case.number}/{totalCount}</h3>
