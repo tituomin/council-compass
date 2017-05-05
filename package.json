@@ -27,7 +27,7 @@
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
     "css": "tachyons src/css/app.css > src/index.css --minify",
-    "coffee": "mkdir src/lib; coffee -o src/lib -c lib/analysis.coffee",
+    "coffee": "mkdir src/lib; coffee -c src/lib/analysis.coffee",
     "prestart": "npm run css; npm run coffee",
     "prebuild": "npm run css; npm run coffee",
     "predeploy": "npm run build && mkdir build/static/data; cp importer/cases.json build/static/data",

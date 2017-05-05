@@ -49,11 +49,6 @@ data =
 ###
 #
 data =
-	motions:
-		guggis_kamu:
-			text: "Kannatan Guggenheimin rakentamista"
-			organization_id: "kansanmuisti"
-	
 	persons:
 		CURRENT_USER:
 			name: "Current User"
@@ -67,14 +62,41 @@ data =
 		kansanmuisti:
 			name: "Kansan muisti"
 	
+	motions:
+		guggis_kamu: text: "Guggenheim", organization_id: "kansanmuisti"
+		hameentie_kamu: text: "Autoton Hämeentie", organization_id: "kansanmuisti"
+		keskustakirjasto_kamu: text: "Keskustakirjasto", organization_id: "kansanmuisti"
+		lansimetro_kamu: text: "Länsimetron avoimuus", organization_id: "kansanmuisti"
+		kasvisruokapaiva_kamu: text: "Kasvisruokapäivä", organization_id: "kansanmuisti"
+	
 	vote_events:
 		guggis_kamu: organization_id: 'kansanmuisti', motion_id: 'guggis_kamu'
+		hameentie_kamu: organization_id: 'kansanmuisti', motion_id: 'hameentie_kamu'
+		keskustakirjasto_kamu: organization_id: 'kansanmuisti', motion_id: 'keskustakirjasto_kamu'
+		lansimetro_kamu: organization_id: 'kansanmuisti', motion_id: 'lansimetro_kamu'
+		kasvisruokapaiva_kamu: organization_id: 'kansanmuisti', motion_id: 'kasvisruokapaiva_kamu'
 	
 	
 	vote_congruences:
 		guggenheim:
-			vote_event_source_id: '583801197c6d17175722ee22',
+			vote_event_source_id: '583801197c6d17175722ee22'
 			vote_event_target_id: 'guggis_kamu'
+			estimate: (src_vote) -> src_vote
+		hameentie:
+			vote_event_source_id: '5719dc5de90857870339f144'
+			vote_event_target_id: 'hameentie_kamu'
+			estimate: (src_vote) -> src_vote
+		keskustakirjasto:
+			vote_event_source_id: '55804a403e29c95059b92497'
+			vote_event_target_id: 'keskustakirjasto_kamu'
+			estimate: (src_vote) -> src_vote
+		lansimetro:
+			vote_event_source_id: '584a76192510f9a23d584023'
+			vote_event_target_id: 'lansimetro_kamu'
+			estimate: (src_vote) -> -src_vote
+		kasvisruokapaiva:
+			vote_event_source_id: '57440c5d9805a5a173b100d9'
+			vote_event_target_id: 'kasvisruokapaiva_kamu'
 			estimate: (src_vote) -> src_vote
 
 
@@ -93,11 +115,12 @@ popoloize_hel_council_votes = (data, votes) ->
 			unless voter_id of data.persons
 				data.persons[voter_id] =
 					name: vote.name
-					party: vote.party
+					party: party_cleanup vote.party
 			vote_id = "#{vote_event_id}/#{voter_id}"
 			data.votes[vote_id] =
 				vote_event_id: vote_event_id
 				voter_id: voter_id
+				party_id: party_cleanup vote.party
 				vote: vote.vote
 				vote_value: ("FOR": 1, "AGAINST": -1)[vote.vote] ? 0
 
@@ -152,10 +175,16 @@ voter_agreements = (data, voter_id) ->
 			agreement: R.mean paggs
 		yield res
 
-export get_hack_data = ->
-	popoloize_hel_council_votes data, require '../importer/cases.json'
+party_typos =
+	'Vasemmisto': 'Vas.'
+	'Vihreät': 'Vihr.'
+party_cleanup = (party) ->
+	party_typos[party] ? party
 
-export set_user_vote = (data, vote_event_id, vote_value) ->
+get_hack_data = ->
+	popoloize_hel_council_votes data, require '../../importer/cases.json'
+
+set_user_vote = (data, vote_event_id, vote_value) ->
 	# Horrible! Shouldn't depend on the key format!
 	vote_id = "#{vote_event_id}/CURRENT_USER"
 	data.votes[vote_id] =
@@ -164,10 +193,10 @@ export set_user_vote = (data, vote_event_id, vote_value) ->
 		vote_value: vote_value
 	return data
 
-export get_user_agreements = (data) ->
+get_user_agreements = (data) ->
 	Array.from voter_agreements data, "CURRENT_USER"
 
-export get_user_party_agreements = (data) ->
+get_user_party_agreements = (data) ->
 	agreements = Array.from get_user_agreements data
 	voter_party = (v) -> data.persons[v.voter_id].party
 	party_agreements = R.groupBy voter_party, (R.sortBy voter_party, agreements)
@@ -182,9 +211,14 @@ export get_user_party_agreements = (data) ->
 	[good, bad] = R.partition ((v) -> v.agreement == v.agreement), party_agreements
 	R.concat (R.sortBy ((v) -> -v.agreement), good), bad
 
+module.exports = `{get_hack_data, set_user_vote, get_user_agreements, get_user_party_agreements}`
 
 if require.main == module
-	#console.log Array.from my_agreements('user1')
-	data = popoloize_hel_council_votes(data, require './cases.json')
+	#data = popoloize_hel_council_votes(data, require './cases.json')
+	data = get_hack_data()
 	data = set_user_vote(data, 'guggis_kamu', -1.0)
+	data = set_user_vote(data, 'hameentie_kamu', 1.0)
+	data = set_user_vote(data, 'keskustakirjasto_kamu', 1.0)
+	data = set_user_vote(data, 'lansimetro_kamu', 1.0)
+	data = set_user_vote(data, 'kasvisruokapaiva_kamu', 1.0)
 	console.log get_user_party_agreements data
