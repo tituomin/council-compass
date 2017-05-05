@@ -129,7 +129,6 @@ popoloize_hel_council_votes = (data, votes) ->
 				vote_event_target_id: kamu_vote_event_id
 				estimate: (src_vote) -> src_vote*vote_map
 
-
 		for vote in vote.vote_event.votes
 			voter_id = vote.name
 			unless voter_id of data.persons
@@ -158,7 +157,6 @@ popoloize_hel_council_votes = (data, votes) ->
 
 		for vote_id, vote of votes
 			vote.vote_value ?= majority
-
 	return data
 
 getWhere = (obj, filter) ->
@@ -172,9 +170,7 @@ estimate_vote = (data, voter_id, vote_event_id) ->
 	congruents = getWhere data.vote_congruences, vote_event_target_id: vote_event_id
 	ests = []
 	for _, congruent of congruents
-		src_vote = getOneWhere data.votes,
-			vote_event_id: congruent.vote_event_source_id
-			voter_id: voter_id
+		src_vote = data.votes["#{congruent.vote_event_source_id}/#{voter_id}"]
 		continue unless src_vote?
 		ests.push congruent.estimate src_vote.vote_value
 	est = R.mean ests
