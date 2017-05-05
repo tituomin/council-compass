@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Switch, Route } from 'react-router-dom';
+import AppNavigation from './components/mock/AppNavigation';
 import MotionDetails from './components/mock/MotionDetails';
 import MotionList from './components/mock/MotionList';
 import PartyList from './components/mock/PartyList';
@@ -33,13 +34,7 @@ class App extends Component {
     }
     return (
       <div className="App">
-        <header className="fixed w-100">
-          <div className="header-content bg-black-90 ph1 pv3 ph4 mw7 center">
-            <nav className="f7 fw6 ttu tracked">
-              <a className="link dim white dib mr3" href="#" title="Home">Valtuustokone</a>
-            </nav>
-          </div>
-        </header>
+        <AppNavigation />
         <div className="App-content bg-washed-green mw7 center cf ph3 pt5">
           <Switch>
               <Route path="/motion/:id" component={MotionDetails} />
