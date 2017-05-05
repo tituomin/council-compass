@@ -28,7 +28,7 @@ export default function MotionDetails({_case, castVote, nextCase, partyAgreement
 
   let userVoteView = null;
   if (isSequence && nextCase !== undefined && userVote !== undefined) {
-    const labelClass = classNames("dib f1 w5 absolute top-2 left-1 pa2 ba br4 bw3 ttu rotate-45 b shadow-3",
+    const labelClass = classNames("dib f1 w5 absolute top-2 left-1 pa2 ba br4 bw3 ttu rotate-45 b",
                             {'b--red red': (userVote === -1),
                             'b--green green': (userVote === 1),'b--blue blue': (userVote === 0)});
     userVoteView = <div className="absolute z-999 w-100 h-100 top-0 left-0 tc v-mid"><div className={labelClass}>{ voteValueDescription(userVote)}</div></div>;

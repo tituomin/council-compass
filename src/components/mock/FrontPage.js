@@ -5,7 +5,7 @@ import {Link} from 'react-router-dom';
 export default function FrontPage({nextVote}) {
   let caseLink = null;
   if (nextVote) {
-    caseLink = <Link to={`/motion/${nextVote}`} className="f4 b link dim br-pill ph4 pv3 dib white bg-dark-pink mt4" href="#0">Aloitetaan äänestäminen!</Link>;
+    caseLink = <Link to={`/motion/${nextVote}`} className="f4 b link dim br-pill ph3 pv3 dib white bg-purple mt3 mt4-ns" href="#0">Aloitetaan äänestäminen!</Link>;
   }
   return (<div>
             <article className="center mw7 hidden ba b--light-gray mv4">
