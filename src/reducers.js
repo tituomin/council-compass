@@ -13,7 +13,6 @@ function userVoteReducer(state = initialUserVotes, action) {
       const result = Object.assign(
         {}, state,
         { votes: state.votes.concat(vote) });
-      console.log(result);
       return result;
     case 'CLEAR_USER_VOTES':
       return Object.assign(
