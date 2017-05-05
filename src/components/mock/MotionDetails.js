@@ -3,10 +3,6 @@ import PartyMatchComparison from './PartyMatchComparison';
 import { Link } from 'react-router-dom';
 import { voteValueDescription } from '../../utils';
 
-const divStyle = {
-  backgroundImage: 'url(https://upload.wikimedia.org/wikipedia/commons/4/4b/ProposedGuggenheimHelsinkiSite.jpg)',
-};
-
 function clickHandler(castVote, issueId, value) {
   return function (e) {
     castVote(issueId, value);
@@ -21,10 +17,12 @@ export default function MotionDetails({_case, castVote, nextCase, partyAgreement
   let nextLink = null;
   let comparison = null;
   let voteButtons = null;
+  const divStyle = {
+    backgroundImage: `url(/img/motions/${_case.issue_id}.jpg)`
+  };
   if (userVote !== undefined) {
     voteButtons = <div>Äänestit { voteValueDescription(userVote)}</div>;
-  }
-  else {
+  } else {
     voteButtons = (
       <div className="flex items-center justify-center pa1">
               <a href="#!" onClick={clickHandler(castVote, _case.issue_id, -1)} className="f4 no-underline bg-animate hover-bg-light-red inline-flex items-center justify-center pa3 ba br-pill bw2 w4 mr1 dark-red">
