@@ -1,7 +1,7 @@
 import React from 'react';
 
 export default function AppNavigation() {
-  return (<header className="fixed w-100">
+  return (<header className="fixed w-100 z-max">
           <div className="header-content bg-black-90 ph1 pv3 ph4 mw7 center">
             <nav className="f7 fw6 ttu tracked">
               <a className="link dim light-green dib mr3 ba ph2 pv1" href="#" title="Home">Edustin</a>

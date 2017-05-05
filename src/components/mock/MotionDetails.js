@@ -13,13 +13,14 @@ function clickHandler(castVote, issueId, value) {
 }
 
 export default function MotionDetails({_case, castVote}) {
+  var opaqueBackground = {
+      backgroundColor: 'rgba(255, 255, 255, 0.6)'
+    };
   return (<div>
             <article className="bg-white center mw6 ba b--black-10 mv3 shadow-3">
-              <div className="pv2 ph3">
-               <h1 className="f4 dark-gray mv2 ttu">{_case.title}</h1>
-              </div>
-              <div className="aspect-ratio aspect-ratio--16x9 mb">
-                <div className="aspect-ratio--object cover bg-center" style={divStyle}></div>
+              <div className="aspect-ratio aspect-ratio--7x5 mb">
+                <div className="aspect-ratio--object cover bg-center z-1" style={divStyle}></div>
+                <h1 className="absolute t-0 z-5 f4 dark-gray mv0 pa2" style={opaqueBackground}>{_case.title}</h1>
               </div>
               <div className="pa3">
                 <small className="gray db pv2">Lisätietoja aiheesta</small>
