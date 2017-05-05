@@ -62,6 +62,14 @@ class App extends Component {
     );
   }
 
+  emptyVotes() {
+    this.setState(
+      (prevState) => {
+        return Object.assign({}, prevState, {userVotes: {}});
+      }
+    );
+  }
+
   render() {
     if (!this.state.initialised) {
       return <div>LOADING...</div>;
@@ -88,7 +96,7 @@ class App extends Component {
                   } />
               <Route path="/motion" component={
                        () => {
-                         return <MotionList cases={this.cases} userVotes={this.state.userVotes} />;
+                         return <MotionList cases={this.cases} userVotes={this.state.userVotes} emptyVotes={_.bind(this.emptyVotes, this)} />;
                        }
                   } />
               <Route path="/" component={
