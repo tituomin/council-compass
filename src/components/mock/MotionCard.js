@@ -5,17 +5,7 @@ const motionImage = {
   backgroundImage: 'url(https://upload.wikimedia.org/wikipedia/commons/4/4b/ProposedGuggenheimHelsinkiSite.jpg)',
 };
 
-function voteValueDescription(value) {
-  switch (value) {
-    case 1:
-    return 'kyllä';
-    case 0:
-    return 'tyhjä';
-    case -1:
-    return 'ei';
-  }
-  return 'whatever';
-}
+import { voteValueDescription } from '../../utils';
 
 export default function MotionCard({_case, totalCount, userVote}) {
   const userVoteSummary = (userVote !== undefined ? 'Äänestit ' + voteValueDescription(userVote).toUpperCase() : 'Äänestä');

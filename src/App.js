@@ -41,7 +41,8 @@ class App extends Component {
       initialised: false,
       userVotes: {},
       nextCase: this.getNextCase({}).nextCase,
-      remainingVotes: this.cases.length
+      remainingVotes: this.cases.length,
+      partyAgreements: {}
     };
   }
 
@@ -55,16 +56,20 @@ class App extends Component {
         return false;
       }
     });
-    console.log(partyAgreements);
   }
 
   castVote(issueId, value) {
-    let analyzerVoteId = issueId + '/kamu'
+    let analyzerVoteId = issueId + '/kamu';
     analyzer.set_user_vote(this.voteData, analyzerVoteId, value);
     let partyAgreements = analyzer.get_user_party_vote_agreements(this.voteData, analyzerVoteId);
     this.populatePartyLogos(partyAgreements);
+    partyAgreements = _.filter(
+      partyAgreements,
+      (a) => { return a.party !== "undefined"; });
+
     this.setState(
       (prevState) => {
+        partyAgreements = Object.assign({}, prevState.partyAgreements, {[issueId]: partyAgreements});
         const userVotes = Object.assign(prevState.userVotes, {[issueId]: value});
         this.redirectHandled = false;
         const {nextCase, remainingVotes} = this.getNextCase(userVotes);
@@ -88,10 +93,6 @@ class App extends Component {
     if (!this.state.initialised) {
       return <div>LOADING...</div>;
     }
-    if (this.state.nextCase && !this.redirectHandled) {
-      this.redirectHandled = true;
-      return <Redirect to={`/motion/${this.state.nextCase}`}/>;
-    }
     if (this.state.remainingVotes === 0 && !this.redirectHandled) {
       this.redirectHandled = true;
       return <Redirect to="/party"/>;
@@ -105,7 +106,12 @@ class App extends Component {
               <Route path="/motion/:id" component={({match}) => {
                     const issueId = match.params.id;
                     const _case = _.find(this.cases, (c) => {return c.issue_id === issueId;});
-                    return <MotionDetails _case={_case} castVote={_.bind(this.castVote, this)}/>;
+                    return <MotionDetails
+                                  _case={_case}
+                                  castVote={_.bind(this.castVote, this)}
+                                  nextCase={this.state.nextCase}
+                                  partyAgreements={this.state.partyAgreements[issueId]}
+                                  userVote={this.state.userVotes[issueId]}/>;
                     }
                   } />
               <Route path="/motion" component={
