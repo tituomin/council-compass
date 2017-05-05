@@ -106,6 +106,8 @@ class App extends Component {
                     return <MotionDetails
                                   _case={_case}
                                   castVote={_.bind(this.castVote, this)}
+                                  caseCount={this.cases.length}
+                                  readyCount={_.keys(this.state.userVotes).length}
                                   nextCase={this.state.nextCase}
                                   partyAgreements={this.state.partyAgreements[issueId]}
                                   userVote={this.state.userVotes[issueId]}/>;
