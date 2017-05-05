@@ -2,6 +2,7 @@ import React from 'react';
 import PartyMatchComparison from './PartyMatchComparison';
 import { Link } from 'react-router-dom';
 import { voteValueDescription } from '../../utils';
+import classNames from 'classnames';
 
 function clickHandler(castVote, issueId, value) {
   return function (e) {
@@ -24,7 +25,10 @@ export default function MotionDetails({_case, castVote, nextCase, partyAgreement
 
   let userVoteView = null;
   if (nextCase !== undefined && userVote !== undefined) {
-    userVoteView = <div className="absolute z-999 w-100 h-100 top-0 left-0 tc v-mid"><div className="dib f1 w5 white absolute top-2 left-2 pa3 bg-black ttu rotate-45">{ voteValueDescription(userVote)}</div></div>;
+    const labelClass = classNames("dib f1 w5 absolute top-2 left-1 pa2 ba br4 bw3 ttu rotate-45 b shadow-3",
+                            {'b--red red': (userVote === -1),
+                            'b--green green': (userVote === 1),'b--blue blue': (userVote === 0)})
+    userVoteView = <div className="absolute z-999 w-100 h-100 top-0 left-0 tc v-mid"><div className={labelClass}>{ voteValueDescription(userVote)}</div></div>;
   }
   else {
     voteButtons = (
@@ -44,7 +48,7 @@ export default function MotionDetails({_case, castVote, nextCase, partyAgreement
   if (nextCase !== undefined && nextCase !== _case.issue_id) {
     nextLink = (
       <div className="flex items-center justify-center pa1">
-          <Link to={`/motion/${nextCase}`} className="f4 no-underline bg-animate hover-bg-light-green inline-flex items-center justify-center pa3 ba br-pill bw2 w-75 mr1 dark-green">
+          <Link to={`/motion/${nextCase}`} className="f4 no-underline bg-animate hover-bg-light-green inline-flex items-center justify-center pa3 ba br-pill bw2 w-60 mb2 dark-green">
             <span className="">Seuraava</span>
           </Link>
       </div>);
@@ -52,13 +56,14 @@ export default function MotionDetails({_case, castVote, nextCase, partyAgreement
       comparison = <PartyMatchComparison agreements={partyAgreements}/>;
     }
   }
+
   const counter = (nextCase === _case.issue_id) ? <div className="dib absolute top-0 right-0 bg-black white z-4 b pa2">{readyCount + 1 + '/' + caseCount}</div> : null;
-  return (<div>
+  return (<div className="pb4">
             <article className="bg-white center mw6 mv3 shadow-3 pa2">
               <div className="aspect-ratio aspect-ratio--7x5 mb">
                 <div className="aspect-ratio--object cover bg-center z-1" style={divStyle}></div>
                 { counter }
-                <h1 className="absolute bottom-0 left-0 right-0 z-5 f3 dark-gray mv0 pa2" style={opaqueBackground}>{_case.user_question}</h1>
+                <h1 className="absolute bottom-0 left-0 right-0 z-5 f4 f2-ns dark-gray mv0 pa2" style={opaqueBackground}>{_case.user_question}</h1>
                 { userVoteView }
               </div>
             </article>

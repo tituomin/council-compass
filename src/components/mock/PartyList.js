@@ -12,7 +12,7 @@ function PartySummary({fullName, abbreviation, percentage, logo}) {
   return (
     <article className="dt w-100 bb b--black-05 pb2 mt2" href="#0">
         <div className="dtc w2 w3-ns v-mid">
-            <img src={logo} className="ba b--black-10 db br2 w2 w3-ns h2 h3-ns"/>
+            <img src={logo} className="db br2 w2 w3-ns h2 h3-ns"/>
         </div>
         <div className="dtc v-mid pl3">
             <h1 className="f6 f5-ns fw6 lh-title black mv0">{fullName}</h1>
@@ -60,8 +60,8 @@ export default class PartyList extends React.Component {
     });
     return (
       <div>
-          <article className="center mw5 mw6-ns hidden ba b--light-gray mv5">
-              <h1 className="f4 bg-light-green dark-green mv0 pv2 ph3 ">Sinulle sopivimmat puolueet</h1>
+          <article className="center mw6-ns hidden ba b--light-gray mb5 mt1">
+              <h1 className="f4 bg-green white mv0 pv2 ph3 ">Sinulle sopivimmat puolueet</h1>
               <div className="pa3 bg-white">
                   { parties }
               </div>
