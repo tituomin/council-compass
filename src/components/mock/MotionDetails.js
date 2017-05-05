@@ -52,11 +52,12 @@ export default function MotionDetails({_case, castVote, nextCase, partyAgreement
       comparison = <PartyMatchComparison agreements={partyAgreements}/>;
     }
   }
+  const counter = (nextCase === _case.issue_id) ? <div className="dib absolute top-0 right-0 bg-black white z-4 b pa2">{readyCount + 1 + '/' + caseCount}</div> : null;
   return (<div>
             <article className="bg-white center mw6 mv3 shadow-3 pa2">
               <div className="aspect-ratio aspect-ratio--7x5 mb">
                 <div className="aspect-ratio--object cover bg-center z-1" style={divStyle}></div>
-                <div className="dib absolute top-0 right-0 bg-black white z-4 b pa2">{ readyCount + 1 + '/' + caseCount }</div>
+                { counter }
                 <h1 className="absolute bottom-0 left-0 right-0 z-5 f3 dark-gray mv0 pa2" style={opaqueBackground}>{_case.user_question}</h1>
                 { userVoteView }
               </div>
