@@ -7,7 +7,7 @@ import { populatePartyLogos, roundAgreement } from '../../utils';
 function PartySummary({fullName, abbreviation, percentage, logo}) {
   let percentageString = '';
   if (!isNaN(percentage)) {
-    percentageString = `${roundAgreement(percentage)} %`;
+    percentageString = `${roundAgreement(percentage)}%`;
   }
   return (
     <article className="dt w-100 bb b--black-05 pb2 mt2" href="#0">

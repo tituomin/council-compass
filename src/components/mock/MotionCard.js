@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 import { voteValueDescription } from '../../utils';
 
-export default function MotionCard({_case, totalCount, userVote}) {
+export default function MotionCard({_case, totalCount, userVote, index}) {
   const userVoteSummary = (userVote !== undefined ? 'Äänestit ' + voteValueDescription(userVote).toUpperCase() : 'Äänestä');
   const motionImage = {
     backgroundImage: `url(/img/motions/${_case.issue_id}.jpg)`
@@ -17,7 +17,7 @@ export default function MotionCard({_case, totalCount, userVote}) {
                     </div>
                   </div>
                   <div className="w-60 pl3">
-                    <h3 className="f5 gray mv0">{_case.number}/{totalCount}</h3>
+                    <h3 className="f5 gray mv0">{index}/{totalCount}</h3>
                     <h1 className="f4 dark-gray mv2 ttu">{_case.title}</h1>
                     <div className="f6 link dim br1 ph3 pt2 pb1 mb2 dib white bg-red" href="#0">{userVoteSummary}</div>
                   </div>

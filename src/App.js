@@ -43,7 +43,8 @@ class App extends Component {
       userVotes: {},
       nextCase: this.getNextCase({}).nextCase,
       remainingVotes: this.cases.length,
-      partyAgreements: {}
+      partyAgreements: {},
+      votesUpdated: null
     };
   }
 
@@ -64,7 +65,7 @@ class App extends Component {
         const {nextCase, remainingVotes} = this.getNextCase(userVotes);
         const result = Object.assign(
           {}, prevState,
-          {userVotes, nextCase, remainingVotes, partyAgreements});
+          {userVotes, nextCase, remainingVotes, partyAgreements, votesUpdated: Date.now()});
         return result;
       }
     );
@@ -92,7 +93,7 @@ class App extends Component {
         <div className="App-content bg-washed-green mw7 center cf ph3 pt5">
           <Switch>
               <Route path="/party" component={() => {
-                  return <PartyList partyMap={this.partyMap} voteData={this.voteData}/>;}
+                  return <PartyList partyMap={this.partyMap} voteData={this.voteData} votesUpdated={this.state.votesUpdated}/>;}
                   } />
               <Route path="/motion/:id" component={({match}) => {
                     const issueId = match.params.id;

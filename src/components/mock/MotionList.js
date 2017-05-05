@@ -3,9 +3,9 @@ import MotionCard from './MotionCard';
 import _ from 'lodash';
 
 export default function MotionList({cases, userVotes, emptyVotes}) {
-  const cards = _.map(cases, (_case) => {
+  const cards = _.map(cases, (_case, index) => {
     const userVote = userVotes[_case.issue_id];
-    return <MotionCard key={_case.issue_id} _case={_case} totalCount={cases.length} userVote={userVote}/>;
+    return <MotionCard key={_case.issue_id} index={index+1} _case={_case} totalCount={cases.length} userVote={userVote}/>;
   });
   return(
     <div>
