@@ -6,8 +6,7 @@ export default function PartyMatchViz({partyAbbr, partyFit, partyLogo}) {
     backgroundImage: `url(${partyLogo})`,
   };
   return (<div className="dib">
-            <a className="link dim white dib br-100 mr1 pv3 w3 h3 ba b--black-10 tc lh-copy" href="#" title=""  style={indicatorStyle}>
-              <span className="f7 ttu b">{partyAbbr}</span>
+            <a className="link dim white dib ma2 pv3 w2 h2 tc lh-copy cover bg-center" href="#" title="{partyAbbr}" style={indicatorStyle}>
             </a>
             <div className="tc pa2 b gray">{partyFit}</div>
           </div>);
