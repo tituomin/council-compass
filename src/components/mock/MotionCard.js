@@ -9,7 +9,7 @@ export default function MotionCard({_case, totalCount, userVote, index}) {
     backgroundImage: `url(/img/motions/${_case.issue_id}.jpg)`
   };
   return (<article className="ba mb3 b--black-10 bg-white shadow-4">
-          <Link to={`/motion/${_case.issue_id}`} className="db pv3 ph3 no-underline black dim" href="#0">
+          <Link to={`/motion/${_case.issue_id}?sequence=false`} className="db pv3 ph3 no-underline black dim" href="#0">
                 <div className="flex flex-column flex-row-ns">
                   <div className="pr3 mb2 mb0-ns w-40-ns">
                     <div className="aspect-ratio aspect-ratio--6x4 mb">

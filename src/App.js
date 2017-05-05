@@ -100,10 +100,12 @@ class App extends Component {
               <Route path="/party" component={() => {
                   return <PartyList partyMap={this.partyMap} voteData={this.voteData} votesUpdated={this.state.votesUpdated}/>;}
                   } />
-              <Route path="/motion/:id" component={({match}) => {
+              <Route path="/motion/:id" component={(params) => {
+                    const {match, location} = params;
                     const issueId = match.params.id;
                     const _case = _.find(this.cases, (c) => {return c.issue_id === issueId;});
                     return <MotionDetails
+                                  isSequence={location.search !== '?sequence=false'}
                                   _case={_case}
                                   castVote={_.bind(this.castVote, this)}
                                   caseCount={this.cases.length}
