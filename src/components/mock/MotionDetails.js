@@ -48,7 +48,9 @@ export default function MotionDetails({_case, castVote, nextCase, partyAgreement
             <span className="">Seuraava</span>
           </Link>
       </div>);
-    comparison = <PartyMatchComparison agreements={partyAgreements}/>;
+    if (userVote !== 0) {
+      comparison = <PartyMatchComparison agreements={partyAgreements}/>;
+    }
   }
   return (<div>
             <article className="bg-white center mw6 ba b--black-10 mv3 shadow-3">
