@@ -16,6 +16,7 @@ export function populatePartyLogos(partyAgreements, partyMap) {
     let party = partyMap.getParty(pa.party);
     if (party) {
       pa.partyLogo = party.logoThumbnailURL;
+      pa.partyName = party.name;
       return true;
     } else {
       return false;
