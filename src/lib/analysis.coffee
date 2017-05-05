@@ -245,7 +245,9 @@ set_user_vote = (data, vote_event_id, vote_value) ->
 	return data
 
 get_user_agreements = (data) ->
-	Array.from voter_agreements data, "CURRENT_USER"
+	agrs = voter_agreements data, "CURRENT_USER"
+	[good, bad] = R.partition ((v) -> v.agreement == v.agreement), agrs
+	R.concat (R.sortBy ((v) -> -v.agreement), good), bad
 
 get_user_party_agreements = (data) ->
 	agreements = Array.from get_user_agreements data
