@@ -20,7 +20,7 @@ export default function MotionDetails({_case, castVote}) {
             <article className="bg-white center mw6 ba b--black-10 mv3 shadow-3">
               <div className="aspect-ratio aspect-ratio--7x5 mb">
                 <div className="aspect-ratio--object cover bg-center z-1" style={divStyle}></div>
-                <h1 className="absolute t-0 z-5 f4 dark-gray mv0 pa2" style={opaqueBackground}>{_case.title}</h1>
+                <h1 className="absolute t-0 z-5 f4 dark-gray mv0 pa2" style={opaqueBackground}>{_case.user_question}</h1>
               </div>
               <div className="pa3">
                 <small className="gray db pv2">Lisätietoja aiheesta</small>
