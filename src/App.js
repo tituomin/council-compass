@@ -6,6 +6,7 @@ import AppNavigation from './components/mock/AppNavigation';
 import MotionDetails from './components/mock/MotionDetails';
 import MotionList from './components/mock/MotionList';
 import PartyList from './components/mock/PartyList';
+import PartyDetails from './components/mock/PartyDetails';
 import FrontPage from './components/mock/FrontPage';
 import PartyMap from './parties';
 import analyzer from './lib/analysis';
@@ -97,6 +98,9 @@ class App extends Component {
         <AppNavigation />
         <div className="App-content bg-washed-green mw7 center cf ph3 pt5">
           <Switch>
+              <Route path="/party/:id" component={() => {
+                  return <PartyDetails partyMap={this.partyMap} voteData={this.voteData} votesUpdated={this.state.votesUpdated}/>;}
+                  } />
               <Route path="/party" component={() => {
                   return <PartyList partyMap={this.partyMap} voteData={this.voteData} votesUpdated={this.state.votesUpdated}/>;}
                   } />
