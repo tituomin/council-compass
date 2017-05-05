@@ -1,4 +1,5 @@
 import React from 'react';
+import PartyMatchComparison from './PartyMatchComparison';
 
 const divStyle = {
   backgroundImage: 'url(https://upload.wikimedia.org/wikipedia/commons/4/4b/ProposedGuggenheimHelsinkiSite.jpg)',
@@ -25,15 +26,16 @@ export default function MotionDetails({_case, castVote}) {
               </div>
             </article>
             <div className="flex items-center justify-center pa1">
-              <a href="#!" onClick={clickHandler(castVote, _case.issue_id, -1)} className="f4 no-underline bg-animate hover-bg-light-red inline-flex items-center justify-center pa3 ba br-pill bw2 w4 mr4 dark-red">
+              <a href="#!" onClick={clickHandler(castVote, _case.issue_id, -1)} className="f4 no-underline bg-animate hover-bg-light-red inline-flex items-center justify-center pa3 ba br-pill bw2 w4 mr1 dark-red">
                 <span className="">EI</span>
               </a>
-              <a href="#!"  onClick={clickHandler(castVote, _case.issue_id, 1)} className="f4 no-underline bg-animate hover-bg-light-green inline-flex items-center justify-center pa3 ba br-pill bw2 w4 mr4 dark-green">
+              <a href="#!"  onClick={clickHandler(castVote, _case.issue_id, 1)} className="f4 no-underline bg-animate hover-bg-light-green inline-flex items-center justify-center pa3 ba br-pill bw2 w4 mr1 dark-green">
                 <span className="">JAA</span>
               </a>
-              <a href="#!"  onClick={clickHandler(castVote, _case.issue_id, 0)} className="f4 no-underline bg-animate hover-bg-light-blue inline-flex items-center justify-center pa3 ba br-pill bw2 w4 mr4 dark-blue">
+              <a href="#!"  onClick={clickHandler(castVote, _case.issue_id, 0)} className="f4 no-underline bg-animate hover-bg-light-blue inline-flex items-center justify-center pa3 ba br-pill bw2 w4 dark-blue">
                 <span className="pr1">TYHJÄ</span>
               </a>
             </div>
+            <PartyMatchComparison />
           </div>);
 }
