@@ -62,22 +62,25 @@ data =
 		kansanmuisti:
 			name: "Kansan muisti"
 	
-	motions:
+	motions: {}
+	###
 		guggis_kamu: text: "Guggenheim", organization_id: "kansanmuisti"
 		hameentie_kamu: text: "Autoton Hämeentie", organization_id: "kansanmuisti"
 		keskustakirjasto_kamu: text: "Keskustakirjasto", organization_id: "kansanmuisti"
 		lansimetro_kamu: text: "Länsimetron avoimuus", organization_id: "kansanmuisti"
 		kasvisruokapaiva_kamu: text: "Kasvisruokapäivä", organization_id: "kansanmuisti"
-	
-	vote_events:
+	###
+	vote_events: {}
+	###
 		guggis_kamu: organization_id: 'kansanmuisti', motion_id: 'guggis_kamu'
 		hameentie_kamu: organization_id: 'kansanmuisti', motion_id: 'hameentie_kamu'
 		keskustakirjasto_kamu: organization_id: 'kansanmuisti', motion_id: 'keskustakirjasto_kamu'
 		lansimetro_kamu: organization_id: 'kansanmuisti', motion_id: 'lansimetro_kamu'
 		kasvisruokapaiva_kamu: organization_id: 'kansanmuisti', motion_id: 'kasvisruokapaiva_kamu'
+	###
 	
-	
-	vote_congruences:
+	vote_congruences: {}
+	###
 		guggenheim:
 			vote_event_source_id: '583801197c6d17175722ee22'
 			vote_event_target_id: 'guggis_kamu'
@@ -98,18 +101,35 @@ data =
 			vote_event_source_id: '57440c5d9805a5a173b100d9'
 			vote_event_target_id: 'kasvisruokapaiva_kamu'
 			estimate: (src_vote) -> src_vote
+	###
 
 
 
 popoloize_hel_council_votes = (data, votes) ->
 	# TODO: Impute absents and empties
-	for vote in votes
+	for vote in votes then do (vote) ->
 		motion_id = vote.register_id
 		data.motions[motion_id] = vote
 		vote_event_id = vote.vote_event.issue_id
 		data.vote_events[vote_event_id] =
 			organization_id: "hel_council"
 			motion_id: motion_id
+		if vote.user_question?
+			vote_map = vote.vote_map
+			kamu_motion_id = motion_id + '/kamu'
+			data.motions[kamu_motion_id] =
+				organization_id: 'kansanmuisti'
+				text: vote.user_question
+			kamu_vote_event_id = vote_event_id + '/kamu'
+			data.vote_events[kamu_vote_event_id] =
+				organization_id: 'kansanmuisti'
+				motion_id: kamu_motion_id
+			data.vote_congruences[vote_event_id] =
+				vote_event_source_id: vote_event_id
+				vote_event_target_id: kamu_vote_event_id
+				estimate: (src_vote) -> src_vote*vote_map
+
+
 		for vote in vote.vote_event.votes
 			voter_id = vote.name
 			unless voter_id of data.persons
@@ -150,30 +170,43 @@ estimate_vote = (data, voter_id, vote_event_id) ->
 	return ret
 
 estimated_votes = (data) ->
-	est = []
+	ests = {}
 	for vote_event_id, _ of data.vote_events
 		for voter_id, _ of data.persons
-			est.push estimate_vote data, voter_id, vote_event_id
-	return est
+			ests["#{vote_event_id}/#{voter_id}"] = estimate_vote data, voter_id, vote_event_id
+	return ests
+
 
 voter_agreements = (data, voter_id) ->
-	ests = estimated_votes(data)
 	my_votes = getWhere data.votes, voter_id: voter_id
+	vote_agreements data, my_votes
+
+voter_vote_agreements = (data, voter_id, vote_event_id) ->
+	my_votes = getWhere data.votes, voter_id: voter_id, vote_event_id: vote_event_id
+	vote_agreements data, my_votes
+
+vote_agreements = (data, my_votes) ->
+	#ests = estimated_votes(data)
+	ests = data.estimated_votes
+	result = []
 	for person_id, person of data.persons
 		paggs = []
 		for _, my_vote of my_votes
-			other_vote = getOneWhere ests,
-				voter_id: person_id
-				vote_event_id: my_vote.vote_event_id
+			vote_id = "#{my_vote.vote_event_id}/#{person_id}"
+			#other_vote = getOneWhere ests,
+			#	voter_id: person_id
+			#	vote_event_id: my_vote.vote_event_id
+			other_vote = ests[vote_id]
 			continue unless other_vote?
 			my_value = my_vote.vote_value
 			other_value = other_vote.vote_value
 			continue unless other_value == other_value
 			paggs.push my_value*other_value
-		res =
+		result.push
 			voter_id: person_id
 			agreement: R.mean paggs
-		yield res
+		
+	return result
 
 party_typos =
 	'Vasemmisto': 'Vas.'
@@ -185,7 +218,9 @@ party_cleanup = (party) ->
 	party_typos[party] ? party
 
 get_hack_data = ->
-	popoloize_hel_council_votes data, require '../../importer/cases.json'
+	data = popoloize_hel_council_votes data, require '../../importer/cases.json'
+	data.estimated_votes = estimated_votes data
+	return data
 
 set_user_vote = (data, vote_event_id, vote_value) ->
 	# Horrible! Shouldn't depend on the key format!
@@ -214,14 +249,36 @@ get_user_party_agreements = (data) ->
 	[good, bad] = R.partition ((v) -> v.agreement == v.agreement), party_agreements
 	R.concat (R.sortBy ((v) -> -v.agreement), good), bad
 
-module.exports = `{get_hack_data, set_user_vote, get_user_agreements, get_user_party_agreements}`
+get_user_party_vote_agreements = (data, vote_issue_id) ->
+	agreements = voter_vote_agreements data, "CURRENT_USER", vote_issue_id
+	voter_party = (v) -> data.persons[v.voter_id].party
+	party_agreements = R.groupBy voter_party, (R.sortBy voter_party, agreements)
+	
+	party_agreements = for party, agrs of party_agreements
+		v = R.map (R.prop 'agreement'), agrs
+		v = R.filter ((v) -> v == v), v
+		
+		party: party
+		agreement: R.mean v
+	
+	[good, bad] = R.partition ((v) -> v.agreement == v.agreement), party_agreements
+	R.concat (R.sortBy ((v) -> -v.agreement), good), bad
+
+module.exports = `{get_hack_data, set_user_vote, get_user_agreements, get_user_party_agreements, get_user_party_vote_agreements, getWhere}`
 
 if require.main == module
 	#data = popoloize_hel_council_votes(data, require './cases.json')
 	data = get_hack_data()
+	
+	kamu_events = getWhere data.vote_events, organization_id: 'kansanmuisti'
+	for vote_event_id, vote_event of kamu_events
+		motion = data.motions[vote_event.motion_id]
+	
+	###
 	data = set_user_vote(data, 'guggis_kamu', -1.0)
 	data = set_user_vote(data, 'hameentie_kamu', 1.0)
 	data = set_user_vote(data, 'keskustakirjasto_kamu', 1.0)
 	data = set_user_vote(data, 'lansimetro_kamu', 1.0)
 	data = set_user_vote(data, 'kasvisruokapaiva_kamu', 1.0)
 	console.log get_user_party_agreements data
+	###
