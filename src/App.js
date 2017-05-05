@@ -102,7 +102,9 @@ class App extends Component {
         <AppNavigation />
         <div className="App-content bg-washed-green mw7 center cf ph3 pt5">
           <Switch>
-              <Route path="/party" component={PartyList} />
+              <Route path="/party" component={() => {
+                  return <PartyList voteData={this.voteData}/>;}
+                  } />
               <Route path="/motion/:id" component={({match}) => {
                     const issueId = match.params.id;
                     const _case = _.find(this.cases, (c) => {return c.issue_id === issueId;});
