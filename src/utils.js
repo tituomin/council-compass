@@ -1,4 +1,8 @@
 
+export function roundAgreement(value) {
+  return Math.round(((value + 1)/2.0)*100);
+}
+
 export function voteValueDescription(value) {
   switch (value) {
     case 1:
@@ -7,8 +11,9 @@ export function voteValueDescription(value) {
     return 'tyhjä';
     case -1:
     return 'ei';
+    default:
+    return 'whatever';
   }
-  return 'whatever';
 }
 
 export function populatePartyLogos(partyAgreements, partyMap) {

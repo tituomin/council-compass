@@ -2,9 +2,13 @@ import React from 'react';
 import classNames from 'classnames'
 import analyzer from '../../lib/analysis';
 import _ from 'lodash';
-import { populatePartyLogos } from '../../utils';
+import { populatePartyLogos, roundAgreement } from '../../utils';
 
 function PartySummary({fullName, abbreviation, percentage, logo}) {
+  let percentageString = '';
+  if (!isNaN(percentage)) {
+    percentageString = `${roundAgreement(percentage)} %`;
+  }
   return (
     <article className="dt w-100 bb b--black-05 pb2 mt2" href="#0">
         <div className="dtc w2 w3-ns v-mid">
@@ -16,7 +20,7 @@ function PartySummary({fullName, abbreviation, percentage, logo}) {
         </div>
         <div className="dtc v-mid tr">
             <span className="w-100 f3 green b">
-                {`${percentage}%`}
+                {percentageString}
             </span>
         </div>
     </article>
