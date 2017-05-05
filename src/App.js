@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Switch, Route } from 'react-router-dom';
 import { Redirect } from 'react-router';
+import { Helmet } from "react-helmet";
 import AppNavigation from './components/mock/AppNavigation';
 import MotionDetails from './components/mock/MotionDetails';
 import MotionList from './components/mock/MotionList';
@@ -89,6 +90,10 @@ class App extends Component {
     }
     return (
       <div className="App sans-serif">
+        <Helmet>
+            <meta charSet="utf-8" />
+            <title>Partisipaattori</title>
+        </Helmet>
         <AppNavigation />
         <div className="App-content bg-washed-green mw7 center cf ph3 pt5">
           <Switch>
