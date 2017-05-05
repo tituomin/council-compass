@@ -65,7 +65,7 @@ class App extends Component {
     this.populatePartyLogos(partyAgreements);
     partyAgreements = _.filter(
       partyAgreements,
-      (a) => { return a.party !== "undefined"; });
+      (a) => { return a.party !== "undefined" && a.partyLogo; });
 
     this.setState(
       (prevState) => {
