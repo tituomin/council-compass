@@ -49,7 +49,7 @@ export default class PartyList extends React.Component {
   }
   render() {
     const parties = _.map(this.state.agreements, (a) => {
-      return <PartySummary key={a.party} fullName={a.party} abbreviation={a.party} percentage={a.agreement} logo={a.partyLogo}/>;
+      return <PartySummary key={a.party} fullName={a.partyName} abbreviation={a.party} percentage={a.agreement} logo={a.partyLogo}/>;
     });
     return (
       <div>
