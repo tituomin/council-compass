@@ -19,7 +19,7 @@ export default function MotionList({cases, userVotes, emptyVotes}) {
             <a href="#!" onClick={(e) => { emptyVotes(); e.preventDefault(); }} className="f6 link dim br-pill ph3 pv2 mb2 dib white bg-gray" href="#0">Tyhjennä äänestyksesi</a>
           </p>
         </article>
-        { cards };
+        { cards }
     </div>
   );
 }
