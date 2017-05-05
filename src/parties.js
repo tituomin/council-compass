@@ -1,4 +1,5 @@
 import 'whatwg-fetch'
+const parties = require('../importer/parties.json');
 
 
 class Party {
@@ -16,21 +17,38 @@ class PartyMap {
     fetch() {
         this.parties = [];
         let promise = new Promise((resolve, reject) => {
-            fetch('http://kansanmuisti.fi/api/v1/party/').then((response) => {
-                response.json().then((data) => {
-                    data.objects.forEach((partyData) => {
-                        this.parties.push(new Party(partyData));
-                    });
-                    resolve();
-                });
+            parties.objects.forEach((partyData) => {
+                this.parties.push(new Party(partyData));
             });
+            resolve();
         });
         return promise;
     }
     getParty(abbrev) {
-        return this.parties.find((party) => {
+        if (abbrev[abbrev.length - 1] === '.') {
+            abbrev = abbrev.slice(0, -1);
+        }
+        abbrev = abbrev.toLowerCase();
+        switch (abbrev) {
+            case 'sfp':
+                abbrev = 'r';
+                break;
+            case 'sdp':
+                abbrev = 'sd';
+                break;
+            case 'peruss':
+                abbrev = 'ps';
+                break;
+            default:
+                break;
+        }
+        let party = this.parties.find((party) => {
             return party.abbreviation === abbrev;
         });
+        if (!party) {
+            return null;
+        }
+        return party;
     }
 }
 

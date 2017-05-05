@@ -45,10 +45,24 @@ class App extends Component {
     };
   }
 
+  populatePartyLogos(partyAgreements) {
+    partyAgreements = partyAgreements.filter((pa) => {
+      let party = this.partyMap.getParty(pa.party);
+      if (party) {
+        pa.partyLogo = party.logoThumbnailURL;
+        return true;
+      } else {
+        return false;
+      }
+    });
+    console.log(partyAgreements);
+  }
+
   castVote(issueId, value) {
     let analyzerVoteId = issueId + '/kamu'
     analyzer.set_user_vote(this.voteData, analyzerVoteId, value);
     let partyAgreements = analyzer.get_user_party_vote_agreements(this.voteData, analyzerVoteId);
+    this.populatePartyLogos(partyAgreements);
     this.setState(
       (prevState) => {
         const userVotes = Object.assign(prevState.userVotes, {[issueId]: value});
