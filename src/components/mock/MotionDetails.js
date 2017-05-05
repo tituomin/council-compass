@@ -51,7 +51,7 @@ export default function MotionDetails({_case, castVote, nextCase, partyAgreement
   if (isSequence && nextCase !== undefined && nextCase !== _case.issue_id) {
     nextLink = (
       <div className="flex items-center justify-center pa1">
-          <Link to={`/motion/${nextCase}`} className="f4 no-underline bg-animate hover-bg-light-green inline-flex items-center justify-center pa3 ba br-pill bw2 w-60 mb2 dark-green">
+          <Link to={`/motion/${nextCase}`} className="f4 no-underline bg-animate hover-bg-light-pink inline-flex items-center justify-center pa3 ba br-pill bw2 w-60 mb2 purple">
             <span className="">Seuraava</span>
           </Link>
       </div>);
