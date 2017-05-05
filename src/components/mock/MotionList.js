@@ -1,6 +1,5 @@
 import React from 'react';
 import MotionCard from './MotionCard';
-import UserHeader from './UserHeader';
 import _ from 'lodash';
 
 export default function MotionList({cases, userVotes, emptyVotes}) {
