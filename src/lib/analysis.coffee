@@ -142,7 +142,22 @@ popoloize_hel_council_votes = (data, votes) ->
 				voter_id: voter_id
 				party_id: party_cleanup vote.party
 				vote: vote.vote
-				vote_value: ("FOR": 1, "AGAINST": -1)[vote.vote] ? 0
+				vote_value: ("FOR": 1, "AGAINST": -1)[vote.vote]
+	
+	for vote_event_id, vote_event of data.vote_events
+		continue if vote_event.organization_id == 'kansanmuisti'
+		votes = getWhere data.votes, vote_event_id: vote_event_id
+		mean = R.mean (v.vote_value for k,v of votes when v.vote_value?)
+		continue unless mean == mean
+		if mean < 0
+			majority = -1
+		else if mean > 0
+			majority = 1
+		else
+			majority = 0
+
+		for vote_id, vote of votes
+			vote.vote_value ?= majority
 
 	return data
 
