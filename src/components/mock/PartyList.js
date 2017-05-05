@@ -11,8 +11,8 @@ function PartySummary({fullName, abbreviation, percentage, logo}) {
             <img src={logo} className="ba b--black-10 db br2 w2 w3-ns h2 h3-ns"/>
         </div>
         <div className="dtc v-mid pl3">
-            <h1 className="f6 f5-ns fw6 lh-title black mv0">{abbreviation}</h1>
-            <h2 className="f6 fw4 mt0 mb0 black-60">{fullName}</h2>
+            <h1 className="f6 f5-ns fw6 lh-title black mv0">{fullName}</h1>
+            <h2 className="f6 fw4 mt0 mb0 black-60">{abbreviation}</h2>
         </div>
         <div className="dtc v-mid tr">
             <span className="w-100 f3 green b">
@@ -33,11 +33,14 @@ export default class PartyList extends React.Component {
   getUserPartyAgreements() {
     this.setState(
       (prevState) => {
-        let agreements = _.filter(
-          analyzer.get_user_party_agreements(this.props.voteData),
-          (a) => { return a.party !== 'undefined';}
-        );
+        let agreements = analyzer.get_user_party_agreements(this.props.voteData);
+
         populatePartyLogos(agreements, this.props.partyMap);
+        agreements = _.filter(
+          agreements,
+          (a) => { return a.party !== 'undefined' && a.partyLogo;}
+        );
+
         return Object.assign({}, {agreements});
       });
   }
