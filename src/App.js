@@ -5,8 +5,9 @@ import AppNavigation from './components/mock/AppNavigation';
 import MotionDetails from './components/mock/MotionDetails';
 import MotionList from './components/mock/MotionList';
 import PartyList from './components/mock/PartyList';
+import FrontPage from './components/mock/FrontPage';
 import PartyMap from './parties';
-import analyzer from './lib/analysis'
+import analyzer from './lib/analysis';
 import _ from 'lodash';
 
 const cases = require('../importer/cases.json');
@@ -35,7 +36,7 @@ class App extends Component {
     this.voteData = analyzer.get_hack_data();
     this.partyMap = null;
     this.cases = cases;
-    this.redirectHandled = false;
+    this.redirectHandled = true;
     this.state = {
       initialised: false,
       userVotes: {},
@@ -90,6 +91,11 @@ class App extends Component {
                          return <MotionList cases={this.cases} userVotes={this.state.userVotes} />;
                        }
                   } />
+              <Route path="/" component={
+                       () => {
+                         return <FrontPage nextVote={this.state.nextCase}/>;
+                       }
+                     }/>
           </Switch>
         </div>
       </div>
