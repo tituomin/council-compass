@@ -47,9 +47,6 @@ export default function MotionDetails({_case, castVote, nextCase, partyAgreement
                 <div className="aspect-ratio--object cover bg-center z-1" style={divStyle}></div>
                 <h1 className="absolute t-0 z-5 f4 dark-gray mv0 pa2" style={opaqueBackground}>{_case.user_question}</h1>
               </div>
-              <div className="pa3">
-                <small className="gray db pv2">Lisätietoja aiheesta</small>
-              </div>
             </article>
             { voteButtons }
             { nextLink }
