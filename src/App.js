@@ -6,6 +6,7 @@ import MotionDetails from './components/mock/MotionDetails';
 import MotionList from './components/mock/MotionList';
 import PartyList from './components/mock/PartyList';
 import PartyMap from './parties';
+import analyzer from './lib/analysis'
 import _ from 'lodash';
 
 const cases = require('../importer/cases.json');
@@ -23,6 +24,7 @@ class App extends Component {
 
   constructor() {
     super();
+    this.voteData = analyzer.get_hack_data();
     this.partyMap = null;
     this.cases = cases;
     this.state = {
@@ -34,6 +36,9 @@ class App extends Component {
   }
 
   castVote(issueId, value) {
+    analyzer.set_user_vote(this.voteData, issueId, value);
+    console.log('set_vote ', issueId, value);
+
     this.setState(
       (prevState) => {
         const userVotes = Object.assign(prevState.userVotes, {[issueId]: value});
