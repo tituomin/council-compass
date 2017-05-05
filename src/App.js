@@ -75,7 +75,7 @@ class App extends Component {
   emptyVotes() {
     this.setState(
       (prevState) => {
-        return Object.assign({}, prevState, {userVotes: {}});
+        return Object.assign({}, prevState, {userVotes: {}, nextCase: this.getNextCase({}).nextCase});
       }
     );
   }
