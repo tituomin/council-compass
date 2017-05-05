@@ -207,13 +207,15 @@ vote_agreements = (data, my_votes) ->
 	for person_id, person of data.persons
 		paggs = []
 		for _, my_vote of my_votes
+			my_value = my_vote.vote_value
+			# Hack to force zero to ignore the question
+			continue if not my_value
 			vote_id = "#{my_vote.vote_event_id}/#{person_id}"
 			#other_vote = getOneWhere ests,
 			#	voter_id: person_id
 			#	vote_event_id: my_vote.vote_event_id
 			other_vote = ests[vote_id]
 			continue unless other_vote?
-			my_value = my_vote.vote_value
 			other_value = other_vote.vote_value
 			continue unless other_value == other_value
 			paggs.push my_value*other_value
