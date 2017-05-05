@@ -46,9 +46,9 @@ class App extends Component {
   }
 
   castVote(issueId, value) {
-    analyzer.set_user_vote(this.voteData, issueId, value);
-    console.log('set_vote ', issueId, value);
-
+    let analyzerVoteId = issueId + '/kamu'
+    analyzer.set_user_vote(this.voteData, analyzerVoteId, value);
+    let partyAgreements = analyzer.get_user_party_vote_agreements(this.voteData, analyzerVoteId);
     this.setState(
       (prevState) => {
         const userVotes = Object.assign(prevState.userVotes, {[issueId]: value});
@@ -56,7 +56,7 @@ class App extends Component {
         const {nextCase, remainingVotes} = this.getNextCase(userVotes);
         const result = Object.assign(
           {}, prevState,
-          {userVotes, nextCase, remainingVotes});
+          {userVotes, nextCase, remainingVotes, partyAgreements});
         return result;
       }
     );
