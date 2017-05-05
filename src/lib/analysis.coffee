@@ -178,6 +178,9 @@ voter_agreements = (data, voter_id) ->
 party_typos =
 	'Vasemmisto': 'Vas.'
 	'Vihreät': 'Vihr.'
+	'PerusSuomalaiset': 'PerusS'
+	'Kokoomus': 'Kok.'
+	'Keskusta': 'Kesk.'
 party_cleanup = (party) ->
 	party_typos[party] ? party
 
