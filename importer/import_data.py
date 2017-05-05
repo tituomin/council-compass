@@ -2,6 +2,7 @@ import csv
 import json
 import requests
 import requests_cache
+from lxml import etree, html
 from pprint import pprint
 
 requests_cache.install_cache('test')
@@ -46,9 +47,16 @@ def get_cases(year, number):
 meetings = get_meetings()
 
 all_cases = {}
+people = {}
+
 for year, number in meetings:
     cases = get_cases(year, number)
     for case_id, case in cases.items():
+        if case['vote_events']:
+            for v in case['vote_events'][0]['votes']:
+                person = {'name': v['name'], 'party': v['party']}
+                people[v['name']] = person
+
         if case_id not in all_cases:
             all_cases[case_id] = case
             continue
@@ -57,6 +65,20 @@ for year, number in meetings:
             all_cases[case_id]['discussions'].append(case['discussions'])
         if case['vote_events']:
             all_cases[case_id]['vote_events'].append(case['vote_events'])
+
+for p in people.values():
+    name = p['name'].replace('ä', 'a').replace('ö', 'o').replace('å', 'a').replace('é', 'e')
+    print(name)
+    url = f'http://www.hel.fi/www/helsinki/fi/kaupunki-ja-hallinto/paatoksenteko/kaupunginvaltuusto/jasenet/{name}'
+    resp = requests.get(url)
+    if resp.status_code != 200:
+        continue
+    root = html.fromstring(resp.content, base_url=url)
+    root.make_links_absolute(url)
+    img_list = root.cssselect('#kuva img')
+    if not len(img_list):
+        continue
+    p['portrait_url'] = img_list[0].attrib['src']
 
 
 for case in all_cases.values():
@@ -129,5 +151,11 @@ for idx, (case_id, vote_nr) in enumerate(chosen_votes):
 
 s = json.dumps(output_data, ensure_ascii=False, indent=4)
 f = open('cases.json', 'w')
+f.write(s)
+f.close()
+
+
+s = json.dumps(people, ensure_ascii=False, indent=4)
+f = open('people.json', 'w')
 f.write(s)
 f.close()

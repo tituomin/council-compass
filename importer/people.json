@@ -1,0 +1,717 @@
+{
+    "Thors Astrid": {
+        "name": "Thors Astrid",
+        "party": "SFP",
+        "portrait_url": "http://www.hel.fi/wps/wcm/connect/421e4078-f883-4783-b56e-a9466333beab/1/Tohrs-Astrid-0384.jpg?MOD=AJPERES&CACHEID=421e4078-f883-4783-b56e-a9466333beab/1"
+    },
+    "Bogomoloff Harry": {
+        "name": "Bogomoloff Harry",
+        "party": "Kok.",
+        "portrait_url": "http://www.hel.fi/wps/wcm/connect/ed1e8935-500f-45af-8a65-cb7cfe49e2e8/1/Bogomolof-Harry-0139.jpg?MOD=AJPERES&CACHEID=ed1e8935-500f-45af-8a65-cb7cfe49e2e8/1"
+    },
+    "Männistö Lasse": {
+        "name": "Männistö Lasse",
+        "party": "Kok.",
+        "portrait_url": "http://www.hel.fi/wps/wcm/connect/37880d12-9e10-4440-b8e2-b62831d66cc1/1/Mannisto-Lasse-0365.jpg?MOD=AJPERES&CACHEID=37880d12-9e10-4440-b8e2-b62831d66cc1/1"
+    },
+    "Rauhamäki Tatu": {
+        "name": "Rauhamäki Tatu",
+        "party": "Kok.",
+        "portrait_url": "http://www.hel.fi/wps/wcm/connect/17c5000b-0da5-47a1-bfa8-2db117596a7f/1/RauhamakiTatu-0677.jpg?MOD=AJPERES&CACHEID=17c5000b-0da5-47a1-bfa8-2db117596a7f/1"
+    },
+    "Lindell Harri": {
+        "name": "Lindell Harri",
+        "party": "TH",
+        "portrait_url": "http://www.hel.fi/wps/wcm/connect/dcb1431b-4024-405a-b08f-b23a067dedf9/1/Lindel-Harri-0017.jpg?MOD=AJPERES&CACHEID=dcb1431b-4024-405a-b08f-b23a067dedf9/1"
+    },
+    "Kari Emma": {
+        "name": "Kari Emma",
+        "party": "Vihr.",
+        "portrait_url": "http://www.hel.fi/wps/wcm/connect/925814ae-3d30-43ea-b323-745378a6b3bc/1/Kari-Emma-0537.jpg?MOD=AJPERES&CACHEID=925814ae-3d30-43ea-b323-745378a6b3bc/1"
+    },
+    "Soininvaara Osmo": {
+        "name": "Soininvaara Osmo",
+        "party": "Vihr.",
+        "portrait_url": "http://www.hel.fi/wps/wcm/connect/515b3d19-5abe-4199-88bf-c0169db2d976/1/Soininvaara-Osmo0449.jpg?MOD=AJPERES&CACHEID=515b3d19-5abe-4199-88bf-c0169db2d976/1"
+    },
+    "Pajamäki Osku": {
+        "name": "Pajamäki Osku",
+        "party": "SDP",
+        "portrait_url": "http://www.hel.fi/wps/wcm/connect/fdaf97bb-16dc-4f58-a93a-4acef096ea27/1/Pajamaki-Osku0156.jpg?MOD=AJPERES&CACHEID=fdaf97bb-16dc-4f58-a93a-4acef096ea27/1"
+    },
+    "Taipale Ilkka": {
+        "name": "Taipale Ilkka",
+        "party": "SDP",
+        "portrait_url": "http://www.hel.fi/wps/wcm/connect/2de1f19c-1c4a-4883-b806-e6786b5a1ba2/1/Taipale-Ilkka-0119.jpg?MOD=AJPERES&CACHEID=2de1f19c-1c4a-4883-b806-e6786b5a1ba2/1"
+    },
+    "Modig Silvia": {
+        "name": "Modig Silvia",
+        "party": "Vas.",
+        "portrait_url": "http://www.hel.fi/wps/wcm/connect/ce1a44f8-a462-4ae7-87d3-36c699ff87fe/1/Modig-Silvia-0389.jpg?MOD=AJPERES&CACHEID=ce1a44f8-a462-4ae7-87d3-36c699ff87fe/1"
+    },
+    "Rantala Marcus": {
+        "name": "Rantala Marcus",
+        "party": "SFP",
+        "portrait_url": "http://www.hel.fi/wps/wcm/connect/af78478f-ec5c-4745-b731-f8c37b22432e/1/Rantala-Markus-0631.jpg?MOD=AJPERES&CACHEID=af78478f-ec5c-4745-b731-f8c37b22432e/1"
+    },
+    "Vapaavuori Jan": {
+        "name": "Vapaavuori Jan",
+        "party": "Kok.",
+        "portrait_url": "http://www.hel.fi/wps/wcm/connect/38a0af9e-cda4-4bc7-a41a-65dbdd528579/1/Jan-Vapaavuori-K0701.jpg?MOD=AJPERES&CACHEID=38a0af9e-cda4-4bc7-a41a-65dbdd528579/1"
+    },
+    "Koskinen Kauko": {
+        "name": "Koskinen Kauko",
+        "party": "Kok.",
+        "portrait_url": "http://www.hel.fi/wps/wcm/connect/ce9294a2-a8d1-401b-a621-5b1376ae8b4f/1/Koskinen-Kauko-0097.jpg?MOD=AJPERES&CACHEID=ce9294a2-a8d1-401b-a621-5b1376ae8b4f/1"
+    },
+    "Halla-aho Jussi": {
+        "name": "Halla-aho Jussi",
+        "party": "PerusSuomalaiset",
+        "portrait_url": "http://www.hel.fi/wps/wcm/connect/ac09584e-a725-4b33-a535-5dffa3e40c64/1/Hallaaho-Jussi-0508.jpg?MOD=AJPERES&CACHEID=ac09584e-a725-4b33-a535-5dffa3e40c64/1"
+    },
+    "Kanerva Seppo": {
+        "name": "Kanerva Seppo",
+        "party": "PerusS",
+        "portrait_url": "http://www.hel.fi/wps/wcm/connect/dfb18c14-b801-48a9-a255-da1c8b61029d/1/Kanerva-Seppo-0055.jpg?MOD=AJPERES&CACHEID=dfb18c14-b801-48a9-a255-da1c8b61029d/1"
+    },
+    "Rantanen Tuomas": {
+        "name": "Rantanen Tuomas",
+        "party": "Vihr.",
+        "portrait_url": "http://www.hel.fi/wps/wcm/connect/e35afec3-d93b-4c6b-a6f4-4fe3ec916db4/1/ei-kuvaa.png?MOD=AJPERES&CACHEID=e35afec3-d93b-4c6b-a6f4-4fe3ec916db4/1"
+    },
+    "Krohn Minerva": {
+        "name": "Krohn Minerva",
+        "party": "Vihr.",
+        "portrait_url": "http://www.hel.fi/wps/wcm/connect/d2dbb3c2-8ce1-44eb-bd6c-084d15b2ba33/1/ei-kuvaa.png?MOD=AJPERES&CACHEID=d2dbb3c2-8ce1-44eb-bd6c-084d15b2ba33/1"
+    },
+    "Tenkula Tarja": {
+        "name": "Tenkula Tarja",
+        "party": "SDP",
+        "portrait_url": "http://www.hel.fi/wps/wcm/connect/c7540927-620b-4949-9356-16d1e6f29aaa/1/tenkula-tarja.jpg?MOD=AJPERES&CACHEID=c7540927-620b-4949-9356-16d1e6f29aaa/1"
+    },
+    "Lipponen Päivi": {
+        "name": "Lipponen Päivi",
+        "party": "SDP"
+    },
+    "Saarnio Pekka": {
+        "name": "Saarnio Pekka",
+        "party": "Vas.",
+        "portrait_url": "http://www.hel.fi/wps/wcm/connect/e6e95e8c-f9dc-4f17-8fa4-3bbdc0312395/1/Saarnio-Pekka-0519.jpg?MOD=AJPERES&CACHEID=e6e95e8c-f9dc-4f17-8fa4-3bbdc0312395/1"
+    },
+    "Månsson Björn": {
+        "name": "Månsson Björn",
+        "party": "SFP",
+        "portrait_url": "http://www.hel.fi/wps/wcm/connect/6de6acc5-c0ad-4e57-9ffe-5c48e08de1db/1/Monsson-Bjorn-0604.jpg?MOD=AJPERES&CACHEID=6de6acc5-c0ad-4e57-9ffe-5c48e08de1db/1"
+    },
+    "Urho Ulla-Marja": {
+        "name": "Urho Ulla-Marja",
+        "party": "Kok.",
+        "portrait_url": "http://www.hel.fi/wps/wcm/connect/36ba2cba-376f-4d0d-a89f-e9853ff4a4f7/1/Urho-0073.jpg?MOD=AJPERES&CACHEID=36ba2cba-376f-4d0d-a89f-e9853ff4a4f7/1"
+    },
+    "Hakola Juha": {
+        "name": "Hakola Juha",
+        "party": "Kok.",
+        "portrait_url": "http://www.hel.fi/wps/wcm/connect/60145f44-c06c-41d0-ba7e-616479cf6eb5/1/Hakola-Juha-0150.jpg?MOD=AJPERES&CACHEID=60145f44-c06c-41d0-ba7e-616479cf6eb5/1"
+    },
+    "Packalén Tom": {
+        "name": "Packalén Tom",
+        "party": "PerusS",
+        "portrait_url": "http://www.hel.fi/wps/wcm/connect/50d8f9be-3d22-4a7f-9ec3-f4047e549534/1/Packalen-0135.jpg?MOD=AJPERES&CACHEID=50d8f9be-3d22-4a7f-9ec3-f4047e549534/1"
+    },
+    "Huru Nina": {
+        "name": "Huru Nina",
+        "party": "NH",
+        "portrait_url": "http://www.hel.fi/wps/wcm/connect/0d71f83e-1234-400e-8356-4f360d60f2d1/1/huru_nina_web.jpg?MOD=AJPERES&CACHEID=0d71f83e-1234-400e-8356-4f360d60f2d1/1"
+    },
+    "Sumuvuori Johanna": {
+        "name": "Sumuvuori Johanna",
+        "party": "Vihr.",
+        "portrait_url": "http://www.hel.fi/wps/wcm/connect/c404b340-aac7-4321-a609-b7fb45131458/1/Sumuvuori-jOHANNA0127.jpg?MOD=AJPERES&CACHEID=c404b340-aac7-4321-a609-b7fb45131458/1"
+    },
+    "Hautala Heidi": {
+        "name": "Hautala Heidi",
+        "party": "Vihreät",
+        "portrait_url": "http://www.hel.fi/wps/wcm/connect/5d23288e-252b-45b0-ab06-9e429583bda7/1/Heidi-Hautala-0492.jpg?MOD=AJPERES&CACHEID=5d23288e-252b-45b0-ab06-9e429583bda7/1"
+    },
+    "Anttila Maija": {
+        "name": "Anttila Maija",
+        "party": "SDP",
+        "portrait_url": "http://www.hel.fi/wps/wcm/connect/251e0f30-60dc-40b1-aa9a-8b4c50d55e60/1/Anttila-0281.jpg?MOD=AJPERES&CACHEID=251e0f30-60dc-40b1-aa9a-8b4c50d55e60/1"
+    },
+    "Mäki Terhi": {
+        "name": "Mäki Terhi",
+        "party": "SDP",
+        "portrait_url": "http://www.hel.fi/wps/wcm/connect/c0215846-ed7d-4786-b1bd-53f90c9789fb/1/Maki-Terhi-0460.jpg?MOD=AJPERES&CACHEID=c0215846-ed7d-4786-b1bd-53f90c9789fb/1"
+    },
+    "Arhinmäki Paavo": {
+        "name": "Arhinmäki Paavo",
+        "party": "Vas.",
+        "portrait_url": "http://www.hel.fi/wps/wcm/connect/8ebd132a-8d4c-4daa-baff-cb83fa282242/1/Arhinmaki-Paavo0038.jpg?MOD=AJPERES&CACHEID=8ebd132a-8d4c-4daa-baff-cb83fa282242/1"
+    },
+    "Storgård Päivi": {
+        "name": "Storgård Päivi",
+        "party": "SFP",
+        "portrait_url": "http://www.hel.fi/wps/wcm/connect/f9ed326b-513d-4773-96e1-64207bafeddf/1/Storgord-Paivi0160.jpg?MOD=AJPERES&CACHEID=f9ed326b-513d-4773-96e1-64207bafeddf/1"
+    },
+    "Asko-Seljavaara Sirpa": {
+        "name": "Asko-Seljavaara Sirpa",
+        "party": "Kok.",
+        "portrait_url": "http://www.hel.fi/wps/wcm/connect/8c875915-e352-42eb-bdbd-772fe3e71534/1/Asko-Seljavaara-0191.jpg?MOD=AJPERES&CACHEID=8c875915-e352-42eb-bdbd-772fe3e71534/1"
+    },
+    "Rautava Risto": {
+        "name": "Rautava Risto",
+        "party": "Kok.",
+        "portrait_url": "http://www.hel.fi/wps/wcm/connect/01b4101d-504c-4d59-a0a2-7a79d722e8ec/1/Rautava-Risto-0478.jpg?MOD=AJPERES&CACHEID=01b4101d-504c-4d59-a0a2-7a79d722e8ec/1"
+    },
+    "Hursti René": {
+        "name": "Hursti René",
+        "party": "RH",
+        "portrait_url": "http://www.hel.fi/wps/wcm/connect/0143742c-9a1b-4284-9acd-e6d587f6415d/1/Hursti-Rene-0189.jpg?MOD=AJPERES&CACHEID=0143742c-9a1b-4284-9acd-e6d587f6415d/1"
+    },
+    "Raatikainen Mika": {
+        "name": "Raatikainen Mika",
+        "party": "PerusS",
+        "portrait_url": "http://www.hel.fi/wps/wcm/connect/2ed5d87d-8c68-4ef5-bd69-6783938f3d6f/1/Raatikainen-M-0107.jpg?MOD=AJPERES&CACHEID=2ed5d87d-8c68-4ef5-bd69-6783938f3d6f/1"
+    },
+    "Sinnemäki Anni": {
+        "name": "Sinnemäki Anni",
+        "party": "Vihreät",
+        "portrait_url": "http://www.hel.fi/wps/wcm/connect/35916ba3-f64f-463b-8f67-0fcd04a65a70/1/Sinnemaki-Anni0267.jpg?MOD=AJPERES&CACHEID=35916ba3-f64f-463b-8f67-0fcd04a65a70/1"
+    },
+    "Alanko-Kahiluoto Outi": {
+        "name": "Alanko-Kahiluoto Outi",
+        "party": "Vihr.",
+        "portrait_url": "http://www.hel.fi/wps/wcm/connect/06cc1eed-356e-4f8d-b189-6edbbd6e65e9/1/Alanko-Kahiluoto-0313.jpg?MOD=AJPERES&CACHEID=06cc1eed-356e-4f8d-b189-6edbbd6e65e9/1"
+    },
+    "Heinäluoma Eero": {
+        "name": "Heinäluoma Eero",
+        "party": "SDP",
+        "portrait_url": "http://www.hel.fi/wps/wcm/connect/a60db1c5-c59d-46c0-9de4-51ff82159b58/1/Heinaluoma-Eero-0426.jpg?MOD=AJPERES&CACHEID=a60db1c5-c59d-46c0-9de4-51ff82159b58/1"
+    },
+    "Paavolainen Sara": {
+        "name": "Paavolainen Sara",
+        "party": "SDP",
+        "portrait_url": "http://www.hel.fi/wps/wcm/connect/5c75a030-beba-4b71-83a8-53c3292f49bb/1/Paavolainen-Sara-0236.jpg?MOD=AJPERES&CACHEID=5c75a030-beba-4b71-83a8-53c3292f49bb/1"
+    },
+    "Puhakka Sirpa": {
+        "name": "Puhakka Sirpa",
+        "party": "Vas.",
+        "portrait_url": "http://www.hel.fi/wps/wcm/connect/cbd4c638-0149-416d-a576-53a8cf5f8369/1/ei-kuvaa.png?MOD=AJPERES&CACHEID=cbd4c638-0149-416d-a576-53a8cf5f8369/1"
+    },
+    "Brettschneider Gunvor": {
+        "name": "Brettschneider Gunvor",
+        "party": "SFP",
+        "portrait_url": "http://www.hel.fi/wps/wcm/connect/1e34e8c5-6af5-4407-ac25-1e354668d53d/1/Brettschneider-Gunvor-0544.jpg?MOD=AJPERES&CACHEID=1e34e8c5-6af5-4407-ac25-1e354668d53d/1"
+    },
+    "Enroth Matti": {
+        "name": "Enroth Matti",
+        "party": "Kok.",
+        "portrait_url": "http://www.hel.fi/wps/wcm/connect/e1501b70-5765-4401-a3ce-0baa3889acf9/1/Enroth-Matti-0168.jpg?MOD=AJPERES&CACHEID=e1501b70-5765-4401-a3ce-0baa3889acf9/1"
+    },
+    "Karhuvaara Arja": {
+        "name": "Karhuvaara Arja",
+        "party": "Kok.",
+        "portrait_url": "http://www.hel.fi/wps/wcm/connect/8af4a5f6-8244-40e1-8103-76373b3de7b6/1/karhuvaara_arja.jpg?MOD=AJPERES&CACHEID=8af4a5f6-8244-40e1-8103-76373b3de7b6/1"
+    },
+    "Peltokorpi Terhi": {
+        "name": "Peltokorpi Terhi",
+        "party": "Kesk.",
+        "portrait_url": "http://www.hel.fi/wps/wcm/connect/f538b01c-bd4a-43ea-b6b0-93dfe3118820/1/Peltokorpi-Terhi-0375.jpg?MOD=AJPERES&CACHEID=f538b01c-bd4a-43ea-b6b0-93dfe3118820/1"
+    },
+    "Kantola Helena": {
+        "name": "Kantola Helena",
+        "party": "Kok."
+    },
+    "Ikävalko Suzan": {
+        "name": "Ikävalko Suzan",
+        "party": "Vihr.",
+        "portrait_url": "http://www.hel.fi/wps/wcm/connect/4d140cfa-556e-4aa2-8fc9-a7eb4d26ee3e/1/Suzan-Ikavalko.jpg?MOD=AJPERES&CACHEID=4d140cfa-556e-4aa2-8fc9-a7eb4d26ee3e/1"
+    },
+    "Kousa Tuuli": {
+        "name": "Kousa Tuuli",
+        "party": "Vihr.",
+        "portrait_url": "http://www.hel.fi/wps/wcm/connect/9a130657-8cfd-439e-bdbd-9f28e3bdcc4e/1/Kousa-0154_94857__webiso.jpg?MOD=AJPERES&CACHEID=9a130657-8cfd-439e-bdbd-9f28e3bdcc4e/1"
+    },
+    "Wallgren Thomas": {
+        "name": "Wallgren Thomas",
+        "party": "SDP",
+        "portrait_url": "http://www.hel.fi/wps/wcm/connect/ee18ca3e-66b9-4463-b7ef-063cd2f80ec8/1/ei-kuvaa.png?MOD=AJPERES&CACHEID=ee18ca3e-66b9-4463-b7ef-063cd2f80ec8/1"
+    },
+    "Valokainen Tuomo": {
+        "name": "Valokainen Tuomo",
+        "party": "SDP"
+    },
+    "Koivulaakso Dan": {
+        "name": "Koivulaakso Dan",
+        "party": "Vas.",
+        "portrait_url": "http://www.hel.fi/wps/wcm/connect/4b14cc61-0a26-4b15-8e2a-2bb3bacec7b1/1/koivulaakso-dan.jpg?MOD=AJPERES&CACHEID=4b14cc61-0a26-4b15-8e2a-2bb3bacec7b1/1"
+    },
+    "Muurinen Seija": {
+        "name": "Muurinen Seija",
+        "party": "Kok.",
+        "portrait_url": "http://www.hel.fi/wps/wcm/connect/a48afd1f-b881-4906-bb5b-aa8b5ba43429/1/Muurinen-Seija-0061.jpg?MOD=AJPERES&CACHEID=a48afd1f-b881-4906-bb5b-aa8b5ba43429/1"
+    },
+    "Koulumies Terhi": {
+        "name": "Koulumies Terhi",
+        "party": "Kok.",
+        "portrait_url": "http://www.hel.fi/wps/wcm/connect/dba4d90c-784d-42bf-a4e4-676fb2cdfb5f/1/Terhi-Koulumies-valkotausta.jpg?MOD=AJPERES&CACHEID=dba4d90c-784d-42bf-a4e4-676fb2cdfb5f/1"
+    },
+    "Pelkonen Jaana": {
+        "name": "Pelkonen Jaana",
+        "party": "Kok.",
+        "portrait_url": "http://www.hel.fi/wps/wcm/connect/a32a5105-d834-44e7-8e61-7cab029126b8/1/ei-kuvaa.png?MOD=AJPERES&CACHEID=a32a5105-d834-44e7-8e61-7cab029126b8/1"
+    },
+    "Kolbe Laura": {
+        "name": "Kolbe Laura",
+        "party": "Kesk.",
+        "portrait_url": "http://www.hel.fi/wps/wcm/connect/20b03320-0920-4111-a13b-5889838ac2c1/1/Kolbe-Laura-0440.jpg?MOD=AJPERES&CACHEID=20b03320-0920-4111-a13b-5889838ac2c1/1"
+    },
+    "Holopainen Mari": {
+        "name": "Holopainen Mari",
+        "party": "Vihr.",
+        "portrait_url": "http://www.hel.fi/wps/wcm/connect/6bf0bcf7-852f-49cc-b5aa-02a5e3bb15ad/1/Holopainen-Mari_Heikki-Tuuli.jpg?MOD=AJPERES&CACHEID=6bf0bcf7-852f-49cc-b5aa-02a5e3bb15ad/1"
+    },
+    "Chydenius Jussi": {
+        "name": "Chydenius Jussi",
+        "party": "Vihr.",
+        "portrait_url": "http://www.hel.fi/wps/wcm/connect/503352b8-61a0-44e3-9b83-04aff5951fd2/1/Chydenius-Jussi-0050.jpg?MOD=AJPERES&CACHEID=503352b8-61a0-44e3-9b83-04aff5951fd2/1"
+    },
+    "Kivekäs Otso": {
+        "name": "Kivekäs Otso",
+        "party": "Vihr.",
+        "portrait_url": "http://www.hel.fi/wps/wcm/connect/20a2f564-f9d7-4a54-8f1e-549c81e58fde/1/kivekas-Otso0626.jpg?MOD=AJPERES&CACHEID=20a2f564-f9d7-4a54-8f1e-549c81e58fde/1"
+    },
+    "Arajärvi Pentti": {
+        "name": "Arajärvi Pentti",
+        "party": "SDP",
+        "portrait_url": "http://www.hel.fi/wps/wcm/connect/ad782e38-cb36-4d5a-9b60-807d792c5cf3/1/Arajarvi-Pentti-0528.jpg?MOD=AJPERES&CACHEID=ad782e38-cb36-4d5a-9b60-807d792c5cf3/1"
+    },
+    "Razmyar Nasima": {
+        "name": "Razmyar Nasima",
+        "party": "SDP",
+        "portrait_url": "http://www.hel.fi/wps/wcm/connect/04218fa1-981a-4565-b422-475c667f24a8/1/Razmyar-Nasima0260.jpg?MOD=AJPERES&CACHEID=04218fa1-981a-4565-b422-475c667f24a8/1"
+    },
+    "Honkasalo Veronika": {
+        "name": "Honkasalo Veronika",
+        "party": "Vas.",
+        "portrait_url": "http://www.hel.fi/wps/wcm/connect/8c243129-3619-4d1e-ac20-817c7d6b65b3/1/Honkasalo-Veronika-0341.jpg?MOD=AJPERES&CACHEID=8c243129-3619-4d1e-ac20-817c7d6b65b3/1"
+    },
+    "Pakarinen Pia": {
+        "name": "Pakarinen Pia",
+        "party": "Kok.",
+        "portrait_url": "http://www.hel.fi/wps/wcm/connect/3853031a-de9c-4ec9-afc6-ac1a031c9826/1/Pakarinen-0087.jpg?MOD=AJPERES&CACHEID=3853031a-de9c-4ec9-afc6-ac1a031c9826/1"
+    },
+    "Nieminen Jarmo": {
+        "name": "Nieminen Jarmo",
+        "party": "Vihr.",
+        "portrait_url": "http://www.hel.fi/wps/wcm/connect/b3850d26-5905-4b9a-ac94-a059d7ed295e/1/Nieminen-0249.jpg?MOD=AJPERES&CACHEID=b3850d26-5905-4b9a-ac94-a059d7ed295e/1"
+    },
+    "Rissanen Laura": {
+        "name": "Rissanen Laura",
+        "party": "Kok.",
+        "portrait_url": "http://www.hel.fi/wps/wcm/connect/7dec2fe2-bc7e-40f7-a529-13d6ab1f8168/1/Rissanen-Laura0270.jpg?MOD=AJPERES&CACHEID=7dec2fe2-bc7e-40f7-a529-13d6ab1f8168/1"
+    },
+    "Laaninen Timo": {
+        "name": "Laaninen Timo",
+        "party": "Kesk.",
+        "portrait_url": "http://www.hel.fi/wps/wcm/connect/ac56bd59-a2b5-4c7e-97cb-ea61ece8d52a/1/Laaninen-0174.jpg?MOD=AJPERES&CACHEID=ac56bd59-a2b5-4c7e-97cb-ea61ece8d52a/1"
+    },
+    "Relander Jukka": {
+        "name": "Relander Jukka",
+        "party": "Vihr.",
+        "portrait_url": "http://www.hel.fi/wps/wcm/connect/b931b2b2-09f7-4c5b-abfb-72638dc2e3fd/1/Relander-0148.jpg?MOD=AJPERES&CACHEID=b931b2b2-09f7-4c5b-abfb-72638dc2e3fd/1"
+    },
+    "Hamid Jasmin": {
+        "name": "Hamid Jasmin",
+        "party": "Vihr.",
+        "portrait_url": "http://www.hel.fi/wps/wcm/connect/085c0e70-8fc0-4286-9a88-fa822fd3af32/1/Jasmin_Hamid_2.jpg?MOD=AJPERES&CACHEID=085c0e70-8fc0-4286-9a88-fa822fd3af32/1"
+    },
+    "Stranius Leo": {
+        "name": "Stranius Leo",
+        "party": "Vihr.",
+        "portrait_url": "http://www.hel.fi/wps/wcm/connect/08343a39-4f11-4da8-a849-749a99c5f73a/1/Stranius-Leo0349.jpg?MOD=AJPERES&CACHEID=08343a39-4f11-4da8-a849-749a99c5f73a/1"
+    },
+    "Torsti Pilvi": {
+        "name": "Torsti Pilvi",
+        "party": "SDP",
+        "portrait_url": "http://www.hel.fi/wps/wcm/connect/c456e6fe-c592-46ee-891e-6f05e546fd65/1/Torsti-Pilvi0418.jpg?MOD=AJPERES&CACHEID=c456e6fe-c592-46ee-891e-6f05e546fd65/1"
+    },
+    "Loukoila Eija": {
+        "name": "Loukoila Eija",
+        "party": "Vas.",
+        "portrait_url": "http://www.hel.fi/wps/wcm/connect/a428e6e8-cc1e-4d9b-8d5b-a0b91ba32b15/1/Loukoila-0281.jpg?MOD=AJPERES&CACHEID=a428e6e8-cc1e-4d9b-8d5b-a0b91ba32b15/1"
+    },
+    "Muttilainen Sami": {
+        "name": "Muttilainen Sami",
+        "party": "Vas."
+    },
+    "Andersson Hennariikka": {
+        "name": "Andersson Hennariikka",
+        "party": "Kok.",
+        "portrait_url": "http://www.hel.fi/wps/wcm/connect/308f603d-e7d6-4af3-b9dc-0f4d93a790bb/1/hennariikkaandersson.jpg?MOD=AJPERES&CACHEID=308f603d-e7d6-4af3-b9dc-0f4d93a790bb/1"
+    },
+    "Hetemaj Fatbardhe": {
+        "name": "Hetemaj Fatbardhe",
+        "party": "Kok.",
+        "portrait_url": "http://www.hel.fi/wps/wcm/connect/d2a9b3dc-580b-40cd-a726-9a41d654bb47/1/Hetemai-Fatbardhe-0322.jpg?MOD=AJPERES&CACHEID=d2a9b3dc-580b-40cd-a726-9a41d654bb47/1"
+    },
+    "Rydman Wille": {
+        "name": "Rydman Wille",
+        "party": "Kok.",
+        "portrait_url": "http://www.hel.fi/wps/wcm/connect/bfb3839f-9a81-4e33-bc15-0c280a3a76a7/1/Rydmann-W-0216.jpg?MOD=AJPERES&CACHEID=bfb3839f-9a81-4e33-bc15-0c280a3a76a7/1"
+    },
+    "Ebeling Mika": {
+        "name": "Ebeling Mika",
+        "party": "KD",
+        "portrait_url": "http://www.hel.fi/wps/wcm/connect/341173b3-ce8e-4a37-ace3-caae023a909c/1/Ebeling-0079.jpg?MOD=AJPERES&CACHEID=341173b3-ce8e-4a37-ace3-caae023a909c/1"
+    },
+    "Ingervo Sirkku": {
+        "name": "Ingervo Sirkku",
+        "party": "Vas.",
+        "portrait_url": "http://www.hel.fi/wps/wcm/connect/0cfd78e2-ca4c-49e4-9722-048d3b6f9ebb/1/ingervo_sirkku.jpg?MOD=AJPERES&CACHEID=0cfd78e2-ca4c-49e4-9722-048d3b6f9ebb/1"
+    },
+    "Perälä Erkki": {
+        "name": "Perälä Erkki",
+        "party": "Vihr.",
+        "portrait_url": "http://www.hel.fi/wps/wcm/connect/7904c5d7-05c1-426d-91b2-6bf748580bdf/1/Perala-Erkki0202.jpg?MOD=AJPERES&CACHEID=7904c5d7-05c1-426d-91b2-6bf748580bdf/1"
+    },
+    "Jalovaara Ville": {
+        "name": "Jalovaara Ville",
+        "party": "SDP",
+        "portrait_url": "http://www.hel.fi/wps/wcm/connect/1515b6e1-4a3b-467a-8473-a521eb828a77/1/Jalovaara-0223.jpg?MOD=AJPERES&CACHEID=1515b6e1-4a3b-467a-8473-a521eb828a77/1"
+    },
+    "Järvinen Jukka": {
+        "name": "Järvinen Jukka",
+        "party": "SDP",
+        "portrait_url": "http://www.hel.fi/wps/wcm/connect/ae1e18db-b3b0-4e4d-8223-40dcffe4c2dd/1/Jarvinen-0246.jpg?MOD=AJPERES&CACHEID=ae1e18db-b3b0-4e4d-8223-40dcffe4c2dd/1"
+    },
+    "Vuorjoki Anna": {
+        "name": "Vuorjoki Anna",
+        "party": "Vas.",
+        "portrait_url": "http://www.hel.fi/wps/wcm/connect/d71cb212-d5c8-4777-ba33-11134f2b7c86/1/Vuorijoki-Anna0567.jpg?MOD=AJPERES&CACHEID=d71cb212-d5c8-4777-ba33-11134f2b7c86/1"
+    },
+    "Takkinen Heikki": {
+        "name": "Takkinen Heikki",
+        "party": "SKP"
+    },
+    "Niiranen Matti": {
+        "name": "Niiranen Matti",
+        "party": "Kok.",
+        "portrait_url": "http://www.hel.fi/wps/wcm/connect/2cc60e33-2679-4a87-8776-3fed052be484/1/Niiranen-M-0228.jpg?MOD=AJPERES&CACHEID=2cc60e33-2679-4a87-8776-3fed052be484/1"
+    },
+    "Majuri Pekka": {
+        "name": "Majuri Pekka",
+        "party": "Kok.",
+        "portrait_url": "http://www.hel.fi/wps/wcm/connect/083ee985-84b2-4fb1-9427-44e9c7511361/1/Majuri-Pekka-0193.jpg?MOD=AJPERES&CACHEID=083ee985-84b2-4fb1-9427-44e9c7511361/1"
+    },
+    "Raittinen Timo": {
+        "name": "Raittinen Timo",
+        "party": "Kok.",
+        "portrait_url": "http://www.hel.fi/wps/wcm/connect/d48a15c1-8936-4d11-9a20-2a693c67cd28/1/Raittinen-Timo-0041.jpg?MOD=AJPERES&CACHEID=d48a15c1-8936-4d11-9a20-2a693c67cd28/1"
+    },
+    "Mäkimattila Sari": {
+        "name": "Mäkimattila Sari",
+        "party": "KD",
+        "portrait_url": "http://www.hel.fi/wps/wcm/connect/e53d1024-62a7-43d0-b459-09d6b042bd50/1/Makimattila-S-0068.jpg?MOD=AJPERES&CACHEID=e53d1024-62a7-43d0-b459-09d6b042bd50/1"
+    },
+    "Puoskari Mari": {
+        "name": "Puoskari Mari",
+        "party": "Vihr.",
+        "portrait_url": "http://www.hel.fi/wps/wcm/connect/83cb1363-9f7a-4b74-9a71-11fdf77a42d0/1/Puoskari-Mari-0669.jpg?MOD=AJPERES&CACHEID=83cb1363-9f7a-4b74-9a71-11fdf77a42d0/1"
+    },
+    "Lovén Jape": {
+        "name": "Lovén Jape",
+        "party": "SDP",
+        "portrait_url": "http://www.hel.fi/wps/wcm/connect/86ec72a3-3963-457f-8e7e-49abaaca7e8c/1/ei-kuvaa.png?MOD=AJPERES&CACHEID=86ec72a3-3963-457f-8e7e-49abaaca7e8c/1"
+    },
+    "Korkkula Vesa": {
+        "name": "Korkkula Vesa",
+        "party": "Vas."
+    },
+    "Oker-Blom Jan D": {
+        "name": "Oker-Blom Jan D",
+        "party": "SFP"
+    },
+    "Sydänmaa Johanna": {
+        "name": "Sydänmaa Johanna",
+        "party": "Vihr.",
+        "portrait_url": "http://www.hel.fi/wps/wcm/connect/ae2dd15c-5b1a-4af6-857a-5d39c5ec751b/1/johannasydanmaa.jpg?MOD=AJPERES&CACHEID=ae2dd15c-5b1a-4af6-857a-5d39c5ec751b/1"
+    },
+    "Villo Pertti": {
+        "name": "Villo Pertti",
+        "party": "PerusS"
+    },
+    "Abdulla Zahra": {
+        "name": "Abdulla Zahra",
+        "party": "Vas.",
+        "portrait_url": "http://www.hel.fi/wps/wcm/connect/cab7f2b7-3445-41e4-93c2-020767aad0ad/1/ei-kuvaa.png?MOD=AJPERES&CACHEID=cab7f2b7-3445-41e4-93c2-020767aad0ad/1"
+    },
+    "Hyttinen Nuutti": {
+        "name": "Hyttinen Nuutti",
+        "party": "PerusS"
+    },
+    "Sevander Tomi": {
+        "name": "Sevander Tomi",
+        "party": "SDP",
+        "portrait_url": "http://www.hel.fi/wps/wcm/connect/cab7f2b7-3445-41e4-93c2-020767aad0ad/1/ei-kuvaa.png?MOD=AJPERES"
+    },
+    "Nyholm Henrik": {
+        "name": "Nyholm Henrik",
+        "party": "Vas."
+    },
+    "Salla Aura": {
+        "name": "Salla Aura",
+        "party": "Kokoomus"
+    },
+    "Palm Anniina": {
+        "name": "Palm Anniina",
+        "party": "Kok."
+    },
+    "Oskala Hannu": {
+        "name": "Oskala Hannu",
+        "party": "Vihr.",
+        "portrait_url": "http://www.hel.fi/wps/wcm/connect/b264829d-f212-4ef8-812b-05046bc6af24/1/KV+Hannu+Oskala+0262_64822.jpg?MOD=AJPERES&CACHEID=b264829d-f212-4ef8-812b-05046bc6af24/1"
+    },
+    "Hakanen Yrjö": {
+        "name": "Hakanen Yrjö",
+        "party": "SKP",
+        "portrait_url": "http://www.hel.fi/wps/wcm/connect/3f351ad9-4357-46c0-9dbf-1755d0bdb0fb/1/Hakanen-Yrjo-0182.jpg?MOD=AJPERES&CACHEID=3f351ad9-4357-46c0-9dbf-1755d0bdb0fb/1"
+    },
+    "Malin Petra": {
+        "name": "Malin Petra",
+        "party": "Vas."
+    },
+    "Xia Belle Selene": {
+        "name": "Xia Belle Selene",
+        "party": "PerusSuomalaiset"
+    },
+    "Laaksonen Heimo": {
+        "name": "Laaksonen Heimo",
+        "party": "Kok."
+    },
+    "Vesikansa Sanna": {
+        "name": "Vesikansa Sanna",
+        "party": "Vihr.",
+        "portrait_url": "http://www.hel.fi/wps/wcm/connect/efd26108-8cd9-406f-b434-44b9730fb261/1/ei-kuvaa.png?MOD=AJPERES&CACHEID=efd26108-8cd9-406f-b434-44b9730fb261/1"
+    },
+    "Moisio Elina": {
+        "name": "Moisio Elina",
+        "party": "Vihr."
+    },
+    "Finne-Elonen Laura": {
+        "name": "Finne-Elonen Laura",
+        "party": "SFP"
+    },
+    "Mithiku Hanna": {
+        "name": "Mithiku Hanna",
+        "party": "Vas."
+    },
+    "Kajos Miina": {
+        "name": "Kajos Miina",
+        "party": "Vasemmisto"
+    },
+    "Taipale Kaarin": {
+        "name": "Taipale Kaarin",
+        "party": "SDP"
+    },
+    "Karhu Jessica": {
+        "name": "Karhu Jessica",
+        "party": "Vihr."
+    },
+    "Möller Antti": {
+        "name": "Möller Antti",
+        "party": "Vihr."
+    },
+    "Nordström Laura": {
+        "name": "Nordström Laura",
+        "party": "Vihr."
+    },
+    "Kuikka Essi": {
+        "name": "Kuikka Essi",
+        "party": "Vihreät"
+    },
+    "Vainikka Mirka": {
+        "name": "Vainikka Mirka",
+        "party": "SDP"
+    },
+    "Vuorinen Markku": {
+        "name": "Vuorinen Markku",
+        "party": "Kesk."
+    },
+    "Tuure Tuomas": {
+        "name": "Tuure Tuomas",
+        "party": "Vihr."
+    },
+    "Saukkonen Lea": {
+        "name": "Saukkonen Lea",
+        "party": "Kok."
+    },
+    "Luukkainen Hannele": {
+        "name": "Luukkainen Hannele",
+        "party": "Kok."
+    },
+    "Rantanen Mari": {
+        "name": "Rantanen Mari",
+        "party": "PerusS"
+    },
+    "Ylikahri Ville": {
+        "name": "Ylikahri Ville",
+        "party": "Vihr."
+    },
+    "Toijonen Karita": {
+        "name": "Toijonen Karita",
+        "party": "SDP"
+    },
+    "Lehtipuu Otto": {
+        "name": "Lehtipuu Otto",
+        "party": "Vihr."
+    },
+    "Pihlaja Kirsi": {
+        "name": "Pihlaja Kirsi",
+        "party": "Vasemmisto"
+    },
+    "Torvalds Nils": {
+        "name": "Torvalds Nils",
+        "party": ""
+    },
+    "Vepsä Sinikka": {
+        "name": "Vepsä Sinikka",
+        "party": "SDP"
+    },
+    "Vuorinen Tuulikki": {
+        "name": "Vuorinen Tuulikki",
+        "party": "KD"
+    },
+    "Ohisalo Maria": {
+        "name": "Ohisalo Maria",
+        "party": "Vihr."
+    },
+    "Ahola Riku": {
+        "name": "Ahola Riku",
+        "party": "Vas."
+    },
+    "Gayer Patrik": {
+        "name": "Gayer Patrik",
+        "party": "SFP"
+    },
+    "Mohamed Abdirahim Hussein": {
+        "name": "Mohamed Abdirahim Hussein",
+        "party": "Keskusta"
+    },
+    "Juva Katriina": {
+        "name": "Juva Katriina",
+        "party": "Vihr."
+    },
+    "Landén Maria": {
+        "name": "Landén Maria",
+        "party": "PerusS"
+    },
+    "Hussein Abdirahim Mohamed": {
+        "name": "Hussein Abdirahim Mohamed",
+        "party": "Kesk."
+    },
+    "Tasmuth Tiina": {
+        "name": "Tasmuth Tiina",
+        "party": "Keskusta"
+    },
+    "Tiusanen Pekka": {
+        "name": "Tiusanen Pekka",
+        "party": "PerusS"
+    },
+    "Hertzberg Veronica": {
+        "name": "Hertzberg Veronica",
+        "party": "SFP"
+    },
+    "Selin Ann": {
+        "name": "Selin Ann",
+        "party": "SDP"
+    },
+    "Korolainen-Virkajärvi Katri": {
+        "name": "Korolainen-Virkajärvi Katri",
+        "party": "Vihr."
+    },
+    "Abib Mukhtar": {
+        "name": "Abib Mukhtar",
+        "party": "Kok."
+    },
+    "Nuorteva Johanna": {
+        "name": "Nuorteva Johanna",
+        "party": "Vihr."
+    },
+    "Pasterstein Dennis": {
+        "name": "Pasterstein Dennis",
+        "party": "Kok."
+    },
+    "Kantola Tarja": {
+        "name": "Kantola Tarja",
+        "party": "SDP"
+    },
+    "Roos J.P": {
+        "name": "Roos J.P",
+        "party": "Vasemmisto"
+    },
+    "Skoglund Riitta": {
+        "name": "Skoglund Riitta",
+        "party": "Vihr."
+    },
+    "Klemetti Tapio": {
+        "name": "Klemetti Tapio",
+        "party": "Kok."
+    },
+    "Kuikka Meeri": {
+        "name": "Kuikka Meeri",
+        "party": "Vihr."
+    },
+    "Hyvärinen Maritta": {
+        "name": "Hyvärinen Maritta",
+        "party": "Kok."
+    },
+    "Nurmela Tuomas": {
+        "name": "Nurmela Tuomas",
+        "party": "Kokoomus"
+    },
+    "Heistaro Sami": {
+        "name": "Heistaro Sami",
+        "party": "Kokoomus"
+    },
+    "Välimäki Heta": {
+        "name": "Välimäki Heta",
+        "party": "SDP"
+    },
+    "Malinen Jouko": {
+        "name": "Malinen Jouko",
+        "party": "SDP"
+    },
+    "Röyskö Heini": {
+        "name": "Röyskö Heini",
+        "party": "KD"
+    },
+    "Vihervaara Anita": {
+        "name": "Vihervaara Anita",
+        "party": "SDP"
+    },
+    "Apter Ted": {
+        "name": "Apter Ted",
+        "party": "Kok."
+    },
+    "Mickelsson Annukka": {
+        "name": "Mickelsson Annukka",
+        "party": "Kok."
+    },
+    "Lehtinen Pauliina": {
+        "name": "Lehtinen Pauliina",
+        "party": "Vihr."
+    },
+    "Liemola Lasse": {
+        "name": "Liemola Lasse",
+        "party": "SFP"
+    },
+    "Aaltonen Jaana": {
+        "name": "Aaltonen Jaana",
+        "party": "SDP"
+    },
+    "Granberg-Haakana Charlotte": {
+        "name": "Granberg-Haakana Charlotte",
+        "party": "SFP"
+    }
+}
