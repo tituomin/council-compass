@@ -1,3 +1,4 @@
+import csv
 import json
 import requests
 import requests_cache
@@ -89,8 +90,24 @@ chosen_votes = [
     ('55804a3c3e29c95059b91c60', 2),   # Jätkäsaaren tornihotelli
 ]
 
+EDIT_DATA = """Pitäisikö Helsinkiin rakentaa Guggenheim-museo osittain julkisin varoin?    
+Pitäisikö Hämeentien läpiajoa rajoittaa henkilöautoilta?    
+Pitäisikö Helsinkiin rakentaa Keskustakirjasto? 
+Pitäisikö Länsimetro Oy:n hallituksen päätösasiakirjojen olla julkisia? x
+Pitäisikö järjestää kokeilu, jossa osassa Helsingin päiväkodeista tarjotaan vegaaninen ruokavaihtoehto? 
+Pitäisikö Talin golfkentän tilalle rakentaa asuntoja?   x
+Pitäisikö kerjääminen kieltää Helsingin yleisillä alueilla? x
+Pitäisikö rakentaa raitiotieyhteys keskustasta Laajasaloon (Kruunusillat-hanke)?    
+Pitäisikö Malmin lentoasemalla säilyttää ilmailutoiminta?   x
+Pitäisikö Jätkäsaareen rakentaa tornihotelli?   """
+
+questions = [(x.rstrip(' x'), (1, -1)[x[-1] == 'x']) for x in EDIT_DATA.split('\n')]
+
+f = open('votes.csv', 'w')
+writer = csv.writer(f)
+
 output_data = []
-for case_id, vote_nr in chosen_votes:
+for idx, (case_id, vote_nr) in enumerate(chosen_votes):
     case = all_cases.get(case_id)
     vote_event = None
     for vote in case['vote_events']:
@@ -101,6 +118,14 @@ for case_id, vote_nr in chosen_votes:
     data['vote_event'] = vote_event
     del data['vote_events']
     output_data.append(data)
+    data['user_question'] = questions[idx][0]
+    data['vote_map'] = questions[idx][1]
+
+    row = [
+        data['register_id'], data['title'], data['proposal'], vote_event['type_text'],
+        vote_event['for_title'], vote_event['for_text'], vote_event['against_title'], vote_event['against_text']
+    ]
+    writer.writerow(row)
 
 s = json.dumps(output_data, ensure_ascii=False, indent=4)
 f = open('cases.json', 'w')

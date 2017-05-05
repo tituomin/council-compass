@@ -542,7 +542,9 @@
                 "for": 32
             },
             "issue_id": "583801197c6d17175722ee22"
-        }
+        },
+        "user_question": "Pitäisikö Helsinkiin rakentaa Guggenheim-museo osittain julkisin varoin?",
+        "vote_map": 1
     },
     {
         "number": "7",
@@ -1087,7 +1089,9 @@
                 "for": 57
             },
             "issue_id": "5719dc5de90857870339f144"
-        }
+        },
+        "user_question": "Pitäisikö Hämeentien läpiajoa rajoittaa henkilöautoilta?",
+        "vote_map": 1
     },
     {
         "number": "9",
@@ -1632,7 +1636,9 @@
                 "for": 75
             },
             "issue_id": "55804a403e29c95059b92497"
-        }
+        },
+        "user_question": "Pitäisikö Helsinkiin rakentaa Keskustakirjasto?",
+        "vote_map": 1
     },
     {
         "number": "11",
@@ -2177,7 +2183,9 @@
                 "for": 8
             },
             "issue_id": "584a76192510f9a23d584023"
-        }
+        },
+        "user_question": "Pitäisikö Länsimetro Oy:n hallituksen päätösasiakirjojen olla julkisia?",
+        "vote_map": -1
     },
     {
         "number": "11",
@@ -2722,7 +2730,9 @@
                 "for": 47
             },
             "issue_id": "57440c5d9805a5a173b100d9"
-        }
+        },
+        "user_question": "Pitäisikö järjestää kokeilu, jossa osassa Helsingin päiväkodeista tarjotaan vegaaninen ruokavaihtoehto?",
+        "vote_map": 1
     },
     {
         "number": "31",
@@ -3267,7 +3277,9 @@
                 "for": 36
             },
             "issue_id": "55804a3e3e29c95059b921c1"
-        }
+        },
+        "user_question": "Pitäisikö Talin golfkentän tilalle rakentaa asuntoja?",
+        "vote_map": -1
     },
     {
         "number": "17",
@@ -3812,7 +3824,9 @@
                 "for": 52
             },
             "issue_id": "55804a3b3e29c95059b91b7b"
-        }
+        },
+        "user_question": "Pitäisikö kerjääminen kieltää Helsingin yleisillä alueilla?",
+        "vote_map": -1
     },
     {
         "number": "10",
@@ -4357,7 +4371,9 @@
                 "for": 58
             },
             "issue_id": "57bffa890c184cfb5701f15a"
-        }
+        },
+        "user_question": "Pitäisikö rakentaa raitiotieyhteys keskustasta Laajasaloon (Kruunusillat-hanke)?",
+        "vote_map": 1
     },
     {
         "number": "7",
@@ -4902,7 +4918,9 @@
                 "for": 56
             },
             "issue_id": "55804a403e29c95059b92574"
-        }
+        },
+        "user_question": "Pitäisikö Malmin lentoasemalla säilyttää ilmailutoiminta?",
+        "vote_map": -1
     },
     {
         "number": "6",
@@ -5447,6 +5465,8 @@
                 "for": 42
             },
             "issue_id": "55804a3c3e29c95059b91c60"
-        }
+        },
+        "user_question": "Pitäisikö Jätkäsaareen rakentaa tornihotelli?",
+        "vote_map": 1
     }
 ]
