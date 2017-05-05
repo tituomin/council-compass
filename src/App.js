@@ -22,15 +22,24 @@ class App extends Component {
     });
   }
 
+  getNextCase(userVotes) {
+    const nextCases = _.filter(this.cases, (_case) => {
+      return userVotes[_case.issue_id] === undefined;
+    });
+    const nextCaseObject = nextCases[0];
+    return {nextCase: (nextCaseObject ? nextCaseObject.issue_id : undefined), remainingVotes: nextCases.length};
+  }
+
   constructor() {
     super();
     this.voteData = analyzer.get_hack_data();
     this.partyMap = null;
     this.cases = cases;
+    this.redirectHandled = false;
     this.state = {
       initialised: false,
       userVotes: {},
-      nextCase: undefined,
+      nextCase: this.getNextCase({}).nextCase,
       remainingVotes: this.cases.length
     };
   }
@@ -42,15 +51,11 @@ class App extends Component {
     this.setState(
       (prevState) => {
         const userVotes = Object.assign(prevState.userVotes, {[issueId]: value});
-        const nextCases = _.filter(this.cases, (_case) => {
-          return userVotes[_case.issue_id] === undefined;
-        });
-        const nextCaseObject = nextCases[0];
         this.redirectHandled = false;
-        const nextCase = nextCaseObject ? nextCaseObject.issue_id : undefined;
+        const {nextCase, remainingVotes} = this.getNextCase(userVotes);
         const result = Object.assign(
           {}, prevState,
-          {userVotes, nextCase, remainingVotes: nextCases.length});
+          {userVotes, nextCase, remainingVotes});
         return result;
       }
     );
@@ -64,8 +69,9 @@ class App extends Component {
       this.redirectHandled = true;
       return <Redirect to={`/motion/${this.state.nextCase}`}/>;
     }
-    if (this.state.remainingVotes === 0) {
-      return <Redirect to={"/party"}/>;
+    if (this.state.remainingVotes === 0 && !this.redirectHandled) {
+      this.redirectHandled = true;
+      return <Redirect to="/party"/>;
     }
     return (
       <div className="App">
