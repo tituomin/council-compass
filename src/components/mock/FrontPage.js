@@ -13,7 +13,15 @@ export default function FrontPage({nextVote}) {
                   <h1 className="f3 f2-ns tc ttu tracked">Partisipaattori</h1>
                   <hr className="mw3 bb bw1 b--black-10" />
                   <h2 className="f4 f3-ns  gray tc">Tarkastele ja kerro mielipiteesi Helsingin kaupunginvaltuuston tehdyistä päätöksistä.</h2>
-                  <p className="lh-copy tc">Partisipaattorin avulla voit tarkastella kaupunginvaltuustossa käsiteltyjä asioita ja tarkastella, miten niistä on äänestetty ehdokkaiden, puolueiden ja kaupunkilaisten toimesta. Saat itse kysymystä äänestettyäsi näkyviin omaa kantaasi parhaiten vastaavat edustajat kustakin asiasta. </p>
+                  <p className="lh-copy tc">
+                    Partisipaattorin avulla voit tarkastella Helsingin kaupunginvaltuustossa käsiteltyjä
+                    asioita ja verrata äänestystuloksia omiin mielipiteisiisi. Pääset äänestämään polttavista
+                    kysymyksistä itse, ja jokaisen vastauksen jälkeen näet, mitkä puolueet äänestivät eniten
+                    kantasi mukaisesti. Lopulta saat näkyviin yhteenvedon kaikista äänestyksistä.
+                  </p>
+                  <p className="lh-copy tc">
+                    Palvelu on <a href="https://github.com/tituomin/council-compass">avointa lähdekoodia</a> ja se toteutettiin 5.5.2017 <a href="https://www.sitra.fi/tapahtumat/demokratiahack/">Demokratiahack-tapahtuman</a> yhteydessä.
+                  </p>
                   <p className="tc">
                     { caseLink }
                   </p>
